@@ -7,6 +7,7 @@ export default function AppointmentsPage() {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
+    email: '',
     date: '',
     time: '',
     service: '',
@@ -28,14 +29,42 @@ export default function AppointmentsPage() {
     const message = `🦷 *New Appointment Request*%0A%0A` +
       `👤 Name: ${formData.name}%0A` +
       `📞 Phone: ${formData.phone}%0A` +
+      `📧 Email: ${formData.email}%0A` +
       `📅 Date: ${formData.date}%0A` +
       `⏰ Time: ${formData.time}%0A` +
       `🔹 Service: ${formData.service}`;
 
+    // Send to WhatsApp
     const whatsappNumber = '+918197280019';
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
-
     window.open(whatsappURL, '_blank');
+
+    // Also send email notification to clinic
+    try {
+      const emailSubject = `New Appointment: ${formData.name} - ${formData.service}`;
+      const emailBody = `New Appointment Request\n\n` +
+        `Name: ${formData.name}\n` +
+        `Phone: ${formData.phone}\n` +
+        `Email: ${formData.email}\n` +
+        `Date: ${formData.date}\n` +
+        `Time: ${formData.time}\n` +
+        `Service: ${formData.service}`;
+
+      // Using mailto (opens email client)
+      const mailtoLink = `mailto:kumarsdentistry.in@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+
+      // Send to API route for background email
+      fetch('/api/send-appointment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      }).catch(() => {
+        // Fallback to mailto if API fails
+        window.location.href = mailtoLink;
+      });
+    } catch (error) {
+      console.log('Email notification failed, appointment still sent via WhatsApp');
+    }
     setLoading(false);
   };
 
@@ -65,7 +94,7 @@ export default function AppointmentsPage() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
                   placeholder="Your name"
                 />
               </div>
@@ -78,13 +107,25 @@ export default function AppointmentsPage() {
                   onChange={handleChange}
                   required
                   pattern="[0-9]{10}"
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
                   placeholder="9876543210"
                 />
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="mb-3">
+              <label className="block text-xs font-bold text-gray-700 mb-1">Email (Optional)</label>
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
+                placeholder="your.email@example.com"
+              />
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
               <div>
                 <label className="block text-xs font-bold text-gray-700 mb-1">Date *</label>
                 <input
@@ -94,7 +135,7 @@ export default function AppointmentsPage() {
                   onChange={handleChange}
                   required
                   min={new Date().toISOString().split('T')[0]}
-                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900"
+                  className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
                 />
               </div>
               <div>

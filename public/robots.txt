@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://kumarsdental.com/sitemap.xml
+
+# Disallow admin and private pages
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /blog/
+Allow: /services/
+Allow: /appointments/

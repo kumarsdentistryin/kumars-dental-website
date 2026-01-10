@@ -1,0 +1,11 @@
+# Don't deploy these files to Vercel
+*.md
+!README.md
+PROFESSIONAL_BUILD_SUMMARY.md
+WHATSAPP_SETUP.md
+VERCEL_DEPLOY.md
+.env.local
+
+# Don't need these in production
+.vscode/
+.idea/

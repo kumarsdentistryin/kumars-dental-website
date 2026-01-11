@@ -77,7 +77,7 @@ export default function ServicesPage() {
     },
     {
       name: "Smile Makeover",
-      image: "/website-images/smile makeover.jpg",
+      image: "/website-images/smile-makeover.jpg",
       description: "Complete smile transformation with multiple cosmetic procedures",
       features: ["Personalized design", "Multiple procedures", "Professional consultation", "Beautiful results"]
     }

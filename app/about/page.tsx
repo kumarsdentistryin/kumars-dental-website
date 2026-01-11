@@ -58,7 +58,7 @@ export default function AboutPage() {
           </div>
           <div className="relative">
             <Image
-              src="/images/dentists-treat-patients-teeth.jpg"
+              src="/website-images/dentists-treat-patients-teeth.jpg"
               alt="Clinic care"
               width={540}
               height={420}
@@ -105,7 +105,7 @@ export default function AboutPage() {
           </div>
           <div className="relative">
             <Image
-              src="/website-images/RCT under microscope.jpg"
+              src="/website-images/rct-under-microscope.jpg"
               alt="Microscope dentistry"
               width={540}
               height={380}

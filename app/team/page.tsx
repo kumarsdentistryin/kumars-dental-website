@@ -76,7 +76,7 @@ export default function TeamPage() {
 
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <p className="text-gray-800">
-                    <strong>Experience:</strong> Over 15 years of specialized experience in pediatric dentistry and advanced endodontics. Known for making kids comfortable and delivering exceptional results.
+                    <strong>Experience:</strong> Over 6+ years of specialized experience in pediatric dentistry and advanced endodontics. Known for making kids comfortable and delivering exceptional results.
                   </p>
                 </div>
               </div>
@@ -156,7 +156,7 @@ export default function TeamPage() {
             <div className="bg-white p-8 rounded-lg shadow border-l-4 border-red-600">
               <p className="text-4xl mb-4">⏰</p>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Experienced</h3>
-              <p className="text-gray-700">15+ years of hands-on experience in specialized dentistry</p>
+              <p className="text-gray-700">6+ years of hands-on experience in specialized dentistry</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow">
               <p className="text-4xl mb-4">🔬</p>

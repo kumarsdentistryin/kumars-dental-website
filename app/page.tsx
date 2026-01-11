@@ -147,7 +147,7 @@ export default function Home() {
             <div className="p-8 bg-green-50 rounded-lg border-2 border-green-200">
               <p className="text-4xl mb-4">👨‍⚕️</p>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Expert Doctors</h3>
-              <p className="text-gray-700">MDS specialists with 15+ years of experience</p>
+              <p className="text-gray-700">MDS specialists with 6+ years of experience</p>
             </div>
             <div className="p-8 bg-purple-50 rounded-lg border-2 border-purple-200">
               <p className="text-4xl mb-4">👨‍👩‍👧‍👦</p>
@@ -203,7 +203,7 @@ export default function Home() {
                   <p>✓ BDS (RGUHS)</p>
                   <p>✓ MDS Pediatric & Preventive Dentistry</p>
                   <p>✓ Microscopic Dentistry Certification</p>
-                  <p>✓ 15+ Years Experience</p>
+                  <p>✓ 6+ Years Experience</p>
                 </div>
               </div>
             </div>

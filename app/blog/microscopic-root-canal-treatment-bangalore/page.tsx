@@ -67,7 +67,7 @@ export default function MicroscopicRCTBlog() {
                         <div className="bg-white border-2 border-red-100 p-6 rounded-lg">
                             <h3 className="text-2xl font-bold text-red-700 mb-3">👨‍⚕️ Expert Specialists</h3>
                             <p className="text-lg text-gray-800">
-                                Dr. Prem Kumar has 10+ years experience in microscopic RCT procedures
+                                Dr. Prem Kumar has 6+ years experience in microscopic RCT procedures
                             </p>
                         </div>
                         <div className="bg-white border-2 border-red-100 p-6 rounded-lg">
@@ -154,7 +154,7 @@ export default function MicroscopicRCTBlog() {
 
                     <ul className="list-disc pl-8 text-lg text-gray-800 space-y-3 mb-10">
                         <li><strong>Advanced Equipment</strong> - Latest Carl Zeiss microscopes</li>
-                        <li><strong>Experienced Team</strong> - 10+ years in microscopic dentistry</li>
+                        <li><strong>Experienced Team</strong> - 6+ years in microscopic dentistry</li>
                         <li><strong>Painless Procedures</strong> - Local anesthesia + gentle techniques</li>
                         <li><strong>Affordable Pricing</strong> - Best value in Bangalore</li>
                         <li><strong>Convenient Location</strong> - Easy access from Yelahanka, Attur</li>

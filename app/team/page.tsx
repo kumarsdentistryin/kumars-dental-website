@@ -102,8 +102,8 @@ export default function TeamPage() {
                 <div className="mb-6">
                   <h4 className="font-bold text-lg text-gray-900 mb-3">Qualifications</h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>BDS</strong> from Ramaiah University of Applied Sciences</li>
-                    <li>✓ <strong>MDS</strong> in Prosthodontics and Implantology</li>
+                    <li>✓ <strong>BDS</strong> from RGUHS (Rajiv Gandhi University of Health Sciences)</li>
+                    <li>✓ <strong>MDS</strong> in Prosthodontics and Implantology from Ramaiah Dental College</li>
                     <li>✓ Certification in <strong>Dental Implant Surgery</strong> (Advanced)</li>
                     <li>✓ Certification in <strong>Smile Design</strong> and Esthetic Dentistry</li>
                   </ul>

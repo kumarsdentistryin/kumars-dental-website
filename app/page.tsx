@@ -228,10 +228,11 @@ export default function Home() {
                   Expert in dental implants, smile design, and comprehensive prosthetic solutions.
                 </p>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <p>✓ BDS (Ramaiah)</p>
-                  <p>✓ MDS Prosthodontics</p>
+                  <p>✓ BDS from RGUHS (Rajiv Gandhi University of Health Sciences)</p>
+                  <p>✓ MDS in Prosthodontics and Implantology from Ramaiah Dental College</p>
                   <p>✓ Implant Specialist</p>
                   <p>✓ Smile Design Expert</p>
+                  <p>✓ 6+ Years Experience</p>
                 </div>
               </div>
             </div>

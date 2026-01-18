@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Analytics from "../components/Analytics";
 import ChatbotWidget from "../components/ChatbotWidget";
+import BookingPopup from "../components/BookingPopup";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.kumarsdental.com";
 
@@ -188,6 +189,7 @@ export default function RootLayout({
           />
         </noscript>
         <ChatbotWidget />
+        <BookingPopup />
       </body>
     </html>
   );

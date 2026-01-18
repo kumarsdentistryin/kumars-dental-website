@@ -219,7 +219,7 @@ export default function Home() {
               />
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-blue-600 mb-2">
-                  Dr. Rachapudi Venkata Roshini
+                  Dr. RV Roshini
                 </h3>
                 <p className="text-gray-700 font-semibold mb-3">
                   MDS Prosthodontist & Implantologist

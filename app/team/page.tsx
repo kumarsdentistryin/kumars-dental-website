@@ -93,7 +93,7 @@ export default function TeamPage() {
               />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-red-600 mb-2">
-                  Dr. Rachapudi Venkata Roshini
+                  Dr. RV Roshini
                 </h2>
                 <p className="text-xl font-semibold text-gray-800 mb-4">
                   MDS Prosthodontist & Implant Specialist

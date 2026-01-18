@@ -40,7 +40,7 @@ export default function TeamPage() {
                   Dr. Prem Kumar R
                 </h2>
                 <p className="text-xl font-semibold text-gray-800 mb-4">
-                  MDS Pediatric Dentistry & Preventive Dentist
+                  MDS Pediatric & Preventive Dentist
                 </p>
 
                 <div className="mb-6">
@@ -132,7 +132,7 @@ export default function TeamPage() {
 
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <p className="text-gray-800">
-                    <strong>Experience:</strong> Specialist in implant dentistry and smile design. Over 12 years of expertise in creating beautiful, functional smiles and handling complex prosthetic cases.
+                    <strong>Experience:</strong> Specialist in implant dentistry and smile design. Over 6+ years of expertise in creating beautiful, functional smiles and handling complex prosthetic cases.
                   </p>
                 </div>
               </div>

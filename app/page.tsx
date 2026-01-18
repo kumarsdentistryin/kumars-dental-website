@@ -194,7 +194,7 @@ export default function Home() {
                   Dr. Prem Kumar R
                 </h3>
                 <p className="text-gray-700 font-semibold mb-3">
-                  MDS Pediatric Dentistry
+                  MDS Pediatric & Preventive Dentist
                 </p>
                 <p className="text-gray-600 mb-4">
                   Specialist in pediatric dentistry, microscopic root canals, and behavior guidance for anxious patients.

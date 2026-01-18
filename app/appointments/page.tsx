@@ -59,8 +59,9 @@ export default function AppointmentsPage() {
           <form onSubmit={handleSubmit} className="bg-white p-6 rounded-xl shadow-lg">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
               <div>
-                <label className="block text-xs font-bold text-gray-700 mb-1">Name *</label>
+                <label htmlFor="name" className="block text-xs font-bold text-gray-700 mb-1">Name *</label>
                 <input
+                  id="name"
                   type="text"
                   name="name"
                   value={formData.name}
@@ -71,8 +72,9 @@ export default function AppointmentsPage() {
                 />
               </div>
               <div>
-                <label className="block text-xs font-bold text-gray-700 mb-1">Phone *</label>
+                <label htmlFor="phone" className="block text-xs font-bold text-gray-700 mb-1">Phone *</label>
                 <input
+                  id="phone"
                   type="tel"
                   name="phone"
                   value={formData.phone}
@@ -87,8 +89,9 @@ export default function AppointmentsPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
               <div>
-                <label className="block text-xs font-bold text-gray-700 mb-1">Date *</label>
+                <label htmlFor="date" className="block text-xs font-bold text-gray-700 mb-1">Date *</label>
                 <input
+                  id="date"
                   type="date"
                   name="date"
                   value={formData.date}
@@ -96,16 +99,19 @@ export default function AppointmentsPage() {
                   required
                   min={new Date().toISOString().split('T')[0]}
                   className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
+                  title="Appointment Date"
                 />
               </div>
               <div>
-                <label className="block text-xs font-bold text-gray-700 mb-1">Time *</label>
+                <label htmlFor="time" className="block text-xs font-bold text-gray-700 mb-1">Time *</label>
                 <select
+                  id="time"
                   name="time"
                   value={formData.time}
                   onChange={handleChange}
                   required
                   className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
+                  title="Select appointment time"
                 >
                   <option value="">Select time</option>
                   <option value="10:00 AM">10:00 AM</option>
@@ -122,13 +128,15 @@ export default function AppointmentsPage() {
             </div>
 
             <div className="mb-3">
-              <label className="block text-xs font-bold text-gray-700 mb-1">Service *</label>
+              <label htmlFor="service" className="block text-xs font-bold text-gray-700 mb-1">Service *</label>
               <select
+                id="service"
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
                 required
                 className="w-full px-3 py-2 text-sm border-2 border-gray-300 rounded-lg focus:border-red-500 focus:outline-none text-gray-900 bg-white"
+                title="Select dental service"
               >
                 <option value="">Select service</option>
                 <option value="Root Canal (RCT)">Root Canal (Microscopic)</option>

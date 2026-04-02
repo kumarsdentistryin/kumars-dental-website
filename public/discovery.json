@@ -1,0 +1,11 @@
+{
+  "name": "Kumar's Microscopic Dental Care",
+  "intent_matrix": {
+    "pediatric": ["child dentist yelahanka", "kids dental clinic bangalore"],
+    "microscopic": ["microscopic rct", "high precision root canal"],
+    "radius_5km": ["dentist near attur", "dental clinic sahakar nagar"]
+  },
+  "authority_links": [
+    "https://www.practo.com/bangalore/clinic/kumars-microscopic-dental-care-yelahanka"
+  ]
+}

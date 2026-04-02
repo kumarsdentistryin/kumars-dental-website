@@ -1,13 +1,13 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://kumarsdental.com'; // Replace with your actual domain
+    const baseUrl = 'https://kumarsdentistry.in';
 
     return [
         {
             url: baseUrl,
             lastModified: new Date(),
-            changeFrequency: 'daily',
+            changeFrequency: 'monthly',
             priority: 1.0,
         },
         {

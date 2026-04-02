@@ -125,18 +125,28 @@ export default function RootLayout({
       "Microscopic Dentistry",
       "Dental Implants",
     ],
-    "availableService": [
-      {
-        "@type": "MedicalProcedure",
-        "name": "Microscopic Root Canal Treatment",
-        "description": "High-precision microscopic root canal therapy using state-of-the-art magnification for 99% success rate.",
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Pediatric Dental Care",
-        "description": "Pain-free dental treatments specifically designed for infants, children, and teenagers.",
-      },
-    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Dental Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalProcedure",
+            "name": "Microscopic Root Canal Treatment",
+            "description": "High-precision microscopic root canal therapy using state-of-the-art magnification for 99% success rate.",
+          },
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalProcedure",
+            "name": "Pediatric Dental Care",
+            "description": "Pain-free dental treatments specifically designed for infants, children, and teenagers.",
+          },
+        },
+      ],
+    },
   };
 
   return (

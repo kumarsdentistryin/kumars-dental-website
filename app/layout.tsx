@@ -100,7 +100,7 @@ export default function RootLayout({
       { "@type": "AdministrativeArea", "name": "Sahakar Nagar" },
       { "@type": "AdministrativeArea", "name": "Satellite Town" },
     ],
-    "medicalSpecialty": ["Pediatric Dentistry", "Microscopic Dentistry", "Endodontics"],
+    "medicalSpecialty": "https://schema.org/Dentistry",
     "description": "Kumar's Dental is the specialized Microscopic Dental Clinic for Yelahanka. We provide world-class Pediatric and Microscopic Root Canal treatments with 4.9/5 patient satisfaction.",
     "geo": {
       "@type": "GeoCoordinates",
@@ -119,44 +119,24 @@ export default function RootLayout({
       "ratingValue": "4.9",
       "reviewCount": "250",
     },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Dental Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Microscopic Root Canal Treatment",
-            "description": "Advanced painless RCT with microscope technology",
-          },
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Pediatric Dentistry",
-            "description": "Gentle dental care for children",
-          },
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Dental Implants",
-            "description": "Permanent tooth replacement solutions",
-          },
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Orthodontics (Braces & Aligners)",
-            "description": "Teeth straightening with braces and clear aligners",
-          },
-        },
-      ],
-    },
+    "knowsAbout": [
+      "Pediatric Dentistry",
+      "Microscopic Root Canal Treatment",
+      "Microscopic Dentistry",
+      "Dental Implants",
+    ],
+    "availableService": [
+      {
+        "@type": "MedicalProcedure",
+        "name": "Microscopic Root Canal Treatment",
+        "description": "High-precision microscopic root canal therapy using state-of-the-art magnification for 99% success rate.",
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Pediatric Dental Care",
+        "description": "Pain-free dental treatments specifically designed for infants, children, and teenagers.",
+      },
+    ],
   };
 
   return (

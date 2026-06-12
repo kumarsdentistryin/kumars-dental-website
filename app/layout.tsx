@@ -6,7 +6,7 @@ import Analytics from "../components/Analytics";
 import ChatbotWidget from "../components/ChatbotWidget";
 import BookingPopup from "../components/BookingPopup";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.kumarsdental.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://kumarsdentistry.in";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

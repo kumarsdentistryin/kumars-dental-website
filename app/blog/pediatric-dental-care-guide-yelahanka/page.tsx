@@ -178,16 +178,7 @@ export default function PediatricGuide() {
                         </div>
                     </div>
 
-                    <h2 className="text-3xl font-bold text-gray-900 mb-6">SEO Keywords Summary</h2>
-                    <p className="text-sm text-gray-600 italic">
-                        Best dental near me, pediatric dental near me, dentist best near me, kids dentist near me,
-                        best teeth doctor near me, recommended dental clinic near me, good dentist near me,
-                        pediatric dentist close to me, children's dental near me, cheap and best dental clinic near me,
-                        top rated dental clinic near me, dental clinic near me best, dentist near me best,
-                        best dentist close to me, pediatric dental care near me, dentist childrens near me,
-                        top pediatric dentist near me, paed dentist near me, pediatric dentist in near me,
-                        dentist for pediatric near me, childrens dental care near me
-                    </p>
+
                 </div>
             </article>
 

@@ -216,16 +216,7 @@ export default function MicroscopicRCTBlog() {
                         </div>
                     </div>
 
-                    <div className="mt-12 pt-8 border-t-2">
-                        <p className="text-sm text-gray-600 italic">
-                            <strong>SEO Keywords:</strong> best dental near me, dentist best near me, best teeth doctor near me,
-                            recommended dental clinic near me, good dentist near me, good dental clinic near me,
-                            best dental clinic near me, dental clinic near me best, dentist near me best, best dentist close to me,
-                            dentist close near me, cheap and best dental clinic near me, top rated dental clinic near me,
-                            microscopic root canal treatment, painless RCT Bangalore, endodontist near me,
-                            root canal specialist Yelahanka
-                        </p>
-                    </div>
+
                 </div>
             </article>
 

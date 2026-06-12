@@ -3,8 +3,9 @@ import Link from "next/link";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: "Dental Services | Kumar's Dental Care",
-  description: "RCT, implants, pediatric dentistry, braces, whitening, and more with microscopic precision",
+  title: "Advanced Dental Services in Yelahanka | Kumar's Dental Care",
+  description: "Comprehensive microscopic and pediatric dental services in Yelahanka, Bangalore. Microscopic RCT, dental implants, braces, clear aligners, and painless child dental care.",
+  keywords: ["microscopic root canal yelahanka", "dental implants yelahanka", "kids dental clinic bangalore", "braces and aligners yelahanka", "teeth whitening yelahanka", "dental services bangalore"],
 };
 
 export default function ServicesPage() {

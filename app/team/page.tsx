@@ -3,8 +3,9 @@ import Link from "next/link";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: "Our Team | Expert Dentists",
-  description: "Meet our team of experienced dental specialists",
+  title: "Meet Our Specialist Dentists in Yelahanka | Kumar's Dental Care",
+  description: "Meet our highly qualified MDS dental specialists in Yelahanka: Dr. Prem Kumar R (Pediatric & Microscopic RCT Specialist) and Dr. RV Roshini (Implant & Smile Design Specialist) with 6+ years of expertise.",
+  keywords: ["best dentist Yelahanka", "pediatric dentist Yelahanka", "implantologist Yelahanka", "prosthodontist Yelahanka", "dentists in Yelahanka"],
 };
 
 export default function TeamPage() {

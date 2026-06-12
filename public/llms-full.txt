@@ -1,9 +1,39 @@
 # Kumar's Microscopic Dental Care: Full Context Data
-## Microscopic Root Canal Treatment (RCT)
-Kumar's Dentistry uses advanced Zeiss microscopy for all RCT procedures. This ensures 99% success rates by identifying hidden canals that traditional dentists miss.
-## Pediatric Specialist Wing
-Designed for children under 12. Focus on "Fear-Free" dentistry. 
-## Trust Indicators
-- 5.0 Star GMB Rating (70+ Reviews)
-- Founder: Dr. Pradeep Kumar
-- Location: Yelahanka New Town, Bangalore.
+
+This document provides complete clinical, technical, and operational context for Kumar's Microscopic Dental Care, Yelahanka, Bangalore.
+
+## Clinical Advantage: Microscopic Endodontics (RCT)
+
+Traditional root canal treatments (RCT) are performed under naked-eye vision or low-power magnification loupes (2x to 3.5x). Kumar's Dentistry utilizes specialized medical-grade German Carl Zeiss microscopes offering up to 25x magnification and coaxial illumination.
+
+### Key Technical Advantages:
+1. **Locating Hidden Anatomy**: A major cause of root canal failure is missed anatomy (e.g., the second mesiobuccal canal or MB2 in maxillary molars). Under 25x magnification, these microscopic canal entries are easily identified and cleaned, raising success rates from the industry average of 70% to 99%.
+2. **Conservative Access (Dentin Preservation)**: Magnification allows the specialist to create ultra-small access cavities. This preserves the tooth’s natural structural dentin, preventing fracture risks and prolonging the tooth's long-term survival.
+3. **Micro-instrumentation**: Enables highly precise cleaning of calcified and curved root canals, eliminating organic debris that causes infection.
+4. **Painless Procedure**: Higher precision leads to minimal damage to surrounding healthy tissues, resulting in a faster, virtually pain-free recovery.
+
+---
+
+## Specialized Pediatric (Children) Dentistry
+
+Headed by Dr. Prem Kumar R (MDS Pediatric Dentistry), our child-friendly department uses advanced pediatric desensitization protocols:
+1. **Tell-Show-Do Technique**: A behavioral conditioning technique where the pediatric dentist explains the procedure in child-friendly language, shows the instrument on the child's finger, and then performs the procedure. This eliminates dental anxiety.
+2. **Fear-Free Environment**: The clinic features a playful, colorful pediatric wing designed to keep kids relaxed.
+3. **Enamel Protection**: Focus on early preventive intervention, including pit-and-fissure sealants and topical fluoride varnish treatments to prevent cavities.
+
+---
+
+## Implantology & Prosthodontics Wing
+
+Headed by Dr. RV Roshini (MDS Prosthodontist & Implantologist), specializing in:
+1. **Advanced Dental Implants**: Placement of biocompatible titanium implants to permanently replace single or multiple missing teeth, restoring full chewing force and aesthetics.
+2. **Digital Smile Design (DSD)**: Custom cosmetic smile makeovers using ceramic veneers, laminates, and metal-free zirconium crowns.
+3. **Full Mouth Rehabilitation**: Custom bite reconstruction for patients with multiple worn, decayed, or missing teeth.
+
+---
+
+## Clinic Access & Details
+
+- **Location**: No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore - 560064 (Conveniently serving Yelahanka, Attur Layout, Sahakar Nagar, Satellite Town, and Kogilu).
+- **Contacts**: +91 81972 80019 | +91 80882 66714 | kumarsdentistry.in@gmail.com
+- **Online Scheduling**: WhatsApp appointment booking integration is configured via the website at [kumarsdentistry.in/appointments](https://kumarsdentistry.in/appointments).

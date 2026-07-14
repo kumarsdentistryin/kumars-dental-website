@@ -1,69 +1,65 @@
-'use client';
+"use client";
 
-import { useEffect } from 'react';
-import { GA_MEASUREMENT_ID } from '@/lib/gtag';
+import Script from "next/script";
+import { GA_MEASUREMENT_ID } from "@/lib/gtag";
 
-declare global {
-  interface Window {
-    dataLayer: unknown[];
-    gtag: (...args: unknown[]) => void;
-  }
-}
+const GTM_ID =
+  process.env.NEXT_PUBLIC_GTM_ID &&
+  process.env.NEXT_PUBLIC_GTM_ID !== "GTM-XXXXXXX"
+    ? process.env.NEXT_PUBLIC_GTM_ID
+    : "";
 
+const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "";
+
+/**
+ * Loads GA4 (gtag) and optional GTM / Clarity.
+ * Uses next/script + official dataLayer.push(arguments) so Realtime receives hits.
+ */
 export default function Analytics() {
-  useEffect(() => {
-    const gaId = GA_MEASUREMENT_ID;
-    if (gaId) {
-      window.dataLayer = window.dataLayer || [];
-      if (!window.gtag) {
-        window.gtag = function gtag(...args: unknown[]) {
-          window.dataLayer.push(args);
-        };
-      }
-      window.gtag('js', new Date());
-      window.gtag('config', gaId, { anonymize_ip: true });
+  return (
+    <>
+      {GA_MEASUREMENT_ID ? (
+        <>
+          <Script
+            id="ga4-gtag-src"
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4-gtag-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              window.gtag = gtag;
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}', { send_page_view: true });
+            `}
+          </Script>
+        </>
+      ) : null}
 
-      if (!document.querySelector(`script[src*="gtag/js?id=${gaId}"]`)) {
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
-        document.head.appendChild(script);
-      }
-    }
+      {GTM_ID ? (
+        <Script id="gtm-init" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','${GTM_ID}');
+          `}
+        </Script>
+      ) : null}
 
-    const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
-    if (gtmId && gtmId !== 'GTM-XXXXXXX') {
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js',
-      });
-      if (!document.querySelector(`script[src*="gtm.js?id=${gtmId}"]`)) {
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtm.js?id=${gtmId}`;
-        document.head.appendChild(script);
-      }
-    }
-
-    const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
-    if (clarityId) {
-      const w = window as Window & { clarity?: (...args: unknown[]) => void };
-      if (!w.clarity) {
-        const clarity = (...args: unknown[]) => {
-          (clarity as unknown as { q?: unknown[] }).q = (
-            clarity as unknown as { q?: unknown[] }
-          ).q || [];
-          ((clarity as unknown as { q: unknown[] }).q).push(args);
-        };
-        w.clarity = clarity;
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.clarity.ms/tag/${clarityId}`;
-        document.head.appendChild(script);
-      }
-    }
-  }, []);
-
-  return null;
+      {CLARITY_ID ? (
+        <Script id="clarity-init" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "${CLARITY_ID}");
+          `}
+        </Script>
+      ) : null}
+    </>
+  );
 }

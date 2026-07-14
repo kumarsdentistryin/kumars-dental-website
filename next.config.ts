@@ -17,7 +17,8 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "img-src 'self' data: blob: https: http:",
       "font-src 'self' data: https://fonts.gstatic.com",
-      "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.clarity.ms https://*.clarity.ms https://wa.me https://api.whatsapp.com",
+      // GA4 collect uses analytics.google.com (was missing → scripts 200, Realtime stuck at 0)
+      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://*.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://www.clarity.ms https://*.clarity.ms https://wa.me https://api.whatsapp.com",
       "frame-src 'self' https://www.googletagmanager.com https://www.google.com https://maps.google.com https://www.openstreetmap.org",
       "object-src 'none'",
       "base-uri 'self'",

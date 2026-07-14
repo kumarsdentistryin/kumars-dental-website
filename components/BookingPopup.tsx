@@ -2,18 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { trackAppointmentClick, trackPhoneClick } from '@/lib/gtag';
+import { SITE } from '@/lib/site';
 
 export default function BookingPopup() {
     const [showPopup, setShowPopup] = useState(false);
 
     useEffect(() => {
-        // Check if popup was already shown in the last 24 hours
         const lastShown = localStorage.getItem('bookingPopupLastShown');
         const now = new Date().getTime();
         const twentyFourHours = 24 * 60 * 60 * 1000;
 
         if (!lastShown || now - parseInt(lastShown) > twentyFourHours) {
-            // Show popup after 3 seconds
             const timer = setTimeout(() => {
                 setShowPopup(true);
             }, 3000);
@@ -28,6 +28,7 @@ export default function BookingPopup() {
     };
 
     const handleBookNow = () => {
+        trackAppointmentClick();
         localStorage.setItem('bookingPopupLastShown', new Date().getTime().toString());
     };
 
@@ -35,58 +36,65 @@ export default function BookingPopup() {
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fadeIn">
-            {/* Backdrop */}
             <div
                 className="absolute inset-0 bg-black/50 backdrop-blur-sm"
                 onClick={handleClose}
+                aria-hidden="true"
             />
 
-            {/* Modal */}
-            <div className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-scaleIn">
-                {/* Close button */}
+            <div
+                className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-scaleIn"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="booking-popup-title"
+            >
                 <button
+                    type="button"
                     onClick={handleClose}
-                    className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition"
-                    aria-label="Close popup"
+                    className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded"
+                    aria-label="Close booking popup"
                 >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
 
-                {/* Content */}
                 <div className="text-center">
-                    <div className="mb-4">
-                        <span className="text-6xl">🦷</span>
-                    </div>
-
-                    <h2 className="text-3xl font-bold text-gray-900 mb-3">
+                    <h2 id="booking-popup-title" className="text-3xl font-bold text-gray-900 mb-3">
                         Book Your Dental Appointment
                     </h2>
 
                     <p className="text-gray-600 mb-6">
-                        Get expert dental care with advanced microscopic technology. Same-day appointments available!
+                        Pediatric &amp; microscopic RCT with Dr. Prem Kumar R · Crowns &amp; implants with Dr. RV Roshini.
                     </p>
 
                     <div className="space-y-3">
                         <Link
                             href="/appointments"
                             onClick={handleBookNow}
-                            className="block w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-lg transition transform hover:scale-105"
+                            className="block w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-lg transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-600"
                         >
-                            📅 Book Now
+                            Book Now
                         </Link>
 
                         <button
+                            type="button"
                             onClick={handleClose}
-                            className="block w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-lg transition"
+                            className="block w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-lg transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
                         >
                             Continue Browsing
                         </button>
                     </div>
 
                     <p className="text-xs text-gray-500 mt-4">
-                        📞 Call us: +91 81972 80019
+                        Call us:{" "}
+                        <a
+                            href={`tel:${SITE.phones.primaryTel}`}
+                            onClick={() => trackPhoneClick()}
+                            className="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded"
+                        >
+                            {SITE.phones.primary}
+                        </a>
                     </p>
                 </div>
             </div>

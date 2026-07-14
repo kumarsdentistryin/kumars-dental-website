@@ -1,58 +1,58 @@
 import Link from "next/link";
-import Header from "@/components/Header";
+import type { Metadata } from "next";
+import SiteShell from "@/components/SiteShell";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { SITE_URL } from "@/lib/site";
+import { blogPosts } from "@/lib/blog/posts";
 
-export const metadata = {
-  title: "Blog | Kumar's Microscopic Dental Care",
-  description: "Dental tips, pediatric care guides, and treatment insights from our doctors in Yelahanka.",
+export const metadata: Metadata = {
+  title: "Dental Blog | Pediatric, Crowns, RCT & Oral Health | Kumar's Dental",
+  description:
+    "Educational dental articles reinforcing Dr. Prem Kumar R's pediatric expertise and Dr. RV Roshini's crowns & smile authority in Bangalore.",
+  alternates: { canonical: `${SITE_URL}/blog` },
 };
 
-const posts = [
-  {
-    title: "Best Pediatric Dental Care Guide - Yelahanka",
-    href: "/blog/pediatric-dental-care-guide-yelahanka",
-    excerpt: "Everything parents need to know about finding the best kids dentist near me. Complete guide to pediatric dental care.",
-    tag: "Pediatric Dentistry",
-  },
-  {
-    title: "Microscopic Root Canal Treatment in Bangalore",
-    href: "/blog/microscopic-root-canal-treatment-bangalore",
-    excerpt: "Advanced painless RCT with microscope technology. Learn why Kumar's is the best dental clinic near me for root canals.",
-    tag: "Microscopic RCT",
-  },
-  {
-    title: "Dental Braces & Clear Aligners - Complete Guide",
-    href: "/blog/dental-braces-aligners-bangalore",
-    excerpt: "Compare braces vs aligners. Find the best dentist near me for orthodontic treatment in Yelahanka, Bangalore.",
-    tag: "Orthodontics",
-  },
-];
+export default function BlogIndexPage() {
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Blog", path: "/blog" },
+  ];
 
-export default function BlogPage() {
+  const sorted = [...blogPosts].sort((a, b) =>
+    a.datePublished < b.datePublished ? 1 : -1
+  );
+
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-blue-600 to-indigo-700 text-white">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Dental Insights & Tips</h1>
-          <p className="text-lg opacity-95">Learn how to care for your smile with expert guidance from our doctors.</p>
+    <SiteShell>
+      <section className="py-12 px-4 bg-gradient-to-r from-slate-800 to-blue-900 text-white">
+        <div className="max-w-5xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Dental Health Blog</h1>
+          <p className="text-lg opacity-95">
+            Pediatric dentistry, microscopic RCT, crowns, implants, braces, and prevention—
+            medically reviewed by our MDS specialists.
+          </p>
         </div>
       </section>
 
-      <section className="py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-          {posts.map((post) => (
-            <article key={post.href} className="border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition p-6">
-              <div className="text-blue-600 text-sm font-semibold mb-2">{post.tag}</div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-3">{post.title}</h2>
-              <p className="text-gray-700 mb-4">{post.excerpt}</p>
-              <Link href={post.href} className="text-blue-600 font-semibold hover:text-blue-700">
-                Read article →
-              </Link>
-            </article>
+      <div className="max-w-5xl mx-auto px-4 py-12">
+        <Breadcrumbs items={crumbs} />
+        <ul className="grid md:grid-cols-2 gap-6">
+          {sorted.map((post) => (
+            <li key={post.slug} className="border border-gray-200 rounded-lg p-6 hover:border-red-600 transition">
+              <p className="text-xs font-semibold uppercase text-red-700 mb-2">{post.category}</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">
+                <Link href={`/blog/${post.slug}`} className="hover:text-red-700">
+                  {post.title}
+                </Link>
+              </h2>
+              <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>
+              <p className="text-xs text-gray-500">
+                {post.datePublished} · Reviewed by {post.reviewerName}
+              </p>
+            </li>
           ))}
-        </div>
-      </section>
-    </div>
+        </ul>
+      </div>
+    </SiteShell>
   );
 }

@@ -1,75 +1,62 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
+import { getAllTreatmentSlugs } from "@/lib/treatments";
+import { getAllLocationSlugs } from "@/lib/locations";
+import { getAllPostSlugs } from "@/lib/blog/posts";
+import { doctors } from "@/lib/doctors";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://kumarsdentistry.in';
+  const base = SITE_URL;
+  const now = new Date();
 
-    return [
-        {
-            url: baseUrl,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 1.0,
-        },
-        {
-            url: `${baseUrl}/about`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/services`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.9,
-        },
-        {
-            url: `${baseUrl}/team`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.7,
-        },
-        {
-            url: `${baseUrl}/blog`,
-            lastModified: new Date(),
-            changeFrequency: 'daily',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/contact`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.7,
-        },
-        {
-            url: `${baseUrl}/appointments`,
-            lastModified: new Date(),
-            changeFrequency: 'daily',
-            priority: 0.9,
-        },
-        {
-            url: `${baseUrl}/privacy`,
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 0.3,
-        },
-        // Blog posts
-        {
-            url: `${baseUrl}/blog/pediatric-dental-care-guide-yelahanka`,
-            lastModified: new Date('2026-01-10'),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/blog/microscopic-root-canal-treatment-bangalore`,
-            lastModified: new Date('2026-01-10'),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/blog/dental-braces-aligners-bangalore`,
-            lastModified: new Date('2026-01-10'),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-    ];
+  const staticRoutes: MetadataRoute.Sitemap = [
+    "",
+    "/about",
+    "/services",
+    "/team",
+    "/blog",
+    "/contact",
+    "/appointments",
+    "/privacy",
+    "/terms",
+    "/faqs",
+    "/testimonials",
+    "/patient-resources",
+    "/search",
+  ].map((path) => ({
+    url: `${base}${path || "/"}`,
+    lastModified: now,
+    changeFrequency: path === "/blog" ? "daily" : "weekly",
+    priority: path === "" ? 1 : path === "/services" || path === "/appointments" ? 0.9 : 0.7,
+  }));
+
+  const treatments = getAllTreatmentSlugs().map((slug) => ({
+    url: `${base}/treatments/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
+
+  const locations = getAllLocationSlugs().map((slug) => ({
+    url: `${base}/locations/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  const doctorRoutes = doctors.map((d) => ({
+    url: `${base}${d.path}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  const posts = getAllPostSlugs().map((slug) => ({
+    url: `${base}/blog/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  return [...staticRoutes, ...treatments, ...locations, ...doctorRoutes, ...posts];
 }

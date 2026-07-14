@@ -1,37 +1,72 @@
 {
   "name": "Kumar's Microscopic Dental Care",
+  "url": "https://kumarsdentistry.in",
+  "entities": {
+    "dr_prem_kumar_r": {
+      "role": "Pediatric Dentistry + Microscopic RCT authority (Bangalore / Yelahanka)",
+      "profile": "https://kumarsdentistry.in/doctors/dr-prem-kumar",
+      "treatments": [
+        "https://kumarsdentistry.in/treatments/children-dentistry",
+        "https://kumarsdentistry.in/treatments/root-canal-treatment",
+        "https://kumarsdentistry.in/treatments/microscopic-dentistry"
+      ]
+    },
+    "dr_rv_roshini": {
+      "role": "Crowns + Bridges + Prosthodontics + Implants + Smile Design authority (Bangalore / Yelahanka)",
+      "profile": "https://kumarsdentistry.in/doctors/dr-rv-roshini",
+      "treatments": [
+        "https://kumarsdentistry.in/treatments/crowns",
+        "https://kumarsdentistry.in/treatments/bridges",
+        "https://kumarsdentistry.in/treatments/dental-implants",
+        "https://kumarsdentistry.in/treatments/smile-designing",
+        "https://kumarsdentistry.in/treatments/dental-veneers"
+      ]
+    }
+  },
   "intent_matrix": {
     "pediatric": [
-      "child dentist yelahanka",
-      "kids dental clinic bangalore",
-      "best pediatric dentist yelahanka",
-      "painless dental care for kids"
+      "pediatric dentist bangalore",
+      "kids dentist yelahanka",
+      "children dentistry bangalore",
+      "dr prem kumar pediatric dentist"
     ],
     "microscopic_rct": [
-      "microscopic rct",
-      "high precision root canal",
       "microscopic root canal bangalore",
-      "best root canal specialist yelahanka"
+      "rct yelahanka",
+      "microscopic dentistry bangalore"
+    ],
+    "crowns_prosthetics": [
+      "dental crowns bangalore",
+      "bridge dentist yelahanka",
+      "dr rv roshini crowns",
+      "prosthodontist yelahanka"
     ],
     "implants_cosmetics": [
       "dental implants yelahanka",
-      "smile makeover bangalore",
-      "prosthodontist near me",
-      "teeth whitening yelahanka"
+      "smile design bangalore",
+      "dental veneers bangalore"
     ],
-    "orthodontics": [
-      "dental braces yelahanka",
-      "clear aligners bangalore",
-      "invisible braces yelahanka"
-    ],
-    "radius_5km": [
-      "dentist near attur",
-      "dental clinic sahakar nagar",
-      "best dentist in yelahanka new town",
-      "dental clinic attur main road"
+    "locations": [
+      "dentist yelahanka",
+      "dentist attur",
+      "dentist hebbal",
+      "dentist sahakar nagar",
+      "dentist jakkur",
+      "dentist thanisandra",
+      "dentist vidyaranyapura",
+      "dentist rt nagar",
+      "dentist new bel road"
     ]
   },
+  "hours": {
+    "mon_sat": "10:00-21:00",
+    "sunday": "10:00-18:00"
+  },
+  "phones": ["+918197280019", "+918088266714"],
+  "rating": { "value": 4.9, "count": 250 },
   "authority_links": [
-    "https://www.practo.com/bangalore/clinic/kumars-microscopic-dental-care-yelahanka"
+    "https://kumarsdentistry.in/llms-full.txt",
+    "https://kumarsdentistry.in/ai-directives.txt",
+    "https://kumarsdentistry.in/ai-sitemap.xml"
   ]
 }

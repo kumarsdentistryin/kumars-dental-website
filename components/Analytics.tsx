@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { GA_MEASUREMENT_ID } from '@/lib/gtag';
 
 declare global {
   interface Window {
@@ -11,43 +12,56 @@ declare global {
 
 export default function Analytics() {
   useEffect(() => {
-    // Google Tag Manager
-    const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
-    if (gtmId) {
-      const w = window;
-      const d = document;
-      const s = 'script';
-      const l = 'dataLayer';
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js',
-      });
-      const f = d.getElementsByTagName(s)[0];
-      const j = d.createElement(s) as HTMLScriptElement;
-      const dl = l !== 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + gtmId + dl;
-      if (f.parentNode) {
-        f.parentNode.insertBefore(j, f);
+    const gaId = GA_MEASUREMENT_ID;
+    if (gaId) {
+      window.dataLayer = window.dataLayer || [];
+      if (!window.gtag) {
+        window.gtag = function gtag(...args: unknown[]) {
+          window.dataLayer.push(args);
+        };
+      }
+      window.gtag('js', new Date());
+      window.gtag('config', gaId, { anonymize_ip: true });
+
+      if (!document.querySelector(`script[src*="gtag/js?id=${gaId}"]`)) {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+        document.head.appendChild(script);
       }
     }
 
-    // Google Analytics 4
-    const gaId = process.env.NEXT_PUBLIC_GA4_ID;
-    if (gaId) {
+    const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+    if (gtmId && gtmId !== 'GTM-XXXXXXX') {
       window.dataLayer = window.dataLayer || [];
-      function gtag(...args: unknown[]) {
-        window.dataLayer.push(args);
+      window.dataLayer.push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js',
+      });
+      if (!document.querySelector(`script[src*="gtm.js?id=${gtmId}"]`)) {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtm.js?id=${gtmId}`;
+        document.head.appendChild(script);
       }
-      gtag('js', new Date());
-      gtag('config', gaId);
+    }
 
-      // Load GA4 script
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
-      document.head.appendChild(script);
+    const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
+    if (clarityId) {
+      const w = window as Window & { clarity?: (...args: unknown[]) => void };
+      if (!w.clarity) {
+        const clarity = (...args: unknown[]) => {
+          (clarity as unknown as { q?: unknown[] }).q = (
+            clarity as unknown as { q?: unknown[] }
+          ).q || [];
+          ((clarity as unknown as { q: unknown[] }).q).push(args);
+        };
+        w.clarity = clarity;
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.clarity.ms/tag/${clarityId}`;
+        document.head.appendChild(script);
+      }
     }
   }, []);
 

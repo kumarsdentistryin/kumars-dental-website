@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: Props) {
     <SiteShell>
       <JsonLd data={[breadcrumbSchema(crumbs), articleSchema(post)]} />
 
-      <section className="py-12 px-4 bg-gradient-to-r from-slate-800 to-blue-900 text-white">
+      <section className="py-12 px-4 bg-linear-to-r from-slate-800 to-blue-900 text-white">
         <div className="max-w-3xl mx-auto">
           <p className="text-sm opacity-80 mb-2">{post.category}</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">{post.title}</h1>

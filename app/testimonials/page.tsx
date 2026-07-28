@@ -76,7 +76,7 @@ export default function TestimonialsPage() {
   return (
     <SiteShell>
       <JsonLd data={reviewSchema} />
-      <section className="py-12 px-4 bg-gradient-to-r from-slate-800 to-blue-900 text-white">
+      <section className="py-12 px-4 bg-linear-to-r from-slate-800 to-blue-900 text-white">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mb-3">Patient Testimonials</h1>
           <p className="text-lg opacity-95">

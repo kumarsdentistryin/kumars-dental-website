@@ -42,7 +42,7 @@ export default function Home() {
         }}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-800 to-blue-900">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-800 to-blue-900">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <p className="text-sm font-semibold uppercase tracking-wide text-red-200 mb-3">
@@ -82,7 +82,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="relative w-full aspect-[5/4]">
+          <div className="relative w-full aspect-5/4">
             <Image
               src="/website-images/Frame_6945__1_.webp"
               alt="Modern dental clinic with microscopic technology at Kumar's Dental Yelahanka"
@@ -161,7 +161,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-14 px-4 bg-gradient-to-r from-slate-800 to-blue-900 text-white text-center">
+      <section className="py-14 px-4 bg-linear-to-r from-slate-800 to-blue-900 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">Ready to book?</h2>
           <p className="mb-6 opacity-95">

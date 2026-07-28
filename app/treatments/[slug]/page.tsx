@@ -90,7 +90,7 @@ export default async function TreatmentPage({ params }: Props) {
         ]}
       />
 
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-800 to-blue-900 text-white">
+      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-800 to-blue-900 text-white">
         <div className="max-w-5xl mx-auto">
           <p className="text-sm uppercase tracking-wide opacity-80 mb-2">
             {treatment.category}

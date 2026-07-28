@@ -57,7 +57,7 @@ export default async function DoctorPage({ params }: Props) {
         ]}
       />
 
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-800 to-blue-900 text-white">
+      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-800 to-blue-900 text-white">
         <div className="max-w-5xl mx-auto grid md:grid-cols-[220px_1fr] gap-8 items-center">
           <div className="relative w-48 h-56 mx-auto md:mx-0 rounded-lg overflow-hidden bg-white/10">
             <Image src={doctor.image} alt={doctor.name} fill className="object-contain" priority sizes="220px" />

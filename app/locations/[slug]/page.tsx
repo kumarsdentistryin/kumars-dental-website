@@ -67,7 +67,7 @@ export default async function LocationPage({ params }: Props) {
         ]}
       />
 
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-800 to-blue-900 text-white">
+      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-800 to-blue-900 text-white">
         <div className="max-w-4xl mx-auto">
           <p className="text-sm opacity-80 mb-2">Serving {location.name}, Bangalore</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">{location.headline}</h1>

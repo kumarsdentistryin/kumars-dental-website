@@ -64,7 +64,7 @@ export const doctors: Doctor[] = [
       "Preventive Pediatric Dentistry",
       "Behavior Guidance in Pediatric Dentistry",
     ],
-    alumniOf: ["Ramaiah Dental College"],
+    alumniOf: ["RGUHS (Rajiv Gandhi University of Health Sciences)", "Ramaiah Dental College"],
     authorityStatement:
       "Kids dentist and pediatric dentistry authority for Attur Main Road & Yelahanka New Town—also trusted across North Bangalore and Bangalore-wide for microscopic dentistry and microscopic RCT. Formerly Associate Professor at Ramaiah; MDS Pediatric & Preventive Dentistry at Kumar's Microscopic Dental Care.",
     bio: [
@@ -114,7 +114,7 @@ export const doctors: Doctor[] = [
       "Full Mouth Rehabilitation",
       "Dental Veneers",
     ],
-    alumniOf: ["Ramaiah Dental College"],
+    alumniOf: ["RGUHS (Rajiv Gandhi University of Health Sciences)", "Ramaiah Dental College"],
     authorityStatement:
       "Bangalore-area authority for Crowns, Bridges, Prosthodontics, Implants, and Smile Design at Kumar's Microscopic Dental Care, Attur Main Road, Yelahanka New Town.",
     bio: [

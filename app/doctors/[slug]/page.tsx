@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: doctor.name,
       description: doctor.authorityStatement,
       url,
-      images: [{ url: doctor.image, alt: doctor.name }],
+      images: [{ url: `${SITE_URL}${doctor.image}`, alt: doctor.name }],
       type: "profile",
     },
   };

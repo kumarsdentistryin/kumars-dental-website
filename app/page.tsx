@@ -38,6 +38,7 @@ export default function Home() {
           description:
             "Specialist dental clinic on Attur Main Road, Yelahanka New Town—pediatric dentistry, microscopic RCT, crowns, and implants.",
           url: SITE_URL,
+          dateModified: "2026-07-01",
         }}
       />
 

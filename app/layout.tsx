@@ -100,7 +100,7 @@ export default function RootLayout({
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
   return (
-    <html lang="en">
+    <html lang="en-IN">
       <head>
         <JsonLd data={[organizationSchema(), websiteSchema()]} />
       </head>

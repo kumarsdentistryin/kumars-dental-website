@@ -31,8 +31,8 @@ export const SITE = {
     full: "No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore 560064",
   },
   geo: {
-    latitude: 13.1007,
-    longitude: 77.5963,
+    latitude: 13.1016255,
+    longitude: 77.5669958,
   },
   hours: {
     weekdays: "Mon–Sat: 10:00 AM – 9:00 PM",
@@ -43,8 +43,7 @@ export const SITE = {
       { days: "Sunday", hours: "10:00 AM – 6:00 PM" },
     ],
   },
-  mapsUrl:
-    "https://maps.google.com/?q=Kumar's+Microscopic+Dental+Care+Attur+Layout+Yelahanka",
+  mapsUrl: "https://maps.app.goo.gl/UyHu7aUWt7zMUQHa8",
   rating: {
     value: 4.9,
     count: 250,

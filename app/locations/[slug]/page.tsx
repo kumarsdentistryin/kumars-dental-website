@@ -31,12 +31,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: location.metaTitle,
       description: location.metaDescription,
       url,
-      images: [{ url: SITE.defaultOgImage }],
+      images: [{ url: `${SITE_URL}${SITE.defaultOgImage}` }],
     },
     twitter: {
       card: "summary_large_image",
       title: location.metaTitle,
       description: location.metaDescription,
+      images: [`${SITE_URL}${SITE.defaultOgImage}`],
     },
   };
 }
@@ -48,7 +49,7 @@ export default async function LocationPage({ params }: Props) {
 
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Locations", path: "/locations/yelahanka" },
+    { name: "Locations", path: "/locations" },
     { name: location.name, path: `/locations/${location.slug}` },
   ];
 

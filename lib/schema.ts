@@ -124,7 +124,12 @@ export function organizationSchema() {
       name: d.name,
       url: doctorAbsoluteUrl(d),
     })),
-    sameAs: [],
+    sameAs: [
+      // Google Maps — primary external identity for entity disambiguation
+      SITE.mapsUrl,
+      // Add Google Business Profile short URL, Practo, JustDial, Facebook, Instagram when available
+    ],
+    hasMap: SITE.mapsUrl,
   };
 }
 
@@ -210,7 +215,9 @@ export function medicalProcedureSchema(treatment: Treatment, doctor: Doctor) {
     description: treatment.overview,
     url: `${SITE_URL}/treatments/${treatment.slug}`,
     procedureType: treatment.category,
-    howPerformed: treatment.process.join(" "),
+    howPerformed: treatment.process
+      .map((step, i) => `${i + 1}. ${step}`)
+      .join("\n"),
     preparation: treatment.whoNeedsIt.join("; "),
     followup: treatment.recovery,
     performer: {

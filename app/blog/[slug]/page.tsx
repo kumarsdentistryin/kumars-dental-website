@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import SiteShell from "@/components/SiteShell";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, SITE } from "@/lib/site";
 import { blogPosts, getPost, getAllPostSlugs } from "@/lib/blog/posts";
 import { articleSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -31,7 +31,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: post.datePublished,
       modifiedTime: post.dateModified,
-      images: post.image ? [{ url: post.image }] : undefined,
+      images: post.image ? [{ url: `${SITE_URL}${post.image}` }] : [{ url: `${SITE_URL}${SITE.defaultOgImage}` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: post.image ? [`${SITE_URL}${post.image}`] : [`${SITE_URL}${SITE.defaultOgImage}`],
     },
   };
 }

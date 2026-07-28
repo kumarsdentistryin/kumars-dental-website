@@ -4,7 +4,8 @@
 Name: Kumar's Microscopic Dental Care
 URL: https://kumarsdentistry.in
 Address: No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore 560064, Karnataka, India
-Geo: approx 13.1007, 77.5963
+Geo: 13.1016255, 77.5669958
+Google Maps: https://maps.app.goo.gl/UyHu7aUWt7zMUQHa8
 Email: kumarsdentistry.in@gmail.com
 Phone primary: +91 81972 80019
 Phone secondary: +91 80882 66714

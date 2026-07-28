@@ -39,14 +39,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: treatment.metaTitle,
       description: treatment.metaDescription,
       url,
-      images: [{ url: treatment.image, alt: treatment.name }],
+      images: [{ url: `${SITE_URL}${treatment.image}`, alt: treatment.name }],
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
       title: treatment.metaTitle,
       description: treatment.metaDescription,
-      images: [treatment.image],
+      images: [`${SITE_URL}${treatment.image}`],
     },
   };
 }

@@ -151,6 +151,7 @@ export default function Footer() {
           </Link>
         </p>
         <p>&copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
+        <p className="mt-2 text-xs text-gray-600">Built with ❤️ by D Pradeep Kumar (AuraDigital Services &amp; Solutions) &middot; 9148868413</p>
       </div>
     </footer>
   );

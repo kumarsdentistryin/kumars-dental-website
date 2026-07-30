@@ -70,7 +70,7 @@ export default function SearchPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main className="max-w-3xl mx-auto px-4 py-12">
+      <main id="main-content" className="max-w-3xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Search</h1>
         <p className="text-gray-600 mb-6">
           Find treatments, doctors, locations, and articles. Try “pediatric”, “crowns”, or

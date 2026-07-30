@@ -66,8 +66,14 @@ export default function Header() {
         </button>
       </nav>
 
-      {isOpen && (
-        <div id="mobile-menu" className="xl:hidden bg-white px-6 py-6 border-t-2 border-gray-200 shadow-lg">
+      <div
+        id="mobile-menu"
+        className={
+          isOpen
+            ? "xl:hidden bg-white px-6 py-6 border-t-2 border-gray-200 shadow-lg"
+            : "hidden"
+        }
+      >
           <ul className="space-y-3">
             {nav.map((item) => (
               <li key={item.href}>
@@ -109,7 +115,6 @@ export default function Header() {
             </li>
           </ul>
         </div>
-      )}
     </header>
   );
 }

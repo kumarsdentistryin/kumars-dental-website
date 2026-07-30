@@ -100,14 +100,17 @@ export default function ChatbotWidget() {
                                     onClick={() => setSelectedFAQ(selectedFAQ === index ? null : index)}
                                     className="w-full text-left bg-gray-50 hover:bg-gray-100 p-3 rounded-lg transition flex items-start gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600"
                                     aria-expanded={selectedFAQ === index}
+                                    aria-controls={`faq-ans-${index}`}
                                 >
                                     <span className="text-red-600 font-bold" aria-hidden="true">Q:</span>
                                     <span className="font-semibold text-gray-800 flex-1">{faq.question}</span>
                                     <span className="text-gray-400" aria-hidden="true">{selectedFAQ === index ? '−' : '+'}</span>
                                 </button>
 
-                                {selectedFAQ === index && (
-                                    <div className="mt-2 ml-6 p-3 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+                                <div
+                                    id={`faq-ans-${index}`}
+                                    className={selectedFAQ === index ? "mt-2 ml-6 p-3 bg-blue-50 rounded-lg border-l-4 border-blue-600" : "hidden"}
+                                >
                                         <p className="text-gray-700 mb-2">{faq.answer}</p>
                                         {faq.action && (
                                             <Link
@@ -125,7 +128,6 @@ export default function ChatbotWidget() {
                                             </Link>
                                         )}
                                     </div>
-                                )}
                             </div>
                         ))}
                     </div>

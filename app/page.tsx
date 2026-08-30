@@ -8,9 +8,9 @@ import { treatments } from "@/lib/treatments";
 import { doctors } from "@/lib/doctors";
 
 export const metadata: Metadata = {
-  title: "Kumar's Microscopic Dental Care | Pediatric Dentist Attur & Yelahanka",
+  title: "Best Dental Clinic in Bangalore | Kumar's Microscopic Dental Care | Yelahanka",
   description:
-    "Kids dentist on Attur Main Road, Yelahanka New Town. Dr. Prem Kumar R — pediatric dentistry & microscopic RCT (formerly Associate Professor at Ramaiah). Dr. RV Roshini — crowns & implants. Call +91 81972 80019.",
+    "Top-rated dental clinic in Bangalore (Attur Main Road / Yelahanka New Town). Dr. Prem Kumar R for pediatric dentistry & painless microscopic RCT; Dr. RV Roshini for dental implants, crowns & smile design. Call +91 81972 80019.",
   alternates: { canonical: SITE_URL },
 };
 

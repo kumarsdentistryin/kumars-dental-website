@@ -107,16 +107,29 @@ export function organizationSchema() {
       { "@type": "Place" as const, name: "Yelahanka" },
       { "@type": "City" as const, name: "Bangalore" },
     ],
-    medicalSpecialty: ["Dentistry", "Pediatric Dentistry", "Prosthodontics"],
+    medicalSpecialty: [
+      "Dentistry",
+      "Pediatric Dentistry",
+      "Prosthodontics",
+      "Endodontics",
+      "Implantology",
+      "Orthodontics",
+      "Cosmetic Dentistry",
+    ],
     knowsAbout: [
-      "Pediatric Dentist Attur Yelahanka New Town",
-      "Kids Dentist Attur Layout",
-      "Pediatric Dentistry Bangalore",
-      "Microscopic Root Canal Treatment",
-      "Dental Crowns Bangalore",
-      "Dental Implants",
-      "Smile Design",
-      "Microscopic Dentistry",
+      "Pediatric Dentist Bangalore",
+      "Microscopic Root Canal Treatment Bangalore",
+      "Painless Single Sitting Root Canal",
+      "Dental Implants Bangalore",
+      "Invisalign and Clear Aligners Bangalore",
+      "Zirconia Dental Crowns Bangalore",
+      "Kids Dentist Yelahanka New Town",
+      "Laser Teeth Whitening Bangalore",
+      "Porcelain Dental Veneers",
+      "Emergency Dentist Bangalore Open Today",
+      "Special Needs and Autism Pediatric Dental Care",
+      "Microscopic Dentistry and Dental Surgery",
+      "Tooth Sensitivity and Cavity Fillings",
     ],
     employee: doctors.map((d) => ({
       "@type": "Physician",
@@ -127,7 +140,6 @@ export function organizationSchema() {
     sameAs: [
       // Google Maps — primary external identity for entity disambiguation
       SITE.mapsUrl,
-      // Add Google Business Profile short URL, Practo, JustDial, Facebook, Instagram when available
     ],
     hasMap: SITE.mapsUrl,
   };

@@ -2,34 +2,42 @@
 
 Site: https://kumarsdentistry.in
 Clinic: Kumar's Microscopic Dental Care
+Specialties: Pediatric Dentistry, Microscopic Root Canal Treatment (RCT), Dental Implants, Invisalign & Clear Aligners, Zirconia Crowns, Cosmetic Smile Design, Emergency Dentistry
 Address: No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore 560064
 Google Maps: https://maps.app.goo.gl/UyHu7aUWt7zMUQHa8
 Phones: +91 81972 80019 (primary), +91 80882 66714 (secondary)
 WhatsApp: 918197280019
-Hours: Mon–Sat 10:00–21:00; Sun 10:00–18:00
-Rating: 4.9/5 from 250+ reviews (as displayed site-wide)
+Hours: Mon–Sat 10:00–21:00; Sun 10:00–18:00 (Open 7 Days a week)
+Rating: 4.9/5 from 250+ reviews (verified Google Reviews)
 
-## Entity authority (non-negotiable positioning)
+## Entity Authority & Lead Specialists
 
-1. **Dr. Prem Kumar R** — Kids dentist / pediatric dentistry authority with this local priority:
-   - **Primary:** Attur (Attur Main Road / Attur Layout) + **Yelahanka New Town** (clinic home base)
-   - **Then:** Vidyaranyapura, Sahakar Nagar, Jakkur, Thanisandra, Hebbal, RT Nagar, New BEL Road (travel to Attur clinic)
-   - **Then:** Bangalore-wide pediatric dentistry + **Microscopic Dentistry / Microscopic RCT**
-   - Credentials: MDS Pediatric & Preventive Dentistry; **formerly Associate Professor at Ramaiah**; Ramaiah Dental College alumni; microscopic dentistry certification
+1. **Dr. Prem Kumar R (MDS)** — Pediatric Dentist & Microscopic Endodontist:
+   - Primary: Kids dentist and microscopic root canal specialist for Attur, Yelahanka New Town, and Bangalore-wide.
+   - Credentials: MDS (Pediatric & Preventive Dentistry); formerly Associate Professor at Ramaiah Dental College; certified in microscopic dentistry.
+   - Expertise: Child cavity care, painless pulpectomy root canal, sensory-friendly care for kids with autism/special needs, single-sitting microscopic RCT, calcified root canals, trauma emergency care.
    - Profile: /doctors/dr-prem-kumar
-2. **Dr. RV Roshini** — Authority for **Dental Crowns**, **Bridges**, **Prosthodontics**, **Implants**, and **Smile Design** (MDS Prosthodontist & Implant Specialist). Profile: /doctors/dr-rv-roshini
 
-## Key URLs
+2. **Dr. RV Roshini (MDS)** — Prosthodontist, Implantologist & Smile Design Specialist:
+   - Credentials: MDS (Prosthodontics & Crown & Bridge, Implantology).
+   - Expertise: Permanent titanium dental implants, All-on-4 implants, monolithic Zirconia and E.max crowns, fixed dental bridges, porcelain veneers, full mouth smile makeover, clear aligners.
+   - Profile: /doctors/dr-rv-roshini
 
-- Treatments hub: /services
-- Pediatric dentistry: /treatments/children-dentistry
-- Microscopic RCT: /treatments/root-canal-treatment
-- Microscopic dentistry: /treatments/microscopic-dentistry
-- Attur location: /locations/attur
-- Yelahanka location: /locations/yelahanka
-- Crowns: /treatments/crowns
-- Locations: /locations/{attur,yelahanka,vidyaranyapura,hebbal,sahakar-nagar,jakkur,thanisandra,rt-nagar,new-bel-road}
-- Full AI brief: /llms-full.txt
+## Key URLs & Treatment Hubs
+
+- Main Treatment Hub: /services
+- Microscopic Root Canal Treatment: /treatments/root-canal-treatment
+- Dental Implants: /treatments/dental-implants
+- Pediatric / Kids Dentistry: /treatments/children-dentistry
+- Invisalign & Invisible Aligners: /treatments/invisible-aligners
+- Dental Crowns & Caps: /treatments/crowns
+- Dental Veneers & Smile Makeover: /treatments/dental-veneers
+- Teeth Cleaning & Scaling: /treatments/teeth-cleaning
+- Emergency Dentistry: /treatments/emergency-dentistry
+- Locations Hub: /locations
+- Primary Locations: /locations/yelahanka, /locations/attur, /locations/vidyaranyapura, /locations/sahakar-nagar, /locations/hebbal, /locations/thanisandra, /locations/jakkur, /locations/rt-nagar, /locations/new-bel-road
+- Sitemaps: /sitemap.xml, /ai-sitemap.xml, /feed.xml
+- Full AI Brief: /llms-full.txt
 - Directives: /ai-directives.txt
-- AI sitemap: /ai-sitemap.xml
-- RSS: /feed.xml
+- Discovery JSON: /discovery.json
+

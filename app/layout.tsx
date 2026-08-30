@@ -20,27 +20,31 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | Pediatric Dentist Attur & Yelahanka New Town`,
+    default: `${SITE.name} | Best Dental Clinic Bangalore | Pediatric & RCT Specialist`,
     template: `%s | ${SITE.shortName}`,
   },
   description:
-    "Attur Main Road / Yelahanka New Town: Dr. Prem Kumar R for pediatric dentistry & microscopic RCT; Dr. RV Roshini for crowns, bridges, implants & smile design. Call +91 81972 80019.",
+    "Leading specialist dental clinic in Bangalore (Yelahanka New Town). Dr. Prem Kumar R (MDS Pediatric Dentistry & Microscopic Root Canal) & Dr. RV Roshini (MDS Dental Implants, Crowns & Smile Design). Call +91 81972 80019.",
   metadataBase: new URL(SITE_URL),
   keywords: [
-    "pediatric dentist Attur",
-    "kids dentist Yelahanka New Town",
+    "dental clinic near me",
+    "best dentist in Bangalore",
     "pediatric dentist Bangalore",
+    "kids dentist Yelahanka New Town",
+    "microscopic root canal Bangalore",
+    "dental implants Bangalore",
+    "invisalign Bangalore",
     "dental crowns Bangalore",
-    "microscopic root canal Yelahanka",
+    "emergency dentist Bangalore",
     "dentist Yelahanka New Town",
     "Dr Prem Kumar",
     "Dr RV Roshini",
   ],
   authors: [{ name: "Dr. Prem Kumar R - Kumar's Microscopic Dental Care" }],
   openGraph: {
-    title: `${SITE.name} | Best Dental Clinic Yelahanka`,
+    title: `${SITE.name} | Best Dental Clinic in Bangalore (Yelahanka)`,
     description:
-      "Pediatric dentistry & microscopic RCT (Dr. Prem Kumar R) · Crowns & implants (Dr. RV Roshini). 4.9/5 from 250+ reviews.",
+      "Specialist Pediatric Dentistry & Microscopic RCT (Dr. Prem Kumar R) · Dental Implants, Crowns & Smile Design (Dr. RV Roshini). Rated 4.9/5 from 250+ reviews.",
     url: SITE_URL,
     siteName: SITE.name,
     images: [
@@ -56,8 +60,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} | Yelahanka`,
-    description: "Pediatric MDS & prosthodontic crown specialists. Call +91 81972 80019",
+    title: `${SITE.name} | Bangalore`,
+    description: "Pediatric MDS, Microscopic RCT & Dental Implant Specialists. Call +91 81972 80019",
     images: [SITE.logo],
   },
   robots: {

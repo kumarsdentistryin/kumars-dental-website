@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Analytics from "../components/Analytics";
 import ChatbotWidget from "../components/ChatbotWidget";
-import BookingPopup from "../components/BookingPopup";
 import JsonLd from "../components/JsonLd";
 import { SITE, SITE_URL } from "../lib/site";
 import { organizationSchema, websiteSchema } from "../lib/schema";
@@ -20,11 +19,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | Best Dental Clinic Bangalore | Pediatric & RCT Specialist`,
+    default: `${SITE.name} | Specialist Dental Clinic Bangalore | Pediatric & RCT`,
     template: `%s | ${SITE.shortName}`,
   },
   description:
-    "Leading specialist dental clinic in Bangalore (Yelahanka New Town). Dr. Prem Kumar R (MDS Pediatric Dentistry & Microscopic Root Canal) & Dr. RV Roshini (MDS Dental Implants, Crowns & Smile Design). Call +91 81972 80019.",
+    "Leading specialist dental clinic in Bangalore (Yelahanka New Town). Dr. Prem Kumar R (MDS Pediatric Dentistry & Microscopic Root Canal, KSDC 47094 A) & Dr. RV Roshini (MDS Dental Implants, Crowns & Smile Design). Call +91 81972 80019.",
   metadataBase: new URL(SITE_URL),
   keywords: [
     "dental clinic near me",
@@ -129,7 +128,6 @@ export default function RootLayout({
           </noscript>
         )}
         <ChatbotWidget />
-        <BookingPopup />
       </body>
     </html>
   );

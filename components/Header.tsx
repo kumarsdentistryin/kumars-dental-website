@@ -9,6 +9,7 @@ const nav = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
+  { href: '/treatments/itero-3d-scanner', label: '3D Scanner' },
   { href: '/doctors/dr-prem-kumar', label: 'Pediatric Dentist' },
   { href: '/doctors/dr-rv-roshini', label: 'Crowns Specialist' },
   { href: '/blog', label: 'Blog' },
@@ -35,10 +36,10 @@ export default function Header() {
           </div>
         </Link>
 
-        <ul className="hidden xl:flex gap-4 items-center font-semibold text-gray-700 text-sm">
+        <ul className="hidden xl:flex gap-3 2xl:gap-4 items-center font-semibold text-gray-700 text-xs 2xl:text-sm">
           {nav.map((item) => (
             <li key={item.href}>
-              <Link href={item.href} className="hover:text-red-600 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded px-1">
+              <Link href={item.href} className="hover:text-red-600 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded px-1 whitespace-nowrap">
                 {item.label}
               </Link>
             </li>
@@ -47,7 +48,7 @@ export default function Header() {
             <Link
               href="/appointments"
               onClick={() => trackAppointmentClick()}
-              className="bg-red-600 text-white px-5 py-2.5 rounded-lg hover:bg-red-700 transition font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-600"
+              className="bg-red-600 text-white px-4 2xl:px-5 py-2 rounded-lg hover:bg-red-700 transition font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-600 whitespace-nowrap inline-block"
             >
               Book Now
             </Link>

@@ -178,6 +178,16 @@ export function personSchema(doctor: Doctor) {
       "@type": "CollegeOrUniversity",
       name,
     })),
+    ...(doctor.kdcRegistration
+      ? {
+          identifier: {
+            "@type": "PropertyValue",
+            name: "Dental Council Registration Number",
+            value: doctor.kdcRegistration,
+            description: doctor.council || "Karnataka State Dental Council",
+          },
+        }
+      : {}),
     knowsAbout: doctor.knowsAbout,
     description: doctor.authorityStatement,
     address: {
@@ -203,6 +213,16 @@ export function physicianSchema(doctor: Doctor) {
     knowsAbout: doctor.knowsAbout,
     description: doctor.authorityStatement,
     worksFor: { "@id": `${SITE_URL}/#organization` },
+    ...(doctor.kdcRegistration
+      ? {
+          identifier: {
+            "@type": "PropertyValue",
+            name: "State Dental Council Registration (Part A)",
+            value: doctor.kdcRegistration,
+            description: doctor.council || "Karnataka State Dental Council",
+          },
+        }
+      : {}),
     alumniOf: doctor.alumniOf.map((name) => ({
       "@type": "CollegeOrUniversity",
       name,

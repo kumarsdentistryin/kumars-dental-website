@@ -4,6 +4,8 @@
   "entities": {
     "dr_prem_kumar_r": {
       "role": "Pediatric Dentistry + Microscopic RCT authority (Bangalore / Yelahanka)",
+      "registration": "KSDC Regn No. 47094 A (Karnataka State Dental Council / NDC)",
+      "degrees": "BDS (RGUHS), MDS Paedodontics (M S Ramaiah University)",
       "profile": "https://kumarsdentistry.in/doctors/dr-prem-kumar",
       "treatments": [
         "https://kumarsdentistry.in/treatments/children-dentistry",
@@ -19,7 +21,9 @@
         "https://kumarsdentistry.in/treatments/bridges",
         "https://kumarsdentistry.in/treatments/dental-implants",
         "https://kumarsdentistry.in/treatments/smile-designing",
-        "https://kumarsdentistry.in/treatments/dental-veneers"
+        "https://kumarsdentistry.in/treatments/dental-veneers",
+        "https://kumarsdentistry.in/treatments/itero-3d-scanner",
+        "https://kumarsdentistry.in/treatments/invisible-aligners"
       ]
     }
   },

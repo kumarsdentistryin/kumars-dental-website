@@ -110,13 +110,13 @@ export default async function TreatmentPage({ params }: Props) {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid lg:grid-cols-[1fr_280px] gap-10">
         <article>
           <Breadcrumbs items={crumbs} />
-          <div className="relative w-full h-56 sm:h-72 mb-8 rounded-lg overflow-hidden bg-gray-100">
+          <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] md:aspect-[16/9] max-h-[460px] mb-8 rounded-2xl overflow-hidden bg-slate-900/5 border border-slate-200/90 shadow-md">
             <Image
               src={treatment.image}
               alt={treatment.name}
               fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 700px"
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 750px"
               priority
             />
           </div>

@@ -207,37 +207,48 @@ export const locations: LocationPage[] = [
   {
     slug: "jakkur",
     name: "Jakkur",
-    metaTitle: "Dentist near Jakkur | Pediatric Dentistry & Crowns | Kumar's",
+    metaTitle: "Pediatric Dentist near Jakkur Bangalore | Kids Dentistry & 3D Scan | Kumar's Dental",
     metaDescription:
-      "Jakkur residents: specialist dental care in nearby Yelahanka New Town—pediatric MDS & prosthodontic crowns at Kumar's Dental.",
-    headline: "Jakkur’s short hop to Attur Main Road specialists",
+      "Looking for a pediatric dentist or dental studio near Jakkur Layout? Dr. Prem Kumar R (MDS Pediatric Dentist, KSDC 47094 A) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Jakkur & Jakkur Layout families: Specialist pediatric & microscopic dental care",
     intro: [
-      "Jakkur and Jakkur Layout patients reach our Attur Main Road clinic quickly compared with central Bengaluru specialty centres.",
-      "We tailor Jakkur content to weekend sports-active families—trauma readiness plus routine pediatric prevention.",
+      "Families across Jakkur Layout and surrounding gated communities frequently seek specialist MDS pediatric dentists and precision microscopic dentistry rather than routine clinic chairs.",
+      "Located just a short 10–12 minute drive on Attur Main Road, Yelahanka New Town, Kumar's Microscopic Dental Care provides dedicated pediatric care by Dr. Prem Kumar R (MDS, formerly Associate Professor at Ramaiah) and prosthodontics, crowns, and iTero 3D Invisalign by Dr. RV Roshini.",
     ],
     travelNotes: [
-      "Jakkur Aerodrome Road / Yelahanka links toward Attur Main Road",
-      "Convenient for morning kids’ appointments before school rush ends",
-      "Emergency toothache: call for same-day prioritisation",
+      "Quick route: Jakkur / Aerodrome Road → Yelahanka New Town toward Attur Main Road (approx. 10–15 mins)",
+      "Dedicated morning & evening slots open until 9 PM Mon–Sat, and 10 AM–6 PM on Sundays",
+      "Emergency toothache & knocked-out tooth trauma: call +91 81972 80019 for instant priority triage",
     ],
     localHooks: [
-      "Close geographic fit for Jakkur apartment communities",
-      "Sports injury dental first-aid awareness for teens",
-      "Crown repairs for adults who grind or play contact sports",
+      "Top specialist alternative for parents searching 'pediatric dentist near Jakkur' or 'kids dental studio near me'",
+      "Equipped with 25x surgical operating microscope for single-sitting painless RCT",
+      "New iTero® 3D Intraoral Scanner: preview Invisalign smile transformations without messy impression pastes",
+      "Sports injury and pediatric dental trauma emergency protocols",
     ],
     pediatricAngle:
-      "Jakkur kids’ dentistry is led by Dr. Prem Kumar R at the nearby Attur / Yelahanka New Town clinic—short hop for specialist behaviour guidance and pediatric care.",
+      "Parents in Jakkur Layout trust Dr. Prem Kumar R (MDS Pediatric & Preventive Dentistry, KSDC 47094 A) for low-anxiety child cavity fillings, painless milk tooth root canals (pulpectomy), and gentle preventive fluoride therapies.",
     crownsAngle:
-      "Jakkur adults restoring teeth with crowns see Dr. RV Roshini for prosthodontic excellence.",
+      "Jakkur working professionals seeking monolithic zirconia crowns, permanent dental implants, or Invisalign clear aligners consult Dr. RV Roshini (MDS Prosthodontist).",
     faqs: [
       {
-        question: "Do you handle knocked-out teeth for Jakkur sports injuries?",
+        question: "How far is Kumar's Dental from Jakkur Layout?",
         answer:
-          "Call immediately. Permanent tooth avulsion is time-sensitive. Dr. Prem Kumar R manages pediatric trauma protocols; adults are stabilised urgently too.",
+          "Our clinic is located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town—only 4 to 5 km (about 10–15 minutes) from Jakkur Aerodrome / Jakkur Layout.",
+      },
+      {
+        question: "Do you handle dental emergencies and knocked-out teeth for Jakkur children?",
+        answer:
+          "Yes. Dental trauma requires urgent care within the first 60 minutes. Keep the tooth in cold milk and call +91 81972 80019 immediately for priority emergency treatment.",
+      },
+      {
+        question: "Can I get an Invisalign 3D digital scan near Jakkur?",
+        answer:
+          "Yes! We are equipped with the latest iTero® 3D Intraoral Optical Scanner. You can see your predicted before-and-after smile simulation chairside in just 5 minutes without any gagging.",
       },
     ],
-    nearbySlugs: ["yelahanka", "attur", "thanisandra"],
-    lastUpdated: "2026-07-01",
+    nearbySlugs: ["yelahanka", "attur", "thanisandra", "sahakar-nagar"],
+    lastUpdated: "2026-10-23",
   },
   {
     slug: "thanisandra",

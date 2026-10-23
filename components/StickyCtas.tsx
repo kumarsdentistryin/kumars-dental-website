@@ -38,28 +38,6 @@ export default function StickyCtas() {
           </Link>
         </div>
       </div>
-
-      {/* Desktop / floating WhatsApp FAB */}
-      <a
-        href={whatsappBookingUrl()}
-        onClick={() => trackWhatsAppClick()}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-24 right-4 lg:bottom-6 z-40 bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-3 rounded-full shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-700"
-        aria-label="Chat on WhatsApp"
-      >
-        WhatsApp
-      </a>
-
-      {/* Emergency strip hint on desktop */}
-      <a
-        href={`tel:${SITE.phones.primaryTel}`}
-        onClick={() => trackPhoneClick()}
-        className="hidden lg:flex fixed bottom-6 left-6 z-40 items-center gap-2 bg-red-700 hover:bg-red-800 text-white text-sm font-semibold px-4 py-3 rounded-full shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-700"
-        aria-label="Emergency dental call"
-      >
-        Emergency Call
-      </a>
     </>
   );
 }

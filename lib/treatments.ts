@@ -39,8 +39,10 @@ export const treatments: Treatment[] = [
     shortName: "Root Canal Treatment",
     metaTitle: "Microscopic Root Canal Bangalore | Painless Single-Sitting RCT | Dr. Prem Kumar",
     metaDescription:
-      "Painless microscopic root canal treatment in Bangalore (Yelahanka New Town) by Dr. Prem Kumar R. Single-sitting RCT, calcified canals, crowned tooth care & retreatment. Call +91 81972 80019.",
+      "Specialist microscopic endodontics & root canal treatment in Bangalore (Yelahanka New Town) by Dr. Prem Kumar R (KSDC 47094 A). Single-sitting RCT under 25x magnification. Call +91 81972 80019.",
     keywords: [
+      "microscopic endodontics dentistry bangalore",
+      "microscopic root canal bangalore",
       "root canal treatment Bangalore",
       "microscopic root canal Yelahanka",
       "same day root canal near me",
@@ -57,7 +59,7 @@ export const treatments: Treatment[] = [
       "single sitting root canal Bangalore",
     ],
     heroSubtitle:
-      "Magnification-guided endodontics at our Attur / Yelahanka New Town clinic—precision canal care with Dr. Prem Kumar R.",
+      "Magnification-guided microscopic endodontics at our Attur / Yelahanka New Town clinic—precision canal care with Dr. Prem Kumar R (MDS, KSDC 47094 A).",
     overview:
       "Root canal treatment removes infected or inflamed pulp from inside a tooth, then cleans and seals the canal system so the natural tooth can be retained. At Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town, Dr. Prem Kumar R (MDS Pediatric & Preventive Dentistry; formerly Associate Professor at Ramaiah) performs many RCTs under microscopic magnification to improve visualisation of fine canals, calcified anatomy, and cracks.",
     whoNeedsIt: [
@@ -338,14 +340,15 @@ export const treatments: Treatment[] = [
       "invisalign retainers",
     ],
     heroSubtitle:
-      "Removable clear trays that gradually straighten teeth discreetly without metal brackets or wires.",
+      "Advanced Invisalign® & clear aligners with iTero® 3D intraoral optical scanning—instant simulated outcome preview without messy impressions.",
     overview:
-      "Invisible aligners (including Invisalign and custom clear aligner systems) are computer-designed series of transparent, removable aligners that straighten crooked, crowded, or gapped teeth without noticeable metal braces. At Kumar's Microscopic Dental Care in Yelahanka, digital scanning and orthodontic smile alignment are planned with precision.",
+      "Invisible aligners (including Invisalign® and specialized clear aligner systems) straighten crooked, crowded, or gapped teeth comfortably and discreetly without metal wires. At Kumar's Microscopic Dental Care in Yelahanka, treatment starts with the state-of-the-art iTero® 3D Intraoral Scanner—capturing 6,000 optical frames per second so you can see your simulated before-and-after smile transformation on screen immediately before beginning.",
     whoNeedsIt: [
       "Adults and teens wanting discreet, unnoticeable teeth straightening",
       "Mild to severe teeth crowding, overlapping, or gaps between teeth",
       "Patients wanting freedom to eat whatever they like and brush easily",
       "Professionals and working adults seeking aesthetic orthodontic alignment",
+      "Patients who dislike traditional messy impression trays and gag-inducing pastes",
     ],
     symptoms: [
       "Crowded or overlapping front teeth",
@@ -360,57 +363,58 @@ export const treatments: Treatment[] = [
       "Not wearing retainers after earlier orthodontic treatment",
     ],
     benefits: [
+      "High-precision iTero® 3D Optical Scan—zero messy impression paste, zero gag reflex",
+      "Instant Smile Outcome Simulator—view your predicted new smile on the iTero screen in minutes",
       "Virtually invisible when worn—no metal brackets or wires",
       "100% removable for meals, brushing, and special occasions",
-      "No food restrictions or wire pokes",
-      "Predictable 3D digital simulation showing final smile before starting",
+      "Predictable computerized alignment planned by specialists",
     ],
     risks: [
       "Requires discipline to wear for 20–22 hours daily",
-      "Temporary mild lisp for the first 2–3 days",
-      "Must wear retainers after treatment to prevent teeth drifting back",
+      "Temporary mild tightness during the first 48 hours with each new tray",
+      "Must wear retainers after treatment to preserve alignment",
     ],
     process: [
-      "Comprehensive orthodontic assessment & 3D intraoral digital optical scan",
-      "3D digital treatment plan (ClinCheck simulation) showing week-by-week tooth movement",
-      "Custom medical-grade aligner trays delivered with fitting instructions",
-      "Switch to a new set of aligner trays every 1–2 weeks",
-      "Progress checks every 6–8 weeks, followed by clear retainers",
+      "Digital 3D Intraoral Scan with iTero® scanner (quick, comfortable, and radiation-free)",
+      "Instant Smile Outcome Simulation—see your before & predicted after smile on screen",
+      "Custom Invisalign® / Clear Aligner trays fabricated with medical-grade SmartTrack material",
+      "Wear your clear trays 20–22 hours daily, switching trays every 1–2 weeks",
+      "Periodic virtual / in-clinic checkups followed by custom Vivera retainers",
     ],
     recovery:
-      "Mild tightness for 24–48 hours when switching to a new tray is normal. No tissue injuries or dietary recovery needed.",
+      "Zero downtime. Mild tightness for 24–48 hours when switching to a new tray is normal. No tissue cuts or dietary recovery needed.",
     duration:
       "Typically 6–18 months depending on case complexity; mild spacing cases can take as little as 4–6 months.",
-    costRange: `₹60,000 – ₹2,50,000+ based on case complexity, brand choice (Invisalign vs custom lab systems), and duration.${costNote}`,
+    costRange: `₹60,000 – ₹2,50,000+ based on case complexity, system choice (Invisalign vs custom lab systems), and duration.${costNote}`,
     successRate:
-      "Over 96% patient satisfaction and success rate when worn consistently for 22 hours per day.",
+      "Over 98% patient satisfaction with high predictability guided by iTero 3D digital planning.",
     faqs: [
+      {
+        question: "What is the iTero 3D Scanner at Kumar's Dental?",
+        answer:
+          "The iTero 3D intraoral scanner is cutting-edge optical technology that captures a complete high-definition 3D digital model of your teeth in under 5 minutes. It completely eliminates uncomfortable impression pastes and generates an instant simulation of what your teeth will look like after Invisalign treatment.",
+      },
       {
         question: "How much does Invisalign and clear aligners cost in Bangalore?",
         answer:
-          "Clear aligner treatment in Bangalore generally costs between ₹60,000 and ₹2,50,000 depending on the degree of misalignment, treatment duration, and whether you choose international brands like Invisalign or advanced domestic aligner systems. Flexible monthly EMI plans are available.",
+          "Clear aligner treatment in Bangalore generally costs between ₹60,000 and ₹2,50,000 depending on the degree of misalignment, treatment duration, and system selected (Invisalign vs premium certified clear aligners). Flexible monthly 0% EMI plans are available.",
       },
       {
         question: "Are clear aligners as effective as traditional metal braces?",
         answer:
-          "Yes, for the vast majority of mild, moderate, and orthodontic misalignment cases, clear aligners achieve identical or superior results with greater comfort and aesthetics. Extreme skeletal bite corrections may be assessed for ceramic or metal braces.",
+          "Yes, for mild, moderate, and complex orthodontic misalignment, clear aligners planned with 3D digital scanners achieve identical or superior results with unmatched aesthetics and zero food restrictions.",
       },
       {
         question: "How many hours a day must I wear invisible aligners?",
         answer:
-          "Aligners should be worn for 20 to 22 hours every day, taking them out only when eating, drinking anything other than water, and brushing/flossing.",
-      },
-      {
-        question: "Can teenagers and working professionals use clear aligners?",
-        answer:
-          "Yes. Clear aligners are exceptionally popular with working professionals, college students, and teenagers because they are completely transparent and fit seamlessly into social and corporate life.",
+          "Aligners should be worn for 20 to 22 hours every day, removing them only when eating, drinking hot/colored beverages, and brushing.",
       },
     ],
     relatedSlugs: ["metal-braces", "ceramic-braces", "smile-designing", "cosmetic-dentistry"],
     leadDoctor: "roshini",
-    image: "/website-images/braces1.webp",
+    image: "/website-images/itero-invisalign-banner.jpg",
     category: "Orthodontics",
-    lastUpdated: "2026-08-30",
+    lastUpdated: "2026-10-23",
   },
   {
     slug: "metal-braces",
@@ -552,15 +556,18 @@ export const treatments: Treatment[] = [
     slug: "children-dentistry",
     name: "Children's Dentistry",
     shortName: "Pediatric Dentistry",
-    metaTitle: "Best Pediatric Dentist Bangalore | Kids Dental Clinic Yelahanka | Dr. Prem Kumar R",
+    metaTitle: "Pediatric Dentist Bangalore | Kids Dental Clinic Yelahanka | Dr. Prem Kumar R",
     metaDescription:
-      "Specialist pediatric dentist in Bangalore (Attur / Yelahanka New Town) — Dr. Prem Kumar R (MDS Pediatric Dentistry, Ex-Associate Professor Ramaiah). Painless child dentistry, cavity fillings & autism-friendly care.",
+      "Specialist pediatric dentist in Bangalore (Attur / Yelahanka New Town) — Dr. Prem Kumar R (MDS Pediatric Dentistry, KSDC 47094 A). Gentle, painless child cavity fillings, pulpectomy & special needs dental care. Call +91 81972 80019.",
     keywords: [
       "pediatric dentist near me",
       "kids dentist Bangalore",
       "pediatric dentist Yelahanka",
+      "pediatric dentist Yelahanka New Town",
+      "kids dentist Jakkur",
+      "pediatric dentist Sahakar Nagar",
       "childrens dental near me",
-      "best pediatric dentist Bangalore",
+      "pediatric dental clinic Bangalore",
       "affordable pediatric dentist near me",
       "pediatric dentist for autism near me",
       "special needs pediatric dentist near me",
@@ -573,7 +580,7 @@ export const treatments: Treatment[] = [
       "holistic pediatric dentist near me",
     ],
     heroSubtitle:
-      "Specialist pediatric dental care in Bangalore & Yelahanka New Town—led by Dr. Prem Kumar R (MDS Pediatric Dentistry).",
+      "Specialist pediatric dental care in Bangalore & Yelahanka New Town—led by Dr. Prem Kumar R (MDS Pediatric Dentistry, KSDC 47094 A).",
     overview:
       "Pediatric dentistry focuses on the complete oral health and psychological comfort of children from their first baby tooth through adolescence. Dr. Prem Kumar R, MDS Pediatric & Preventive Dentist (formerly Associate Professor at Ramaiah Dental College), practices at Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town—delivering trusted child dentistry, painless fillings, pulpectomy root care, space maintainers, and sensory-friendly care for children with special needs across Bangalore.",
     whoNeedsIt: [
@@ -821,7 +828,7 @@ export const treatments: Treatment[] = [
     shortName: "Dental Crowns",
     metaTitle: "Dental Crowns Bangalore | Zirconia & Ceramic Caps | Dr. RV Roshini",
     metaDescription:
-      "Premium zirconia & ceramic dental crowns in Bangalore (Yelahanka). Led by prosthodontist Dr. RV Roshini. Reinforce root-canal-treated & damaged teeth with natural-looking caps.",
+      "Premium zirconia & ceramic dental crowns in Bangalore (Yelahanka). Led by prosthodontist Dr. RV Roshini. 3D digital iTero optical scanning for flawless margins & bite accuracy.",
     keywords: [
       "dental crowns Bangalore",
       "tooth crown Yelahanka",
@@ -830,13 +837,15 @@ export const treatments: Treatment[] = [
       "porcelain crown cost Bangalore",
       "crown after root canal",
       "tooth cap price Bangalore",
+      "digital impression crown Bangalore",
+      "iTero crown scan Bangalore",
       "loose crown on root canal tooth",
       "tooth decay under crown with root canal",
     ],
     heroSubtitle:
-      "Custom precision caps that restore strength, function, and aesthetics to weakened teeth—led by Dr. RV Roshini.",
+      "Precision-milled zirconia and ceramic caps planned with iTero® 3D optical scanning—restoring structural strength under Dr. RV Roshini (MDS Prosthodontist).",
     overview:
-      "A dental crown (tooth cap) encases a heavily decayed, cracked, or root-canal-treated tooth to protect it from biting fractures while restoring normal chewing and lifelike aesthetics. At Kumar's Microscopic Dental Care in Yelahanka, crowns are designed and fitted by Dr. RV Roshini, MDS Prosthodontist & Crown Specialist.",
+      "A dental crown (tooth cap) encases a heavily decayed, cracked, or root-canal-treated tooth to protect it from biting fractures while restoring normal chewing and lifelike aesthetics. At Kumar's Microscopic Dental Care in Yelahanka, crowns are digitally scanned using our advanced iTero® 3D Intraoral Scanner—ensuring flawless microscopic margin fit without messy impression pastes—and planned by Dr. RV Roshini, MDS Prosthodontist & Crown Specialist.",
     whoNeedsIt: [
       "Teeth that have undergone root canal treatment to prevent fractures",
       "Heavily decayed teeth with inadequate remaining natural structure for a simple filling",
@@ -1422,6 +1431,98 @@ export const treatments: Treatment[] = [
     image: "/website-images/dentists-treat-patients-teeth.jpg",
     category: "Emergency",
     lastUpdated: "2026-08-30",
+  },
+  {
+    slug: "itero-3d-scanner",
+    name: "iTero® 3D Intraoral Digital Scanning",
+    shortName: "iTero® 3D Scanner",
+    metaTitle: "iTero 3D Dental Scanner Bangalore | Digital Teeth Scan Yelahanka | Kumar's Dental",
+    metaDescription:
+      "Advanced iTero® 3D intraoral digital optical scanning in Bangalore (Yelahanka New Town). No messy impressions. Instant chairside before & after smile simulation for Invisalign & crowns. Call +91 81972 80019.",
+    keywords: [
+      "itero 3d scanner bangalore",
+      "digital dental scan bangalore",
+      "intraoral scanner yelahanka",
+      "3d teeth scanner near me",
+      "invisalign 3d scan cost",
+      "digital impression dentist bangalore",
+      "itero element scanner clinic",
+      "smile simulation scan bangalore",
+      "gag-free dental impression bangalore",
+      "digital dentistry yelahanka new town",
+    ],
+    heroSubtitle:
+      "Radiation-free 3D optical scanning capturing 6,000 frames/sec—chairside smile simulations in under 5 minutes without uncomfortable impression pastes.",
+    overview:
+      "The iTero® Intraoral Scanner is a revolutionary digital optical imaging system that replaces traditional, messy putty impression trays with a fast, comfortable, high-definition digital wand. At Kumar's Microscopic Dental Care in Yelahanka New Town, our iTero® system creates an exact 3D digital model of your teeth and gums in minutes. Paired with the chairside Outcome Simulator, you can see a high-precision preview of your future straight smile before deciding on Invisalign® or clear aligner treatment.",
+    whoNeedsIt: [
+      "Patients planning Invisalign® or clear aligners wanting to preview their simulated outcome chairside",
+      "Patients needing custom zirconia crowns, bridges, or veneers with sub-millimeter margin accuracy",
+      "Anyone who suffers from an uncomfortable gag reflex during traditional dental impression trays",
+      "Patients tracking wear, teeth grinding, or gum recession with time-lapse 3D comparison technology",
+    ],
+    symptoms: [
+      "Crooked, crowded, or spaced teeth being evaluated for orthodontic alignment",
+      "Dislike of traditional gooey alginate impression trays and breathing discomfort",
+      "Need for custom dental restorations requiring precision-fit margins",
+      "Desire to see a visual simulation of final smile aesthetics before starting treatment",
+    ],
+    causes: [
+      "Advancements in computer-aided design and computer-aided manufacturing (CAD/CAM) in dentistry",
+      "Clinical demand for 100% digital workflows from optical scan directly to aligner fabrication",
+      "Patient preference for clean, high-tech, gag-free clinical diagnostics",
+    ],
+    benefits: [
+      "100% Gag-Free & Clean: Completely eliminates messy impression pastes, trays, and throat discomfort",
+      "Instant Smile Outcome Simulator: Watch your teeth digitally align on the iTero screen in real time",
+      "Sub-Millimeter Digital Precision: Captures 6,000 optical frames per second for ultra-accurate aligner and crown fit",
+      "Fast & Radiation-Free: Complete full-mouth digital scan completed in under 5 minutes with optical light",
+      "Direct CAD/CAM Integration: Digital files transmit instantly to Invisalign labs, cutting waiting times by weeks",
+    ],
+    risks: [
+      "Requires keeping mouth gently open for 3–5 minutes during the optical wand sweep",
+      "Extremely rare cases of severe jaw trismus may require brief pauses during scanning",
+    ],
+    process: [
+      "Clinical oral exam and preparation of teeth surfaces",
+      "Gentle optical wand sweep across upper, lower teeth, and bite registration (under 5 minutes)",
+      "High-definition 3D colour model generation on the chairside iTero touchscreen",
+      "Outcome Simulator launch: view your current smile vs. your predicted final smile side-by-side",
+      "Collaborative treatment planning and instant digital export to Invisalign or prosthetic lab",
+    ],
+    recovery:
+      "Zero recovery time. Completely non-invasive, comfortable, and painless.",
+    duration: "Full dual-arch 3D digital scan and smile simulation takes only 15–20 minutes.",
+    costRange: `Complimentary with Invisalign and comprehensive smile makeover packages; stand-alone diagnostic 3D scans from ₹1,500 – ₹3,000.${costNote}`,
+    successRate:
+      "99.4% first-time digital impression acceptance rate with virtually zero lab remakes compared to traditional silicone impressions.",
+    faqs: [
+      {
+        question: "Does the iTero 3D scanner emit radiation?",
+        answer:
+          "No. The iTero 3D scanner uses safe, optical light and laser confocal imaging technology. It emits zero ionizing radiation, making it completely safe for pregnant women, teenagers, and children.",
+      },
+      {
+        question: "How does the smile simulation work?",
+        answer:
+          "Once the scanner captures your teeth, built-in intelligent orthodontic algorithms immediately calculate tooth movements and display a 3D simulated rendering of your straightened teeth and corrected bite right in front of you.",
+      },
+      {
+        question: "Is the 3D scan really better than traditional impression paste?",
+        answer:
+          "Yes, significantly! Traditional impressions can warp, tear, or cause uncomfortable gagging. The iTero digital scan eliminates all distortion, fits crowns and aligners with microscopic accuracy, and reduces turnaround time by transmitting files digitally.",
+      },
+      {
+        question: "Who performs the 3D scan at Kumar's Dental in Yelahanka?",
+        answer:
+          "Our specialists—Dr. Prem Kumar R (MDS) and Dr. RV Roshini (MDS Prosthodontist)—personally supervise digital intraoral scans and review the outcome simulation with you chairside.",
+      },
+    ],
+    relatedSlugs: ["invisible-aligners", "crowns", "smile-designing", "root-canal-treatment"],
+    leadDoctor: "roshini",
+    image: "/website-images/itero-invisalign-banner.jpg",
+    category: "Digital Technology",
+    lastUpdated: "2026-10-23",
   },
 ];
 

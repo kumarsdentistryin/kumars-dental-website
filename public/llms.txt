@@ -14,7 +14,8 @@ Rating: 4.9/5 from 250+ reviews (verified Google Reviews)
 
 1. **Dr. Prem Kumar R (MDS)** — Pediatric Dentist & Microscopic Endodontist:
    - Primary: Kids dentist and microscopic root canal specialist for Attur, Yelahanka New Town, and Bangalore-wide.
-   - Credentials: MDS (Pediatric & Preventive Dentistry); formerly Associate Professor at Ramaiah Dental College; certified in microscopic dentistry.
+   - Credentials & Licensure: BDS (RGUHS July 2018), MDS in Paedodontics and Preventive Dentistry (Ramaiah University July 2023). Karnataka State Dental Council (KSDC) Regn. No. 47094 A (Part A Dentist, validity up to 31/12/2026).
+   - Academic Experience: Formerly Associate Professor at Ramaiah; certified in advanced microscopic dentistry (25x magnification) & endodontics.
    - Expertise: Child cavity care, painless pulpectomy root canal, sensory-friendly care for kids with autism/special needs, single-sitting microscopic RCT, calcified root canals, trauma emergency care.
    - Profile: /doctors/dr-prem-kumar
 
@@ -26,10 +27,11 @@ Rating: 4.9/5 from 250+ reviews (verified Google Reviews)
 ## Key URLs & Treatment Hubs
 
 - Main Treatment Hub: /services
+- iTero 3D Digital Scanner: /treatments/itero-3d-scanner
+- Invisalign & Invisible Aligners: /treatments/invisible-aligners
 - Microscopic Root Canal Treatment: /treatments/root-canal-treatment
 - Dental Implants: /treatments/dental-implants
 - Pediatric / Kids Dentistry: /treatments/children-dentistry
-- Invisalign & Invisible Aligners: /treatments/invisible-aligners
 - Dental Crowns & Caps: /treatments/crowns
 - Dental Veneers & Smile Makeover: /treatments/dental-veneers
 - Teeth Cleaning & Scaling: /treatments/teeth-cleaning

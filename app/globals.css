@@ -58,6 +58,11 @@ body {
   to { opacity: 1; transform: scale(1); }
 }
 
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
 .animate-fadeIn {
   animation: fadeIn 0.25s ease-out;
 }
@@ -65,3 +70,14 @@ body {
 .animate-scaleIn {
   animation: scaleIn 0.25s ease-out;
 }
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+

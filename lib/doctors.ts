@@ -11,6 +11,8 @@ export type Doctor = {
   image: string;
   path: string;
   experienceYears: number;
+  kdcRegistration?: string;
+  council?: string;
   qualifications: string[];
   specializations: string[];
   focusAreas: string[];
@@ -32,9 +34,12 @@ export const doctors: Doctor[] = [
     image: "/website-images/dr-prem-kumar.jpg",
     path: "/doctors/dr-prem-kumar",
     experienceYears: 6,
+    kdcRegistration: "47094 A",
+    council: "Karnataka State Dental Council (KSDC / NDC)",
     qualifications: [
-      "BDS from RGUHS (Rajiv Gandhi University of Health Sciences)",
-      "MDS in Pediatric & Preventive Dentistry from Ramaiah Dental College",
+      "BDS from RGUHS (Rajiv Gandhi University of Health Sciences) - July 2018",
+      "MDS in Paedodontics and Preventive Dentistry from M S Ramaiah University of Applied Sciences, Bangalore - July 2023",
+      "Registered Dentist under Part A of Dentists Act 1948 (KSDC Regn No. 47094 A)",
       "Formerly Associate Professor at Ramaiah",
       "Certification in Advanced Endodontics (Root Canal Treatment)",
       "Certification in Microscopic Dentistry (25x magnification)",

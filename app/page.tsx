@@ -3,24 +3,26 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import SiteShell from "@/components/SiteShell";
 import JsonLd from "@/components/JsonLd";
+import LiveReviewMarquee from "@/components/LiveReviewMarquee";
 import { SITE, SITE_URL, whatsappBookingUrl } from "@/lib/site";
 import { treatments } from "@/lib/treatments";
 import { doctors } from "@/lib/doctors";
+import { locations } from "@/lib/locations";
 
 export const metadata: Metadata = {
-  title: "Best Dental Clinic in Bangalore | Kumar's Microscopic Dental Care | Yelahanka",
+  title: "Specialist Dental Clinic in Bangalore | Kumar's Microscopic Dental Care | Yelahanka",
   description:
-    "Top-rated dental clinic in Bangalore (Attur Main Road / Yelahanka New Town). Dr. Prem Kumar R for pediatric dentistry & painless microscopic RCT; Dr. RV Roshini for dental implants, crowns & smile design. Call +91 81972 80019.",
+    "Specialist dental clinic in Bangalore (Attur Main Road / Yelahanka New Town). Dr. Prem Kumar R (KSDC 47094 A) for pediatric dentistry & painless microscopic RCT; Dr. RV Roshini for dental implants, crowns & smile design. Call +91 81972 80019.",
   alternates: { canonical: SITE_URL },
 };
 
 const previewSlugs = [
+  "invisible-aligners",
   "children-dentistry",
   "root-canal-treatment",
   "crowns",
   "dental-implants",
   "microscopic-dentistry",
-  "smile-designing",
 ];
 
 export default function Home() {
@@ -136,6 +138,84 @@ export default function Home() {
         </div>
       </section>
 
+      {/* iTero 3D Intraoral Scanner & Invisalign Spotlight */}
+      <section className="py-16 px-4 bg-linear-to-br from-slate-900 via-blue-950 to-indigo-950 text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <div className="inline-flex items-center gap-2 bg-amber-400/20 text-amber-300 border border-amber-400/30 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-5">
+              <span>✨ New Technology at Kumar&apos;s Dental</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
+              Invisalign® with Advanced <span className="text-transparent bg-clip-text bg-linear-to-r from-amber-300 to-yellow-400">3D iTero® Scanning</span>
+            </h2>
+            <p className="text-lg text-slate-200 mb-6 leading-relaxed">
+              No messy impression trays. No gagging. Experience instant optical precision with our brand-new <strong>iTero® 3D Intraoral Scanner</strong>. In under 5 minutes, preview your predicted before-and-after smile transformation on screen before you even begin treatment.
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-4 mb-8">
+              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
+                <p className="font-bold text-amber-300 text-sm mb-1">⚡ Digital 3D Accuracy</p>
+                <p className="text-xs text-slate-300">6,000 optical frames/sec for pinpoint digital precision.</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
+                <p className="font-bold text-amber-300 text-sm mb-1">🎯 Instant Smile Simulation</p>
+                <p className="text-xs text-slate-300">See your simulated final smile outcome chairside instantly.</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
+                <p className="font-bold text-amber-300 text-sm mb-1">✨ 100% Removable &amp; Clear</p>
+                <p className="text-xs text-slate-300">Virtually invisible SmartTrack clear aligners for easy brushing.</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
+                <p className="font-bold text-amber-300 text-sm mb-1">💳 Flexible 0% EMI</p>
+                <p className="text-xs text-slate-300">Customized treatment plans with convenient monthly payment options.</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href={whatsappBookingUrl("Hi Kumar's Dental, I would like to book a 3D iTero Scan and Invisalign consultation.")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-amber-400 hover:bg-amber-300 text-slate-950 font-extrabold py-3.5 px-8 rounded-xl shadow-lg transition text-center text-base"
+              >
+                Book Your 3D Scan on WhatsApp →
+              </a>
+              <Link
+                href="/treatments/invisible-aligners"
+                className="border border-white/30 hover:bg-white/10 text-white font-semibold py-3.5 px-6 rounded-xl transition text-center text-base"
+              >
+                Learn About Invisalign
+              </Link>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="relative w-full aspect-4/3 rounded-2xl overflow-hidden shadow-2xl border border-white/20">
+              <Image
+                src="/website-images/itero-invisalign-banner.jpg"
+                alt="Invisalign with Advanced 3D iTero Scanning at Kumar's Microscopic Dental Care Yelahanka"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 600px"
+              />
+            </div>
+            <div className="absolute -bottom-6 -left-6 bg-white text-slate-900 p-4 rounded-xl shadow-2xl border border-gray-100 hidden sm:flex items-center gap-3 max-w-xs">
+              <div className="h-10 w-10 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center font-bold text-lg shrink-0">
+                3D
+              </div>
+              <div>
+                <p className="text-xs font-bold text-gray-900">iTero® Optical Technology</p>
+                <p className="text-[11px] text-gray-500">Live chairside outcome simulation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Auto-scrolling Patient Review Marquee */}
+      <LiveReviewMarquee />
+
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
@@ -156,6 +236,48 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local SEO & Neighborhood Footprint Hub */}
+      <section className="py-14 px-4 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <span className="text-xs font-bold uppercase tracking-wider text-red-600 bg-red-100 px-3 py-1 rounded-full">
+              📍 Serving North Bangalore
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-3">
+              Specialist Dental Care Near Your Neighborhood
+            </h2>
+            <p className="text-gray-600 text-sm max-w-2xl mx-auto mt-2">
+              Patients across Bangalore visit our Attur Main Road clinic in Yelahanka New Town for specialist pediatric dentistry, microscopic root canals, and iTero 3D Invisalign.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+            {locations.map((loc) => (
+              <Link
+                key={loc.slug}
+                href={`/locations/${loc.slug}`}
+                className="bg-white p-4 rounded-xl border border-gray-200/80 shadow-xs hover:border-red-600 hover:shadow-md transition group flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="font-bold text-gray-900 text-sm group-hover:text-red-700 transition">
+                      {loc.name}
+                    </span>
+                    <span className="text-gray-400 group-hover:text-red-600 text-xs">→</span>
+                  </div>
+                  <p className="text-[11px] text-gray-500 line-clamp-2 leading-relaxed">
+                    {loc.headline}
+                  </p>
+                </div>
+                <span className="text-[10px] font-semibold text-blue-600 mt-2 block">
+                  Pediatric &amp; RCT Hub
+                </span>
+              </Link>
             ))}
           </div>
         </div>

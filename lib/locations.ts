@@ -523,6 +523,174 @@ export const locations: LocationPage[] = [
     nearbySlugs: ["yelahanka", "attur", "jakkur", "sahakar-nagar"],
     lastUpdated: "2026-10-24",
   },
+  {
+    slug: "allalasandra",
+    name: "Allalasandra",
+    metaTitle: "Best Kids Dentist & Root Canal Specialist Allalasandra | Kumar's Dental",
+    metaDescription:
+      "Allalasandra & Allalasandra Lake families: top pediatric dentist Dr. Prem Kumar R (MDS Ramaiah alumni) & Dr. RV Roshini for microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Allalasandra & Yelahanka Gate: Specialist Pediatric & Microscopic Dental Care",
+    intro: [
+      "Allalasandra sits right at the entrance of Yelahanka New Town along Bellary Road, encompassing vibrant neighborhoods around Allalasandra Lake, judicial complexes, and modern apartment enclaves.",
+      "Kumar's Microscopic Dental Care on Attur Main Road is located just 3 to 5 minutes from Allalasandra. Led by Dr. Prem Kumar R (MDS Pediatric & Preventive Dentistry, formerly Associate Professor at Ramaiah) and Dr. RV Roshini (MDS Prosthodontist), our clinic delivers precision microscopic root canals, anxiety-free kids dentistry, and cutting-edge iTero 3D digital impressions.",
+    ],
+    travelNotes: [
+      "Short 3–5 Minute Drive: Allalasandra Lake / Flyover → Yelahanka New Town corridor straight onto Attur Main Road (No. 12, 1st Floor).",
+      "Immediate Proximity: The closest university-trained pediatric dental and microscopic endodontic specialist clinic to Allalasandra.",
+      "Open Mon–Sat until 9:00 PM and Sundays 10:00 AM–6:00 PM.",
+      "Instant Emergency Care: Urgent relief for acute toothaches or children's dental trauma via +91 81972 80019.",
+    ],
+    localHooks: [
+      "#1 Specialist dental destination for Allalasandra residents seeking MDS-level pediatric dentistry and precision root canals.",
+      "25x magnification dental operating microscope ensuring painless, single-sitting root canal treatment.",
+      "State-of-the-art iTero® 3D Intraoral Scanner: 5-minute digital smile simulation for Invisalign without putty trays.",
+      "Gentle child behavioral management (Tell-Show-Do) and sensory-friendly care for toddlers and young children.",
+      "CAD/CAM computer-milled monolithic zirconia crowns, cosmetic smile design, and dental implants by Dr. RV Roshini.",
+    ],
+    pediatricAngle:
+      "Allalasandra parents choose Dr. Prem Kumar R (MDS Pediatric Dentistry) for routine pediatric checkups, cavity prevention with fluoride sealants, painless milk tooth fillings, and pulpectomy in a warm, child-friendly environment.",
+    crownsAngle:
+      "Adults from Allalasandra needing durable metal-free zirconia crowns, fixed dental bridges, or Invisalign clear aligners consult Dr. RV Roshini (MDS Prosthodontist).",
+    faqs: [
+      {
+        question: "How close is Kumar's Dental to Allalasandra Lake?",
+        answer:
+          "Our clinic is located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town—only 1.8 km (about 3–5 minutes direct drive) from Allalasandra Lake and Allalasandra Flyover. Convenient parking is available.",
+      },
+      {
+        question: "Who is the best kids dentist near Allalasandra?",
+        answer:
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), is the leading pediatric specialist near Allalasandra, offering low-anxiety child dentistry, painless fillings, and pulpectomy.",
+      },
+      {
+        question: "Can I get an instant 3D digital scan for teeth alignment near Allalasandra?",
+        answer:
+          "Yes! We are equipped with the iTero® 3D Intraoral Scanner, allowing you to preview your straight teeth chairside in 5 minutes with zero gagging.",
+      },
+    ],
+    nearbySlugs: ["yelahanka", "attur", "judicial-layout", "sahakar-nagar"],
+    lastUpdated: "2026-10-24",
+  },
+  {
+    slug: "bagalur-cross",
+    name: "Bagalur Cross",
+    metaTitle: "Best Dentist near Bagalur Cross Yelahanka | Pediatric & Microscopic Care",
+    metaDescription:
+      "Bagalur Cross & Airport Road residents: top pediatric dentist Dr. Prem Kumar R & prosthodontist Dr. RV Roshini at Kumar's Dental. Painless microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Bagalur Cross & Airport Corridor: High-Precision Specialist Dental Clinic",
+    intro: [
+      "Bagalur Cross is a thriving hub connecting Yelahanka to the Bangalore International Airport Road, surrounding premier institutions like Ryan International, Mallya Aditi, and prominent residential complexes.",
+      "Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town is located just 6 to 8 minutes from Bagalur Cross, providing families and school communities with university-level pediatric dentistry and 25x microscopic dental surgery.",
+    ],
+    travelNotes: [
+      "Fast Direct Route: Bagalur Cross / NH 44 → Yelahanka New Town via Attur Main Road (approx. 6–8 minutes).",
+      "Close to major North Bangalore schools: Convenient for after-school child dental visits.",
+      "Hours: Monday–Saturday 10 AM–9 PM; Sunday 10 AM–6 PM.",
+    ],
+    localHooks: [
+      "Top choice for school parents searching 'pediatric dentist near Bagalur Cross' or 'kids dental clinic near me'.",
+      "Painless single-sitting root canals under 25x surgical microscope, preventing tooth loss.",
+      "iTero 3D digital impressions: instant simulated smile outcomes for Invisalign and ceramic crowns.",
+    ],
+    pediatricAngle:
+      "Parents from schools around Bagalur Cross bring their children to Dr. Prem Kumar R for comprehensive pediatric checkups, cavity prevention, gentle fillings, and sports dental injury management.",
+    crownsAngle:
+      "Executives and professionals near Bagalur Cross consult Dr. RV Roshini for metal-free zirconia crowns, full mouth rehabilitation, and dental implants.",
+    faqs: [
+      {
+        question: "How far is Kumar's Dental from Bagalur Cross?",
+        answer:
+          "Our clinic is located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town—just 3.5 km (a 6-8 minute drive) from Bagalur Cross.",
+      },
+      {
+        question: "Do you handle sports dental emergencies and broken teeth for school children?",
+        answer:
+          "Yes! We provide immediate emergency triage for playground falls, chipped milk teeth, and knocked-out permanent teeth. Call +91 81972 80019 for instant priority care.",
+      },
+    ],
+    nearbySlugs: ["yelahanka", "kogilu", "attur", "jakkur"],
+    lastUpdated: "2026-10-24",
+  },
+  {
+    slug: "kogilu",
+    name: "Kogilu",
+    metaTitle: "Best Kids Dentist & Root Canal Specialist Kogilu | Kumar's Dental",
+    metaDescription:
+      "Looking for a top pediatric dentist or microscopic root canal specialist near Kogilu & Kogilu Cross? Dr. Prem Kumar R & Dr. RV Roshini offer gentle kids dentistry, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
+    headline: "Kogilu & Kogilu Cross: Premier Pediatric & Microscopic Dentistry",
+    intro: [
+      "Kogilu is one of North Bangalore's fastest-expanding residential corridors, home to young tech families living in major apartment communities along Kogilu Main Road and Kogilu Cross.",
+      "Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town is located just 8 to 10 minutes from Kogilu, offering parents and working professionals direct access to MDS specialist care without traveling south into Bangalore traffic.",
+    ],
+    travelNotes: [
+      "Quick Direct Route: Kogilu Main Road → Yelahanka New Town bypass to Attur Main Road (approx. 8–10 minutes).",
+      "Dedicated parking available on arrival.",
+      "Late evening hours until 9:00 PM accommodate working parents after office commutes.",
+    ],
+    localHooks: [
+      "#1 Specialist alternative for Kogilu families searching 'best kids dentist near Kogilu' or 'dental clinic near Kogilu Cross'.",
+      "Operating microscope precision for painless single-visit root canal treatments.",
+      "iTero 3D digital impressions for Invisalign clear aligners without putty paste.",
+    ],
+    pediatricAngle:
+      "Kogilu parents trust Dr. Prem Kumar R (MDS Pediatric Dentistry) for early pediatric dental checkups, cavity prevention with fluoride sealants, and painless baby tooth restorations.",
+    crownsAngle:
+      "Kogilu tech professionals consult Dr. RV Roshini (MDS Prosthodontist) for custom-milled zirconia crowns, ceramic veneers, and permanent dental implants.",
+    faqs: [
+      {
+        question: "How do I reach Kumar's Dental from Kogilu Cross?",
+        answer:
+          "Take Kogilu Main Road toward Yelahanka New Town, connecting straight to Attur Main Road (No. 12, 1st Floor). Total journey is approximately 8–10 minutes.",
+      },
+      {
+        question: "Do you offer digital 3D scans for teeth alignment near Kogilu?",
+        answer:
+          "Yes! Our clinic is equipped with the iTero® 3D Intraoral Scanner for instant, gag-free 3D smile simulations.",
+      },
+    ],
+    nearbySlugs: ["bagalur-cross", "yelahanka", "thanisandra", "jakkur"],
+    lastUpdated: "2026-10-24",
+  },
+  {
+    slug: "rajanukunte",
+    name: "Rajanukunte",
+    metaTitle: "Best Dentist near Rajanukunte Bangalore | Pediatric & Microscopic Clinic",
+    metaDescription:
+      "Rajanukunte & Doddaballapur Road families: specialist pediatric dentist Dr. Prem Kumar R & prosthodontist Dr. RV Roshini at Kumar's Dental (Yelahanka). Painless microscopic RCT, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
+    headline: "Rajanukunte & Doddaballapur Corridor: Specialist Microscopic & Pediatric Dental Care",
+    intro: [
+      "Rajanukunte is a premier suburban and educational enclave on Doddaballapur Road, known for prestigious villa developments, Presidency University, and agricultural research campuses.",
+      "Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town is located just 12 to 14 minutes south of Rajanukunte, providing villa residents, faculty, and families with university-grade pediatric dentistry and 25x surgical microscopic root canals.",
+    ],
+    travelNotes: [
+      "Direct Route: State Highway 9 (Doddaballapur Main Road) south straight into Yelahanka New Town via Attur Main Road (approx. 12–14 minutes).",
+      "Avoid traveling into central Bangalore: Enjoy serene, high-tech specialist care with ample parking.",
+      "Weekend Appointments: Open Saturdays until 9:00 PM and Sundays from 10:00 AM to 6:00 PM.",
+    ],
+    localHooks: [
+      "Top specialist clinic for Rajanukunte villa residents seeking advanced dental microscopy and MDS prosthodontics.",
+      "Painless single-sitting root canal treatment saving severely decayed or cracked teeth.",
+      "iTero® 3D Intraoral Scanner: digital smile design for Invisalign without messy impressions.",
+    ],
+    pediatricAngle:
+      "Rajanukunte parents choose Dr. Prem Kumar R for gentle child dental checkups, cavity prevention with fluoride coatings, and stress-free milk tooth root canals (pulpectomy).",
+    crownsAngle:
+      "Villa owners and university professionals book Dr. RV Roshini for precision monolithic zirconia crowns, porcelain laminates, and dental implants.",
+    faqs: [
+      {
+        question: "How far is Kumar's Dental from Rajanukunte Railway Station / Junction?",
+        answer:
+          "Our clinic on Attur Main Road, Yelahanka New Town is approximately 8 km south of Rajanukunte via SH 9 (about a 12–14 minute direct drive).",
+      },
+      {
+        question: "Who is the specialist pediatric dentist for Rajanukunte families?",
+        answer:
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), provides comprehensive children's dentistry at our clinic.",
+      },
+    ],
+    nearbySlugs: ["singanayakanahalli", "doddaballapur-road", "yelahanka", "attur"],
+    lastUpdated: "2026-10-24",
+  },
 ];
 
 export function getLocation(slug: string): LocationPage | undefined {

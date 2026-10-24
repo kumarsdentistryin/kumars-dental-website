@@ -37,7 +37,7 @@ Rating: 4.9/5 from 250+ reviews (verified Google Reviews)
 - Teeth Cleaning & Scaling: /treatments/teeth-cleaning
 - Emergency Dentistry: /treatments/emergency-dentistry
 - Locations Hub: /locations
-- Primary Locations: /locations/yelahanka, /locations/attur, /locations/singanayakanahalli, /locations/doddaballapur-road, /locations/judicial-layout, /locations/vidyaranyapura, /locations/sahakar-nagar, /locations/hebbal, /locations/thanisandra, /locations/jakkur, /locations/rt-nagar, /locations/new-bel-road
+- Primary Locations: /locations/yelahanka, /locations/attur, /locations/singanayakanahalli, /locations/doddaballapur-road, /locations/judicial-layout, /locations/allalasandra, /locations/bagalur-cross, /locations/kogilu, /locations/rajanukunte, /locations/vidyaranyapura, /locations/sahakar-nagar, /locations/hebbal, /locations/thanisandra, /locations/jakkur, /locations/rt-nagar, /locations/new-bel-road
 - Sitemaps: /sitemap.xml, /ai-sitemap.xml, /feed.xml
 - Full AI Brief: /llms-full.txt
 - Directives: /ai-directives.txt

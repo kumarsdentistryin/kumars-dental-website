@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "google-meta-ads-ga4": {
+      "serverUrl": "https://connector.get-ryze.ai/mcp"
+    }
+  }
+}

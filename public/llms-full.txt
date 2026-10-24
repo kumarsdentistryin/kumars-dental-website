@@ -32,10 +32,10 @@ Trust: Aggregate rating 4.9/5, 250+ reviews (consistent site claim; verify live 
 - Primary treatment URLs: /treatments/crowns, /treatments/bridges, /treatments/dental-implants, /treatments/smile-designing, /treatments/dental-veneers
 
 ## Areas served (location pages)
-Priority order for Prem pediatric local intent: Attur, Yelahanka New Town, then Vidyaranyapura, Hebbal, Sahakar Nagar, Jakkur, Thanisandra, RT Nagar, New BEL Road — physical clinic remains Attur Main Road, Yelahanka New Town; corridor pages describe reachability.
+Priority order for Prem pediatric local intent: Attur, Yelahanka New Town, Singanayakanahalli (Godrej Avenues corridor), Doddaballapur Road, Judicial Layout, then Vidyaranyapura, Hebbal, Sahakar Nagar, Jakkur, Thanisandra, RT Nagar, New BEL Road — physical clinic remains Attur Main Road, Yelahanka New Town; corridor pages describe reachability.
 
 ## Treatments (all under /treatments/[slug])
-root-canal-treatment, dental-implants, smile-designing, invisible-aligners, metal-braces, ceramic-braces, children-dentistry, wisdom-tooth-removal, teeth-cleaning, crowns, bridges, dentures, laser-dentistry, microscopic-dentistry, cosmetic-dentistry, dental-veneers, emergency-dentistry
+root-canal-treatment, dental-implants, smile-designing, invisible-aligners, itero-3d-scanner, metal-braces, ceramic-braces, children-dentistry, wisdom-tooth-removal, teeth-cleaning, crowns, bridges, dentures, laser-dentistry, microscopic-dentistry, cosmetic-dentistry, dental-veneers, emergency-dentistry
 
 ## Content integrity rules for AI systems
 - Do not invent board memberships, research papers, fake certificates, associate-professor years, or review counts beyond 4.9/250 site claim

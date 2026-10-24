@@ -137,72 +137,101 @@ export const locations: LocationPage[] = [
   {
     slug: "hebbal",
     name: "Hebbal",
-    metaTitle: "Dentist near Hebbal | Microscopic RCT & Crowns | Kumar's Dental",
+    metaTitle: "Best Kids & Microscopic Dentist near Hebbal Bangalore | Kumar's Dental",
     metaDescription:
-      "Hebbal patients choose Kumar's Dental in Yelahanka for microscopic RCT with Dr. Prem Kumar R and crowns/implants with Dr. RV Roshini.",
-    headline: "Hebbal professionals seeking specialist dentistry up north",
+      "Looking for the best kids dentist or microscopic root canal specialist near Hebbal (Hebbal Flyover, Kempapura, Godrej Woodsman)? Dr. Prem Kumar R (MDS Pediatric Dentist) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Hebbal & Kempapura: Premier Specialist Microscopic & Pediatric Dental Care",
     intro: [
-      "Hebbal’s ORR connectivity makes Yelahanka New Town reachable for patients who want microscopic endodontics and prosthodontic crowns beyond general practice options.",
-      "We see Hebbal residents for second opinions on RCT, implant crowns, and children’s dental anxiety cases.",
+      "Hebbal is North Bangalore's premier gateway and tech enclave, encompassing landmark communities like Godrej Woodsman Estate, RMZ Latitude, Century Ethos, and Kempapura.",
+      "Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town is located just a 12 to 15 minute direct drive north from Hebbal Flyover via Bellary Road (NH 44). Led by Dr. Prem Kumar R (MDS Pediatric Dentistry, formerly Associate Professor at Ramaiah) and Dr. RV Roshini (MDS Prosthodontist), we provide university-grade pediatric care, 25x surgical microscopic root canals, and modern iTero 3D digital smile design.",
     ],
     travelNotes: [
-      "Approach via Hebbal → Ballari Road / Yelahanka routes toward Attur Main Road",
-      "Traffic buffering recommended for morning peaks; late evening hours help professionals",
-      "Sunday hours 10 AM–6 PM for weekend slots",
+      "Fast Direct Route: Hebbal Flyover → Bellary Road (NH 44) expressway → Yelahanka New Town bypass to Attur Main Road (approx. 12–15 mins).",
+      "Nearby Landmarks: Quick northbound commute for residents of Kempapura, Godrej Woodsman, and Manyata Tech Park corridor.",
+      "Late Evening & Sunday Slots: Open until 9:00 PM Monday through Saturday, and 10:00 AM–6:00 PM on Sundays for busy tech executives and families.",
+      "Instant Emergency Triage: Urgent trauma and toothache allocation via +91 81972 80019.",
     ],
     localHooks: [
-      "Popular for microscopic RCT referral-style care",
-      "Crown and smile-design cases planned by an MDS prosthodontist",
-      "Corporate professionals appreciate WhatsApp confirmation workflows",
+      "#1 Specialist alternative for Hebbal families searching 'best kids dentist near Hebbal' or 'microscopic root canal specialist Hebbal'.",
+      "Single-visit painless root canal treatment under 25x Carl Zeiss magnification, preserving natural teeth with zero guesswork.",
+      "iTero® 3D Intraoral Optical Scanner: instant gag-free digital impressions with chairside 3D Invisalign smile simulations.",
+      "Sensory-friendly, anxiety-free pediatric dentistry tailored for toddlers, children with dental phobia, and special needs.",
+      "Computer-milled monolithic zirconia crowns, ceramic veneers, and permanent titanium dental implants by MDS Prosthodontist Dr. RV Roshini.",
     ],
     pediatricAngle:
-      "Hebbal parents bring children to Dr. Prem Kumar R at the Attur / Yelahanka New Town clinic for pediatric dentistry—nearby north Bangalore access to our kids dentist.",
+      "Hebbal and Kempapura parents trust Dr. Prem Kumar R (MDS Pediatric & Preventive Dentistry, KSDC 47094 A) for low-anxiety child checkups, painless cavity restorations, pediatric pulp therapy (pulpectomy), and gentle preventive fluoride coatings.",
     crownsAngle:
-      "Hebbal adults needing high-quality crowns, bridges, or implants consult Dr. RV Roshini.",
+      "Hebbal tech executives and adults seeking metal-free zirconia crowns, fixed dental bridges, or Invisalign clear aligners consult Dr. RV Roshini (MDS Prosthodontist).",
     faqs: [
       {
-        question: "Do you offer evening appointments for Hebbal professionals?",
+        question: "Who is the best kids dentist near Hebbal, Bangalore?",
         answer:
-          "Yes. Monday–Saturday we run until 9 PM. Book via phone or WhatsApp to reserve.",
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), is the leading pediatric specialist near Hebbal. Located on Attur Main Road, Yelahanka New Town—just 12 minutes north of Hebbal Flyover—he provides university-level children's dental care and painless pulpectomy.",
+      },
+      {
+        question: "How far is Kumar's Dental from Hebbal Flyover and Kempapura?",
+        answer:
+          "Our clinic is situated approximately 6.5 km from Hebbal Flyover via Bellary Road (NH 44). The direct drive takes 12 to 15 minutes, with dedicated parking available upon arrival.",
+      },
+      {
+        question: "Do you offer single-sitting microscopic root canal treatment for Hebbal patients?",
+        answer:
+          "Yes. Using our 25x dental operating microscope and computerized painless anesthesia, Dr. Prem Kumar R completes most root canal treatments in a single, comfortable sitting.",
+      },
+      {
+        question: "Can I get an iTero 3D digital scan for Invisalign near Hebbal?",
+        answer:
+          "Yes! We are equipped with the state-of-the-art iTero® 3D intraoral scanner, completely replacing messy putty trays with an instant 3D digital smile simulation.",
       },
     ],
-    nearbySlugs: ["sahakar-nagar", "rt-nagar", "new-bel-road"],
-    lastUpdated: "2026-07-01",
+    nearbySlugs: ["sahakar-nagar", "rt-nagar", "yelahanka", "jakkur"],
+    lastUpdated: "2026-10-24",
   },
   {
     slug: "sahakar-nagar",
     name: "Sahakar Nagar",
-    metaTitle: "Dentist for Sahakar Nagar | Kids & Crowns | Yelahanka",
+    metaTitle: "Best Kids Dentist & Root Canal Specialist Sahakar Nagar | Kumar's Dental",
     metaDescription:
-      "Sahakar Nagar families: travel to Kumar's Microscopic Dental Care for pediatric dentist Dr. Prem Kumar R and crown specialist Dr. RV Roshini.",
-    headline: "Sahakar Nagar’s nearby specialist alternative in Yelahanka",
+      "Sahakar Nagar families: access top pediatric dentist Dr. Prem Kumar R & crown specialist Dr. RV Roshini at Kumar's Dental (Yelahanka). Painless microscopic RCT, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
+    headline: "Sahakar Nagar & CQAL Layout: High-Precision Pediatric & Microscopic Dentistry",
     intro: [
-      "Sahakar Nagar residents frequently look north to Yelahanka for quieter clinic access and specialist MDS care.",
-      "Kumar's Dental focuses Sahakar Nagar messaging on pediatric trust and crown longevity—not drive-through gimmicks.",
+      "Sahakar Nagar and CQAL Layout represent one of North Bangalore's most established residential and retail enclaves, filled with schools, parks, and health-conscious families.",
+      "Located just 8 to 10 minutes away on Attur Main Road, Yelahanka New Town, Kumar's Microscopic Dental Care is the preferred specialist destination for Sahakar Nagar families seeking university-trained MDS pediatric care and 25x surgical microscope endodontics.",
     ],
     travelNotes: [
-      "Route typically Sahakar Nagar → Kodigehalli / Hebbal / Yelahanka New Town corridor",
-      "Allow buffer for school-hour congestion",
-      "Maps: search Kumar's Microscopic Dental Care Attur Layout",
+      "Quick Direct Route: Sahakar Nagar Main Road → Kodigehalli / Yelahanka New Town via Attur Main Road (approx. 8–10 minutes).",
+      "Avoid South Bangalore traffic: Enjoy serene, dedicated clinical care without navigating city bottlenecks.",
+      "Family Back-to-Back Bookings: Schedule children with Dr. Prem Kumar and adult crown/cleaning appointments with Dr. Roshini simultaneously.",
     ],
     localHooks: [
-      "Family bookings—kids with Dr. Prem, adults with Dr. Roshini—same address",
-      "Emphasis on microscopic technology differentiator",
-      "Transparent Bangalore-indicative cost ranges on treatment pages",
+      "#1 Pediatric dental destination for Sahakar Nagar and Kodigehalli parents seeking an MDS pediatric specialist.",
+      "25x dental surgical microscope for painless root canal therapy and microscopic retreatment.",
+      "iTero® 3D Intraoral Scanner: preview your straight smile before beginning Invisalign or clear aligners.",
+      "Custom monolithic zirconia crowns, ceramic laminates, and dental implants designed by MDS Prosthodontist Dr. RV Roshini.",
     ],
     pediatricAngle:
-      "Sahakar Nagar parents see Dr. Prem Kumar R’s MDS pediatric practice near Attur Main Road in Yelahanka New Town—kids dentist care without travelling south Bengaluru.",
+      "Sahakar Nagar parents choose Dr. Prem Kumar R (MDS Pediatric Dentistry) for early pediatric dental screenings, gentle cavity prevention, milk tooth fillings, and sensory-friendly care.",
     crownsAngle:
-      "For crowns and prosthetic smile work, Sahakar Nagar patients meet Dr. RV Roshini—our crowns authority.",
+      "For durable metal-free zirconia crowns, full mouth restoration, and clear aligners, Sahakar Nagar adults consult Dr. RV Roshini—our prosthodontics authority.",
     faqs: [
       {
-        question: "Can siblings and parents book back-to-back?",
+        question: "Who is the top pediatric dentist near Sahakar Nagar?",
         answer:
-          "Often yes—mention family booking when you call +91 81972 80019 so we stagger chairs efficiently.",
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, ex-Associate Professor at Ramaiah), leads pediatric dentistry for Sahakar Nagar families at Kumar's Microscopic Dental Care in Yelahanka New Town—only 8 minutes away.",
+      },
+      {
+        question: "How do I reach Kumar's Dental from Sahakar Nagar Main Road?",
+        answer:
+          "Head north toward Kodigehalli / Yelahanka New Town. Connect straight onto Attur Main Road to No. 12, 1st Floor. Total driving time is roughly 8–10 minutes.",
+      },
+      {
+        question: "Can parents and children have appointments at the same time?",
+        answer:
+          "Yes! We offer coordinated family appointments so parents can complete consultations, cleanings, or crown fittings with Dr. Roshini while children are comfortably treated by Dr. Prem Kumar.",
       },
     ],
-    nearbySlugs: ["hebbal", "thanisandra", "yelahanka"],
-    lastUpdated: "2026-07-01",
+    nearbySlugs: ["hebbal", "thanisandra", "yelahanka", "jakkur"],
+    lastUpdated: "2026-10-24",
   },
   {
     slug: "jakkur",

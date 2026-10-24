@@ -355,6 +355,145 @@ export const locations: LocationPage[] = [
     nearbySlugs: ["vidyaranyapura", "rt-nagar", "yelahanka"],
     lastUpdated: "2026-07-01",
   },
+  {
+    slug: "singanayakanahalli",
+    name: "Singanayakanahalli",
+    metaTitle:
+      "Best Kids Dentist near Singanayakanahalli Bangalore | Pediatric Dental Clinic | Kumar's Dental",
+    metaDescription:
+      "Looking for the best kids dentist or pediatric dental clinic near Singanayakanahalli (Doddaballapur Road & Godrej Avenues)? Dr. Prem Kumar R (MDS Pediatric Dentist, Ramaiah ex-Associate Professor) & Dr. RV Roshini for microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Singanayakanahalli & Godrej Avenues: Specialist Kids Dentist & Microscopic Dental Care",
+    intro: [
+      "Singanayakanahalli is a rapidly growing northern residential corridor situated on Doddaballapur Road right adjacent to Yelahanka, home to prominent communities like Godrej Avenues, Sree Sai Layout, and lush gated enclaves.",
+      "Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town is located just 7 to 10 minutes from Singanayakanahalli and Godrej Avenues. Led by Dr. Prem Kumar R (MDS Pediatric & Preventive Dentistry, formerly Associate Professor at Ramaiah Dental College) and Dr. RV Roshini (MDS Prosthodontist), our clinic delivers university-level pediatric dentistry, 25x microscopic root canals, and modern iTero 3D digital smile design.",
+    ],
+    travelNotes: [
+      "Quick Route: Doddaballapur Main Road / Sree Sai Layout → Yelahanka New Town bypass via Attur Main Road (approx. 7–10 minutes direct drive).",
+      "Nearby Landmarks: Just 4 km from Godrej Avenues and Singanayakanahalli Lake junction.",
+      "Flexible Hours: Open Monday to Saturday from 10:00 AM to 9:00 PM, and Sundays from 10:00 AM to 6:00 PM.",
+      "Emergency Pediatric Triage: Fast-track care for playground falls, chipped milk teeth, or midnight toothaches via +91 81972 80019.",
+    ],
+    localHooks: [
+      "#1 Specialist alternative for families searching 'best kids dentist in Singanayakanahalli Bangalore' or 'pediatric dental clinic near Godrej Avenues'.",
+      "Painless single-sitting root canal treatment under 25x surgical microscope, preserving natural teeth without multiple stressful visits.",
+      "State-of-the-art iTero® 3D Intraoral Optical Scanner: instant zero-mess digital teeth impressions and chairside before-and-after Invisalign outcome simulations.",
+      "Sensory-friendly, anxiety-free pediatric dentistry using positive behavioral guidance (Tell-Show-Do) designed specifically for toddlers, school kids, and children with sensory sensitivities.",
+      "Complete aesthetic restorations: monolithic zirconia crowns, porcelain laminates, and dental implants by MDS Prosthodontist Dr. RV Roshini.",
+    ],
+    pediatricAngle:
+      "Parents in Singanayakanahalli and Godrej Avenues choose Dr. Prem Kumar R (MDS Pediatric & Preventive Dentistry, KSDC 47094 A) for child dental checkups, cavity prevention with fluoride sealants, painless baby tooth fillings, and pulpectomy (kids root canal) in a gentle, warm environment.",
+    crownsAngle:
+      "Working adults and residents near Singanayakanahalli seeking precision dental crowns, bridges, dental implants, or Invisalign clear aligners consult Dr. RV Roshini (MDS Prosthodontist) for custom computer-milled restorations.",
+    faqs: [
+      {
+        question: "Who is the best kids dentist near Singanayakanahalli Bangalore?",
+        answer:
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry), formerly Associate Professor at M.S. Ramaiah Dental College, is one of Bangalore's top pediatric dental specialists. He leads Kumar's Microscopic Dental Care, located on Attur Main Road, Yelahanka New Town—just 7 to 10 minutes from Singanayakanahalli and Godrej Avenues.",
+      },
+      {
+        question: "How far is Kumar's Microscopic Dental Care from Godrej Avenues Singanayakanahalli?",
+        answer:
+          "Our clinic is situated just 4.2 km (an easy 7-10 minute drive) from Godrej Avenues and Singanayakanahalli via Doddaballapur Main Road and Attur Main Road in Yelahanka New Town. Dedicated parking is available.",
+      },
+      {
+        question: "Do you treat children who are scared or anxious about visiting the dentist?",
+        answer:
+          "Yes. Dr. Prem Kumar R specializes in child behavioral management and gentle pediatric care. We use the 'Tell-Show-Do' technique, pleasant distraction, painless numbing gels, and a fear-free clinic setup so your child feels completely safe and relaxed.",
+      },
+      {
+        question: "Do you have the iTero 3D digital scanner for Invisalign near Singanayakanahalli?",
+        answer:
+          "Yes! We are equipped with the advanced iTero® 3D intraoral scanner. Instead of messy, uncomfortable putty impression trays, we scan your teeth digitally in 5 minutes and generate an instant 3D chairside preview of your straightened smile.",
+      },
+      {
+        question: "Are emergency pediatric dental services available for Singanayakanahalli families?",
+        answer:
+          "Yes. For acute toothaches, playground trauma, or knocked-out baby/permanent teeth, parents can call or WhatsApp +91 81972 80019 immediately for instant priority triage and same-day emergency relief.",
+      },
+    ],
+    nearbySlugs: ["yelahanka", "attur", "jakkur", "doddaballapur-road"],
+    lastUpdated: "2026-10-24",
+  },
+  {
+    slug: "doddaballapur-road",
+    name: "Doddaballapur Road",
+    metaTitle: "Pediatric & Microscopic Dentist Doddaballapur Road | Kumar's Dental",
+    metaDescription:
+      "Premier dental clinic serving Doddaballapur Road, Rajanukunte & North Bangalore. Specialist pediatric dentist Dr. Prem Kumar R & prosthodontist Dr. RV Roshini. Call +91 81972 80019.",
+    headline: "Doddaballapur Road corridor: Advanced Microscopic & Pediatric Dental Care",
+    intro: [
+      "The Doddaballapur Road corridor connects North Bangalore's vibrant educational and residential hubs—spanning Rajanukunte, Presidency University, BMSIT, Century Eden, and premier villa enclaves—straight to Yelahanka New Town.",
+      "Kumar's Microscopic Dental Care on Attur Main Road provides residents and university families along Doddaballapur Road with direct access to specialist MDS dentistry, avoiding long trips into South Bengaluru.",
+    ],
+    travelNotes: [
+      "Direct Drive: Doddaballapur Main Road heading south into Yelahanka New Town via Attur Main Road (approx. 10–15 minutes from Rajanukunte / BMSIT).",
+      "Convenient parking available on arrival.",
+      "Late hours until 9:00 PM Mon–Sat accommodate professionals and parents after work.",
+    ],
+    localHooks: [
+      "Specialist kids dentist and pediatric trauma center for North Bangalore schools along Doddaballapur Road.",
+      "Magnification-assisted microscopic root canal treatment (RCT) saving severely infected natural teeth.",
+      "iTero 3D digital impressions and clear aligner consultations for college students and executives.",
+    ],
+    pediatricAngle:
+      "Families along Doddaballapur Road choose Dr. Prem Kumar R for comprehensive kids dentistry, painless preventive care, and pediatric tooth alignment.",
+    crownsAngle:
+      "College faculty, executives, and residents book Dr. RV Roshini for metal-free zirconia crowns, full mouth rehabilitation, and dental implants.",
+    faqs: [
+      {
+        question: "How do I reach the clinic from Presidency University / Rajanukunte on Doddaballapur Road?",
+        answer:
+          "Follow SH 9 (Doddaballapur Main Road) south straight into Yelahanka New Town. Take Attur Main Road to No. 12, 1st Floor. The total journey takes about 10–12 minutes.",
+      },
+      {
+        question: "Are emergency appointments available for students and kids?",
+        answer:
+          "Yes. Call +91 81972 80019 or WhatsApp us directly for priority emergency care for sports injuries, tooth fractures, or sudden pain.",
+      },
+    ],
+    nearbySlugs: ["singanayakanahalli", "yelahanka", "attur"],
+    lastUpdated: "2026-10-24",
+  },
+  {
+    slug: "judicial-layout",
+    name: "Judicial Layout",
+    metaTitle: "Best Dentist near Judicial Layout Yelahanka | Pediatric & Microscopic Dental Clinic",
+    metaDescription:
+      "Top-rated dental clinic serving Judicial Layout, GKVK & Allalasandra. Dr. Prem Kumar R (MDS Pediatric Dentist) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Judicial Layout & GKVK: High-Precision Specialist Dental Care",
+    intro: [
+      "Judicial Layout is one of North Bangalore's premier, serene residential layouts adjacent to GKVK and Yelahanka, home to judges, senior advocates, government officers, and discerning families.",
+      "Kumar's Microscopic Dental Care on Attur Main Road is situated just 5 to 7 minutes from Judicial Layout, offering precision dental microscopy and university-level specialist pediatric and prosthetic dental care.",
+    ],
+    travelNotes: [
+      "Route: Judicial Layout Main Road → Allalasandra / Attur Main Road corridor (under 7 minutes).",
+      "Spacious, calm clinic environment with sterilized surgical operatory.",
+      "Appointments can be scheduled online or via WhatsApp +91 81972 80019.",
+    ],
+    localHooks: [
+      "Preferred specialist dental destination for Judicial Layout families requiring meticulous, unhurried care.",
+      "Operating microscope precision for painless single-visit root canal treatments.",
+      "iTero 3D intraoral scanner for discreet Invisalign aligners without putty trays.",
+    ],
+    pediatricAngle:
+      "Judicial Layout parents trust Dr. Prem Kumar R (MDS Pediatric Dentistry) for early pediatric dental screenings, cavity prevention, and gentle care for toddlers and young children.",
+    crownsAngle:
+      "Adults from Judicial Layout consult Dr. RV Roshini (MDS Prosthodontist) for precision-fit zirconia crowns, smile makeovers, and dental implants.",
+    faqs: [
+      {
+        question: "How close is Kumar's Dental to Judicial Layout?",
+        answer:
+          "We are located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town—less than 3 km (about 5-7 minutes) from Judicial Layout and GKVK.",
+      },
+      {
+        question: "Do you offer digital 3D scans for teeth alignment?",
+        answer:
+          "Yes, we use the state-of-the-art iTero® 3D Intraoral Scanner to capture full digital scans and simulate your smile transformation chairside.",
+      },
+    ],
+    nearbySlugs: ["yelahanka", "attur", "jakkur", "sahakar-nagar"],
+    lastUpdated: "2026-10-24",
+  },
 ];
 
 export function getLocation(slug: string): LocationPage | undefined {

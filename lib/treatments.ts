@@ -578,6 +578,14 @@ export const treatments: Treatment[] = [
       "child tooth extraction",
       "pulpectomy for kids",
       "holistic pediatric dentist near me",
+      "best kids dentist in singanayakanahalli bangalore",
+      "kids dentist singanayakanahalli",
+      "pediatric dentist godrej avenues",
+      "best pediatric dentist in yelahanka",
+      "kids dentist doddaballapur road",
+      "best pediatric dentist bangalore",
+      "child dental clinic yelahanka new town",
+      "painless root canal for kids bangalore",
     ],
     heroSubtitle:
       "Specialist pediatric dental care in Bangalore & Yelahanka New Town—led by Dr. Prem Kumar R (MDS Pediatric Dentistry, KSDC 47094 A).",
@@ -633,6 +641,11 @@ export const treatments: Treatment[] = [
           "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry), formerly Associate Professor at Ramaiah Dental College, personally oversees all children's dental care, preventive sealants, and pediatric treatments.",
       },
       {
+        question: "Who is the best kids dentist in Singanayakanahalli and Yelahanka, Bangalore?",
+        answer:
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College) at Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town. Located just 7–10 minutes from Singanayakanahalli, Godrej Avenues, and Doddaballapur Road, Dr. Prem Kumar R provides university-level pediatric dentistry, painless pulpectomy, and positive behavioral management for infants, toddlers, and children.",
+      },
+      {
         question: "Do you treat children with autism, ADHD, or special needs?",
         answer:
           "Yes. Dr. Prem Kumar R is deeply experienced in compassionate, sensory-friendly pediatric dentistry for children with autism spectrum disorder, ADHD, and special healthcare needs, using quiet pacing, desensitization, and individualized care.",
@@ -651,6 +664,11 @@ export const treatments: Treatment[] = [
         question: "What is a painless cavity filling for children?",
         answer:
           "We use gentle, non-invasive techniques, flavored topical numbing gels, and tooth-colored composite or glass ionomer fillings that release cavity-protecting fluoride into the tooth.",
+      },
+      {
+        question: "Where is the clinic located relative to Singanayakanahalli & Godrej Avenues?",
+        answer:
+          "Our clinic is at No.12, 1st Floor, Attur Main Road, Yelahanka New Town (Bangalore 560064)—only 4.2 km from Singanayakanahalli and Godrej Avenues. Direct parking is available.",
       },
     ],
     relatedSlugs: ["teeth-cleaning", "root-canal-treatment", "emergency-dentistry"],

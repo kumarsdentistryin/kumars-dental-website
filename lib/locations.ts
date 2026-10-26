@@ -73,7 +73,7 @@ export const locations: LocationPage[] = [
       "Clinic address: No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore 560064",
       "Easy access from Yelahanka New Town main roads and local bus corridors",
       "Parking discussion on arrival—call ahead during peak evenings",
-      "Hours: Mon–Sat 10 AM–9 PM; Sun 10 AM–6 PM",
+      "Hours: Mon–Sat 10:00 AM – 9:00 PM and Sun 10:00 AM – 6:00 PM",
     ],
     localHooks: [
       "Primary local entity for “pediatric dentist Yelahanka New Town”",
@@ -86,7 +86,7 @@ export const locations: LocationPage[] = [
       "Adults in Yelahanka seeking durable dental crowns, bridges, or smile design work consult Dr. RV Roshini, MDS Prosthodontist—our crown and prosthetic authority.",
     faqs: [
       {
-        question: "Where is the best place to park when visiting from Yelahanka New Town?",
+        question: "Where can I park when visiting from Yelahanka New Town?",
         answer:
           "Street and nearby parking vary by time of day. Call +91 81972 80019 before your visit for current guidance.",
       },
@@ -137,10 +137,10 @@ export const locations: LocationPage[] = [
   {
     slug: "hebbal",
     name: "Hebbal",
-    metaTitle: "Best Kids & Microscopic Dentist near Hebbal Bangalore | Kumar's Dental",
+    metaTitle: "Kids & Microscopic Dental Clinic near Hebbal Bangalore | Kumar's Dental",
     metaDescription:
-      "Looking for the best kids dentist or microscopic root canal specialist near Hebbal (Hebbal Flyover, Kempapura, Godrej Woodsman)? Dr. Prem Kumar R (MDS Pediatric Dentist) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
-    headline: "Hebbal & Kempapura: Premier Specialist Microscopic & Pediatric Dental Care",
+      "Looking for an experienced kids dentist or microscopic root canal specialist near Hebbal (Hebbal Flyover, Kempapura, Godrej Woodsman)? Dr. Prem Kumar R (MDS Pediatric Dentist) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
+    headline: "Hebbal & Kempapura: Specialist Microscopic & Pediatric Dental Care",
     intro: [
       "Hebbal is North Bangalore's premier gateway and tech enclave, encompassing landmark communities like Godrej Woodsman Estate, RMZ Latitude, Century Ethos, and Kempapura.",
       "Kumar's Microscopic Dental Care on Attur Main Road, Yelahanka New Town is located just a 12 to 15 minute direct drive north from Hebbal Flyover via Bellary Road (NH 44). Led by Dr. Prem Kumar R (MDS Pediatric Dentistry, formerly Associate Professor at Ramaiah) and Dr. RV Roshini (MDS Prosthodontist), we provide university-grade pediatric care, 25x surgical microscopic root canals, and modern iTero 3D digital smile design.",
@@ -148,13 +148,13 @@ export const locations: LocationPage[] = [
     travelNotes: [
       "Fast Direct Route: Hebbal Flyover → Bellary Road (NH 44) expressway → Yelahanka New Town bypass to Attur Main Road (approx. 12–15 mins).",
       "Nearby Landmarks: Quick northbound commute for residents of Kempapura, Godrej Woodsman, and Manyata Tech Park corridor.",
-      "Late Evening & Sunday Slots: Open until 9:00 PM Monday through Saturday, and 10:00 AM–6:00 PM on Sundays for busy tech executives and families.",
+      "Late Evening & Sunday Slots: Open Mon–Sat 10:00 AM – 9:00 PM and Sun 10:00 AM – 6:00 PM for busy tech executives and families.",
       "Instant Emergency Triage: Urgent trauma and toothache allocation via +91 81972 80019.",
     ],
     localHooks: [
-      "#1 Specialist alternative for Hebbal families searching 'best kids dentist near Hebbal' or 'microscopic root canal specialist Hebbal'.",
-      "Single-visit painless root canal treatment under 25x Carl Zeiss magnification, preserving natural teeth with zero guesswork.",
-      "iTero® 3D Intraoral Optical Scanner: instant gag-free digital impressions with chairside 3D Invisalign smile simulations.",
+      "Specialist dental clinic for Hebbal families seeking pediatric dental care or microscopic root canal therapy.",
+      "Single-visit painless root canal treatment under 25x Carl Zeiss magnification, preserving natural teeth with precision.",
+      "iTero® 3D Intraoral Optical Scanner: comfortable, impression-free scanning with digital preview of your planned smile.",
       "Sensory-friendly, anxiety-free pediatric dentistry tailored for toddlers, children with dental phobia, and special needs.",
       "Computer-milled monolithic zirconia crowns, ceramic veneers, and permanent titanium dental implants by MDS Prosthodontist Dr. RV Roshini.",
     ],
@@ -164,9 +164,9 @@ export const locations: LocationPage[] = [
       "Hebbal tech executives and adults seeking metal-free zirconia crowns, fixed dental bridges, or Invisalign clear aligners consult Dr. RV Roshini (MDS Prosthodontist).",
     faqs: [
       {
-        question: "Who is the best kids dentist near Hebbal, Bangalore?",
+        question: "Who is an experienced kids dentist near Hebbal, Bangalore?",
         answer:
-          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), is the leading pediatric specialist near Hebbal. Located on Attur Main Road, Yelahanka New Town—just 12 minutes north of Hebbal Flyover—he provides university-level children's dental care and painless pulpectomy.",
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), is an experienced pediatric specialist near Hebbal. Located on Attur Main Road, Yelahanka New Town—just 12 minutes north of Hebbal Flyover—he provides university-level children's dental care and painless pulpectomy.",
       },
       {
         question: "How far is Kumar's Dental from Hebbal Flyover and Kempapura?",
@@ -181,7 +181,7 @@ export const locations: LocationPage[] = [
       {
         question: "Can I get an iTero 3D digital scan for Invisalign near Hebbal?",
         answer:
-          "Yes! We are equipped with the state-of-the-art iTero® 3D intraoral scanner, completely replacing messy putty trays with an instant 3D digital smile simulation.",
+          "Yes! We are equipped with the state-of-the-art iTero® 3D intraoral scanner, completely replacing messy putty trays with a comfortable, impression-free digital preview of your planned smile.",
       },
     ],
     nearbySlugs: ["sahakar-nagar", "rt-nagar", "yelahanka", "jakkur"],
@@ -190,9 +190,9 @@ export const locations: LocationPage[] = [
   {
     slug: "sahakar-nagar",
     name: "Sahakar Nagar",
-    metaTitle: "Best Kids Dentist & Root Canal Specialist Sahakar Nagar | Kumar's Dental",
+    metaTitle: "Kids Dentist & Root Canal Specialist Sahakar Nagar | Kumar's Dental",
     metaDescription:
-      "Sahakar Nagar families: access top pediatric dentist Dr. Prem Kumar R & crown specialist Dr. RV Roshini at Kumar's Dental (Yelahanka). Painless microscopic RCT, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
+      "Sahakar Nagar families: access experienced pediatric dentist Dr. Prem Kumar R & crown specialist Dr. RV Roshini at Kumar's Dental (Yelahanka). Painless microscopic RCT, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
     headline: "Sahakar Nagar & CQAL Layout: High-Precision Pediatric & Microscopic Dentistry",
     intro: [
       "Sahakar Nagar and CQAL Layout represent one of North Bangalore's most established residential and retail enclaves, filled with schools, parks, and health-conscious families.",
@@ -204,7 +204,7 @@ export const locations: LocationPage[] = [
       "Family Back-to-Back Bookings: Schedule children with Dr. Prem Kumar and adult crown/cleaning appointments with Dr. Roshini simultaneously.",
     ],
     localHooks: [
-      "#1 Pediatric dental destination for Sahakar Nagar and Kodigehalli parents seeking an MDS pediatric specialist.",
+      "Specialist pediatric dental destination for Sahakar Nagar and Kodigehalli parents seeking an MDS pediatric specialist.",
       "25x dental surgical microscope for painless root canal therapy and microscopic retreatment.",
       "iTero® 3D Intraoral Scanner: preview your straight smile before beginning Invisalign or clear aligners.",
       "Custom monolithic zirconia crowns, ceramic laminates, and dental implants designed by MDS Prosthodontist Dr. RV Roshini.",
@@ -215,7 +215,7 @@ export const locations: LocationPage[] = [
       "For durable metal-free zirconia crowns, full mouth restoration, and clear aligners, Sahakar Nagar adults consult Dr. RV Roshini—our prosthodontics authority.",
     faqs: [
       {
-        question: "Who is the top pediatric dentist near Sahakar Nagar?",
+        question: "Who is an experienced pediatric dentist near Sahakar Nagar?",
         answer:
           "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, ex-Associate Professor at Ramaiah), leads pediatric dentistry for Sahakar Nagar families at Kumar's Microscopic Dental Care in Yelahanka New Town—only 8 minutes away.",
       },
@@ -327,7 +327,7 @@ export const locations: LocationPage[] = [
     ],
     travelNotes: [
       "Typical routes via Hebbal or BEL Road toward Yelahanka New Town",
-      "Best with appointment confirmation to avoid wait after travel",
+      "Prior appointment confirmation recommended to avoid wait after travel",
       "Consider combining consult + records in one visit",
     ],
     localHooks: [
@@ -388,9 +388,9 @@ export const locations: LocationPage[] = [
     slug: "singanayakanahalli",
     name: "Singanayakanahalli",
     metaTitle:
-      "Best Kids Dentist near Singanayakanahalli Bangalore | Pediatric Dental Clinic | Kumar's Dental",
+      "Kids Dentist near Singanayakanahalli Bangalore | Pediatric Dental Clinic | Kumar's Dental",
     metaDescription:
-      "Looking for the best kids dentist or pediatric dental clinic near Singanayakanahalli (Doddaballapur Road & Godrej Avenues)? Dr. Prem Kumar R (MDS Pediatric Dentist, Ramaiah ex-Associate Professor) & Dr. RV Roshini for microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
+      "Looking for an experienced kids dentist or pediatric dental clinic near Singanayakanahalli (Doddaballapur Road & Godrej Avenues)? Dr. Prem Kumar R (MDS Pediatric Dentist, Ramaiah ex-Associate Professor) & Dr. RV Roshini for microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
     headline: "Singanayakanahalli & Godrej Avenues: Specialist Kids Dentist & Microscopic Dental Care",
     intro: [
       "Singanayakanahalli is a rapidly growing northern residential corridor situated on Doddaballapur Road right adjacent to Yelahanka, home to prominent communities like Godrej Avenues, Sree Sai Layout, and lush gated enclaves.",
@@ -399,13 +399,13 @@ export const locations: LocationPage[] = [
     travelNotes: [
       "Quick Route: Doddaballapur Main Road / Sree Sai Layout → Yelahanka New Town bypass via Attur Main Road (approx. 7–10 minutes direct drive).",
       "Nearby Landmarks: Just 4 km from Godrej Avenues and Singanayakanahalli Lake junction.",
-      "Flexible Hours: Open Monday to Saturday from 10:00 AM to 9:00 PM, and Sundays from 10:00 AM to 6:00 PM.",
+      "Hours: Mon–Sat 10:00 AM – 9:00 PM and Sun 10:00 AM – 6:00 PM.",
       "Emergency Pediatric Triage: Fast-track care for playground falls, chipped milk teeth, or midnight toothaches via +91 81972 80019.",
     ],
     localHooks: [
-      "#1 Specialist alternative for families searching 'best kids dentist in Singanayakanahalli Bangalore' or 'pediatric dental clinic near Godrej Avenues'.",
+      "Specialist alternative for families searching pediatric dentist in Singanayakanahalli Bangalore or pediatric dental clinic near Godrej Avenues.",
       "Painless single-sitting root canal treatment under 25x surgical microscope, preserving natural teeth without multiple stressful visits.",
-      "State-of-the-art iTero® 3D Intraoral Optical Scanner: instant zero-mess digital teeth impressions and chairside before-and-after Invisalign outcome simulations.",
+      "State-of-the-art iTero® 3D Intraoral Optical Scanner: comfortable, impression-free scanning with digital preview of your planned smile.",
       "Sensory-friendly, anxiety-free pediatric dentistry using positive behavioral guidance (Tell-Show-Do) designed specifically for toddlers, school kids, and children with sensory sensitivities.",
       "Complete aesthetic restorations: monolithic zirconia crowns, porcelain laminates, and dental implants by MDS Prosthodontist Dr. RV Roshini.",
     ],
@@ -415,9 +415,9 @@ export const locations: LocationPage[] = [
       "Working adults and residents near Singanayakanahalli seeking precision dental crowns, bridges, dental implants, or Invisalign clear aligners consult Dr. RV Roshini (MDS Prosthodontist) for custom computer-milled restorations.",
     faqs: [
       {
-        question: "Who is the best kids dentist near Singanayakanahalli Bangalore?",
+        question: "Who is an experienced kids dentist near Singanayakanahalli Bangalore?",
         answer:
-          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry), formerly Associate Professor at M.S. Ramaiah Dental College, is one of Bangalore's top pediatric dental specialists. He leads Kumar's Microscopic Dental Care, located on Attur Main Road, Yelahanka New Town—just 7 to 10 minutes from Singanayakanahalli and Godrej Avenues.",
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry), formerly Associate Professor at M.S. Ramaiah Dental College, is an experienced pediatric dental specialist. He leads Kumar's Microscopic Dental Care, located on Attur Main Road, Yelahanka New Town—just 7 to 10 minutes from Singanayakanahalli and Godrej Avenues.",
       },
       {
         question: "How far is Kumar's Microscopic Dental Care from Godrej Avenues Singanayakanahalli?",
@@ -486,9 +486,9 @@ export const locations: LocationPage[] = [
   {
     slug: "judicial-layout",
     name: "Judicial Layout",
-    metaTitle: "Best Dentist near Judicial Layout Yelahanka | Pediatric & Microscopic Dental Clinic",
+    metaTitle: "Dentist near Judicial Layout Yelahanka | Pediatric & Microscopic Dental Clinic",
     metaDescription:
-      "Top-rated dental clinic serving Judicial Layout, GKVK & Allalasandra. Dr. Prem Kumar R (MDS Pediatric Dentist) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
+      "Specialist dental clinic serving Judicial Layout, GKVK & Allalasandra. Dr. Prem Kumar R (MDS Pediatric Dentist) & Dr. RV Roshini for crowns, implants & iTero 3D Invisalign. Call +91 81972 80019.",
     headline: "Judicial Layout & GKVK: High-Precision Specialist Dental Care",
     intro: [
       "Judicial Layout is one of North Bangalore's premier, serene residential layouts adjacent to GKVK and Yelahanka, home to judges, senior advocates, government officers, and discerning families.",
@@ -517,7 +517,7 @@ export const locations: LocationPage[] = [
       {
         question: "Do you offer digital 3D scans for teeth alignment?",
         answer:
-          "Yes, we use the state-of-the-art iTero® 3D Intraoral Scanner to capture full digital scans and simulate your smile transformation chairside.",
+          "Yes, we use the state-of-the-art iTero® 3D Intraoral Scanner to capture full digital scans and provide a digital preview of your planned smile chairside.",
       },
     ],
     nearbySlugs: ["yelahanka", "attur", "jakkur", "sahakar-nagar"],
@@ -526,9 +526,9 @@ export const locations: LocationPage[] = [
   {
     slug: "allalasandra",
     name: "Allalasandra",
-    metaTitle: "Best Kids Dentist & Root Canal Specialist Allalasandra | Kumar's Dental",
+    metaTitle: "Kids Dentist & Root Canal Specialist Allalasandra | Kumar's Dental",
     metaDescription:
-      "Allalasandra & Allalasandra Lake families: top pediatric dentist Dr. Prem Kumar R (MDS Ramaiah alumni) & Dr. RV Roshini for microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
+      "Allalasandra & Allalasandra Lake families: experienced pediatric dentist Dr. Prem Kumar R (MDS Ramaiah alumni) & Dr. RV Roshini for microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
     headline: "Allalasandra & Yelahanka Gate: Specialist Pediatric & Microscopic Dental Care",
     intro: [
       "Allalasandra sits right at the entrance of Yelahanka New Town along Bellary Road, encompassing vibrant neighborhoods around Allalasandra Lake, judicial complexes, and modern apartment enclaves.",
@@ -537,13 +537,13 @@ export const locations: LocationPage[] = [
     travelNotes: [
       "Short 3–5 Minute Drive: Allalasandra Lake / Flyover → Yelahanka New Town corridor straight onto Attur Main Road (No. 12, 1st Floor).",
       "Immediate Proximity: The closest university-trained pediatric dental and microscopic endodontic specialist clinic to Allalasandra.",
-      "Open Mon–Sat until 9:00 PM and Sundays 10:00 AM–6:00 PM.",
+      "Hours: Mon–Sat 10:00 AM – 9:00 PM and Sun 10:00 AM – 6:00 PM.",
       "Instant Emergency Care: Urgent relief for acute toothaches or children's dental trauma via +91 81972 80019.",
     ],
     localHooks: [
-      "#1 Specialist dental destination for Allalasandra residents seeking MDS-level pediatric dentistry and precision root canals.",
+      "Specialist dental destination for Allalasandra residents seeking MDS-level pediatric dentistry and precision root canals.",
       "25x magnification dental operating microscope ensuring painless, single-sitting root canal treatment.",
-      "State-of-the-art iTero® 3D Intraoral Scanner: 5-minute digital smile simulation for Invisalign without putty trays.",
+      "State-of-the-art iTero® 3D Intraoral Scanner: comfortable, impression-free scanning with digital preview of your planned smile.",
       "Gentle child behavioral management (Tell-Show-Do) and sensory-friendly care for toddlers and young children.",
       "CAD/CAM computer-milled monolithic zirconia crowns, cosmetic smile design, and dental implants by Dr. RV Roshini.",
     ],
@@ -558,14 +558,14 @@ export const locations: LocationPage[] = [
           "Our clinic is located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town—only 1.8 km (about 3–5 minutes direct drive) from Allalasandra Lake and Allalasandra Flyover. Convenient parking is available.",
       },
       {
-        question: "Who is the best kids dentist near Allalasandra?",
+        question: "Who is an experienced kids dentist near Allalasandra?",
         answer:
-          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), is the leading pediatric specialist near Allalasandra, offering low-anxiety child dentistry, painless fillings, and pulpectomy.",
+          "Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry, formerly Associate Professor at M.S. Ramaiah Dental College), is an experienced pediatric specialist near Allalasandra, offering low-anxiety child dentistry, painless fillings, and pulpectomy.",
       },
       {
         question: "Can I get an instant 3D digital scan for teeth alignment near Allalasandra?",
         answer:
-          "Yes! We are equipped with the iTero® 3D Intraoral Scanner, allowing you to preview your straight teeth chairside in 5 minutes with zero gagging.",
+          "Yes! We are equipped with the iTero® 3D Intraoral Scanner, allowing you to preview your planned smile chairside with comfortable, impression-free scanning.",
       },
     ],
     nearbySlugs: ["yelahanka", "attur", "judicial-layout", "sahakar-nagar"],
@@ -574,9 +574,9 @@ export const locations: LocationPage[] = [
   {
     slug: "bagalur-cross",
     name: "Bagalur Cross",
-    metaTitle: "Best Dentist near Bagalur Cross Yelahanka | Pediatric & Microscopic Care",
+    metaTitle: "Dentist near Bagalur Cross Yelahanka | Pediatric & Microscopic Care",
     metaDescription:
-      "Bagalur Cross & Airport Road residents: top pediatric dentist Dr. Prem Kumar R & prosthodontist Dr. RV Roshini at Kumar's Dental. Painless microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
+      "Bagalur Cross & Airport Road residents: experienced pediatric dentist Dr. Prem Kumar R & prosthodontist Dr. RV Roshini at Kumar's Dental. Painless microscopic RCT, zirconia crowns & iTero 3D Invisalign. Call +91 81972 80019.",
     headline: "Bagalur Cross & Airport Corridor: High-Precision Specialist Dental Clinic",
     intro: [
       "Bagalur Cross is a thriving hub connecting Yelahanka to the Bangalore International Airport Road, surrounding premier institutions like Ryan International, Mallya Aditi, and prominent residential complexes.",
@@ -585,12 +585,12 @@ export const locations: LocationPage[] = [
     travelNotes: [
       "Fast Direct Route: Bagalur Cross / NH 44 → Yelahanka New Town via Attur Main Road (approx. 6–8 minutes).",
       "Close to major North Bangalore schools: Convenient for after-school child dental visits.",
-      "Hours: Monday–Saturday 10 AM–9 PM; Sunday 10 AM–6 PM.",
+      "Hours: Mon–Sat 10:00 AM – 9:00 PM and Sun 10:00 AM – 6:00 PM.",
     ],
     localHooks: [
-      "Top choice for school parents searching 'pediatric dentist near Bagalur Cross' or 'kids dental clinic near me'.",
+      "Trusted choice for school parents searching 'pediatric dentist near Bagalur Cross' or 'kids dental clinic near me'.",
       "Painless single-sitting root canals under 25x surgical microscope, preventing tooth loss.",
-      "iTero 3D digital impressions: instant simulated smile outcomes for Invisalign and ceramic crowns.",
+      "iTero 3D digital impressions: digital preview of your planned smile for Invisalign and ceramic crowns.",
     ],
     pediatricAngle:
       "Parents from schools around Bagalur Cross bring their children to Dr. Prem Kumar R for comprehensive pediatric checkups, cavity prevention, gentle fillings, and sports dental injury management.",
@@ -614,9 +614,9 @@ export const locations: LocationPage[] = [
   {
     slug: "kogilu",
     name: "Kogilu",
-    metaTitle: "Best Kids Dentist & Root Canal Specialist Kogilu | Kumar's Dental",
+    metaTitle: "Kids Dentist & Root Canal Specialist Kogilu | Kumar's Dental",
     metaDescription:
-      "Looking for a top pediatric dentist or microscopic root canal specialist near Kogilu & Kogilu Cross? Dr. Prem Kumar R & Dr. RV Roshini offer gentle kids dentistry, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
+      "Looking for an experienced pediatric dentist or microscopic root canal specialist near Kogilu & Kogilu Cross? Dr. Prem Kumar R & Dr. RV Roshini offer gentle kids dentistry, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
     headline: "Kogilu & Kogilu Cross: Premier Pediatric & Microscopic Dentistry",
     intro: [
       "Kogilu is one of North Bangalore's fastest-expanding residential corridors, home to young tech families living in major apartment communities along Kogilu Main Road and Kogilu Cross.",
@@ -628,7 +628,7 @@ export const locations: LocationPage[] = [
       "Late evening hours until 9:00 PM accommodate working parents after office commutes.",
     ],
     localHooks: [
-      "#1 Specialist alternative for Kogilu families searching 'best kids dentist near Kogilu' or 'dental clinic near Kogilu Cross'.",
+      "Specialist alternative for Kogilu families seeking pediatric dentistry and root canal care.",
       "Operating microscope precision for painless single-visit root canal treatments.",
       "iTero 3D digital impressions for Invisalign clear aligners without putty paste.",
     ],
@@ -645,7 +645,7 @@ export const locations: LocationPage[] = [
       {
         question: "Do you offer digital 3D scans for teeth alignment near Kogilu?",
         answer:
-          "Yes! Our clinic is equipped with the iTero® 3D Intraoral Scanner for instant, gag-free 3D smile simulations.",
+          "Yes! Our clinic is equipped with the iTero® 3D Intraoral Scanner for comfortable, impression-free scanning with digital preview of your planned smile.",
       },
     ],
     nearbySlugs: ["bagalur-cross", "yelahanka", "thanisandra", "jakkur"],
@@ -654,7 +654,7 @@ export const locations: LocationPage[] = [
   {
     slug: "rajanukunte",
     name: "Rajanukunte",
-    metaTitle: "Best Dentist near Rajanukunte Bangalore | Pediatric & Microscopic Clinic",
+    metaTitle: "Dentist near Rajanukunte Bangalore | Pediatric & Microscopic Clinic",
     metaDescription:
       "Rajanukunte & Doddaballapur Road families: specialist pediatric dentist Dr. Prem Kumar R & prosthodontist Dr. RV Roshini at Kumar's Dental (Yelahanka). Painless microscopic RCT, zirconia crowns & iTero 3D scans. Call +91 81972 80019.",
     headline: "Rajanukunte & Doddaballapur Corridor: Specialist Microscopic & Pediatric Dental Care",
@@ -665,12 +665,12 @@ export const locations: LocationPage[] = [
     travelNotes: [
       "Direct Route: State Highway 9 (Doddaballapur Main Road) south straight into Yelahanka New Town via Attur Main Road (approx. 12–14 minutes).",
       "Avoid traveling into central Bangalore: Enjoy serene, high-tech specialist care with ample parking.",
-      "Weekend Appointments: Open Saturdays until 9:00 PM and Sundays from 10:00 AM to 6:00 PM.",
+      "Hours: Mon–Sat 10:00 AM – 9:00 PM and Sun 10:00 AM – 6:00 PM.",
     ],
     localHooks: [
-      "Top specialist clinic for Rajanukunte villa residents seeking advanced dental microscopy and MDS prosthodontics.",
+      "Specialist clinic for Rajanukunte villa residents seeking advanced dental microscopy and MDS prosthodontics.",
       "Painless single-sitting root canal treatment saving severely decayed or cracked teeth.",
-      "iTero® 3D Intraoral Scanner: digital smile design for Invisalign without messy impressions.",
+      "iTero® 3D Intraoral Scanner: digital preview of your planned smile for Invisalign without messy impressions.",
     ],
     pediatricAngle:
       "Rajanukunte parents choose Dr. Prem Kumar R for gentle child dental checkups, cavity prevention with fluoride coatings, and stress-free milk tooth root canals (pulpectomy).",

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Analytics from "../components/Analytics";
 import ChatbotWidget from "../components/ChatbotWidget";
+import StickyCtas from "../components/StickyCtas";
 import JsonLd from "../components/JsonLd";
 import { SITE, SITE_URL } from "../lib/site";
 import { organizationSchema, websiteSchema } from "../lib/schema";
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   keywords: [
     "dental clinic near me",
-    "best dentist in Bangalore",
+    "specialist dentist in Bangalore",
     "pediatric dentist Bangalore",
     "kids dentist Yelahanka New Town",
     "microscopic root canal Bangalore",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Dr. Prem Kumar R - Kumar's Microscopic Dental Care" }],
   openGraph: {
-    title: `${SITE.name} | Best Dental Clinic in Bangalore (Yelahanka)`,
+    title: `${SITE.name} | Specialist Dental Clinic in Bangalore (Yelahanka)`,
     description:
       "Specialist Pediatric Dentistry & Microscopic RCT (Dr. Prem Kumar R) · Dental Implants, Crowns & Smile Design (Dr. RV Roshini). Rated 4.9/5 from 250+ reviews.",
     url: SITE_URL,
@@ -107,7 +108,7 @@ export default function RootLayout({
       <head>
         <JsonLd data={[organizationSchema(), websiteSchema()]} />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased pb-20 md:pb-0`}>
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-100 focus:bg-white focus:text-red-700 focus:px-4 focus:py-2 focus:rounded"
@@ -128,6 +129,7 @@ export default function RootLayout({
           </noscript>
         )}
         <ChatbotWidget />
+        <StickyCtas />
       </body>
     </html>
   );

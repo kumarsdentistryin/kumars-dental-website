@@ -27,8 +27,8 @@ const knowledgeBase = [
   },
   {
     triggers: ['invisalign', 'aligner', 'aligners', 'itero', 'scanner', '3d scan', 'straighten', 'braces', 'invisible'],
-    answer: "We have the latest iTero® 3D Intraoral Scanner! In under 5 minutes, it captures a high-definition 3D digital model of your teeth (zero messy impression trays or gagging) and displays your predicted before & after smile transformation chairside instantly.",
-    action: { text: "Book Free 3D Aligner Scan", href: whatsappBookingUrl("Hi, I want to book an iTero 3D Scan and Invisalign consultation.") },
+    answer: "We have the latest iTero® 3D Intraoral Scanner! In under 5 minutes, it captures a high-definition 3D digital model of your teeth with comfortable, impression-free scanning and displays a digital preview of your planned smile chairside.",
+    action: { text: "Book 3D Aligner Scan", href: whatsappBookingUrl("Hi, I want to book an iTero 3D Scan and Invisalign consultation.") },
   },
   {
     triggers: ['crown', 'crowns', 'cap', 'zirconia', 'ceramic', 'implant', 'implants', 'bridge', 'roshini'],
@@ -37,7 +37,7 @@ const knowledgeBase = [
   },
   {
     triggers: ['cost', 'price', 'fee', 'charge', 'rate', 'how much'],
-    answer: "Our pricing is transparent and conforms to Bangalore standards: Microscopic RCT starts from ~₹4,000; Zirconia crowns from ~₹7,000; Pediatric treatments from ~₹1,000; Clear aligners with 0% EMI options. Exact fees are confirmed after direct clinical exam.",
+    answer: "Our pricing is transparent and conforms to Bangalore standards: Microscopic RCT starts from ~₹4,000; Zirconia crowns from ~₹7,000; Pediatric treatments from ~₹1,000; Clear aligners with structured monthly payment options. Exact fees are confirmed after direct clinical exam.",
     action: { text: "Get Cost Estimate on WhatsApp", href: whatsappBookingUrl("Hi, could you share the fee details for a dental procedure?") },
   },
   {
@@ -47,7 +47,7 @@ const knowledgeBase = [
   },
   {
     triggers: ['location', 'where', 'address', 'directions', 'yelahanka', 'attur', 'parking'],
-    answer: `We are located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore 560064. Free street and nearby parking is available.`,
+    answer: `We are located at No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bangalore 560064. Street and nearby parking is available.`,
     action: { text: "Open Google Maps", href: SITE.mapsUrl },
   },
 ];
@@ -134,14 +134,14 @@ export default function ChatbotWidget() {
   return (
     <>
       {/* High-Contrast Floating Action Dock */}
-      <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
-        {/* WhatsApp Direct Hook */}
+      <div className="fixed bottom-18 right-4 sm:bottom-6 sm:right-6 z-50 flex items-center gap-3">
+        {/* WhatsApp Direct Hook (Desktop only - mobile has sticky bottom bar) */}
         <a
           href={whatsappBookingUrl()}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackWhatsAppClick()}
-          className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-3 rounded-full shadow-2xl flex items-center gap-2 text-sm transition-all duration-200 hover:scale-105 active:scale-95 border border-emerald-400/40 cursor-pointer"
+          className="hidden sm:flex bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-3 rounded-full shadow-2xl items-center gap-2 text-sm transition-all duration-200 hover:scale-105 active:scale-95 border border-emerald-400/40 cursor-pointer"
           aria-label="Chat on WhatsApp"
         >
           <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">

@@ -176,10 +176,10 @@ export const blogPosts: BlogPost[] = [
     readMinutes: 5,
     authorName: "Kumar's Dental Editorial",
     reviewerName: "Dr. Prem Kumar R",
-    image: "/website-images/dr-prem-kumar.jpg",
+    image: "/website-images/dr-prem-kumar.webp",
     keywords: [
       "Dr Prem Kumar pediatric dentist Bangalore",
-      "best kids dentist Yelahanka",
+      "pediatric dentist Yelahanka",
     ],
     sections: [
       {
@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Start with the tooth, not the trend",
         paragraphs: [
-          "Social media often crowns zirconia as ‘best’ universally. Clinically, Dr. RV Roshini matches material to bite force, aesthetic zone, opposing dentition, and remaining tooth structure.",
+          "Social media often describes zirconia as universally superior. Clinically, Dr. RV Roshini matches material to bite force, aesthetic zone, opposing dentition, and remaining tooth structure.",
         ],
       },
       {

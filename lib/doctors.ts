@@ -31,7 +31,7 @@ export const doctors: Doctor[] = [
     name: "Dr. Prem Kumar R",
     shortName: "Dr. Prem Kumar",
     credentials: "MDS Pediatric & Preventive Dentist",
-    image: "/website-images/dr-prem-kumar.jpg",
+    image: "/website-images/dr-prem-kumar.webp",
     path: "/doctors/dr-prem-kumar",
     experienceYears: 6,
     kdcRegistration: "47094 A",
@@ -86,7 +86,7 @@ export const doctors: Doctor[] = [
     name: "Dr. RV Roshini",
     shortName: "Dr. RV Roshini",
     credentials: "MDS Prosthodontist & Implant Specialist",
-    image: "/website-images/dr-roshini.jpg",
+    image: "/website-images/dr-roshini.webp",
     path: "/doctors/dr-rv-roshini",
     experienceYears: 6,
     qualifications: [

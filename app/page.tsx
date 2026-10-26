@@ -112,7 +112,8 @@ export default function Home() {
                       alt={t.shortName}
                       fill
                       className="rounded-lg object-cover"
-                      sizes="300px"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 360px"
+                      loading="lazy"
                     />
                   </div>
                   <h3 className="text-xl font-bold text-blue-700 mb-2">{t.shortName}</h3>
@@ -149,7 +150,7 @@ export default function Home() {
               Invisalign® with Advanced <span className="text-transparent bg-clip-text bg-linear-to-r from-amber-300 to-yellow-400">3D iTero® Scanning</span>
             </h2>
             <p className="text-lg text-slate-200 mb-6 leading-relaxed">
-              No messy impression trays. No gagging. Experience instant optical precision with our brand-new <strong>iTero® 3D Intraoral Scanner</strong>. In under 5 minutes, preview your predicted before-and-after smile transformation on screen before you even begin treatment.
+              No messy impression trays. Comfortable, impression-free scanning. Experience instant optical precision with our <strong>iTero® 3D Intraoral Scanner</strong>. In under 5 minutes, see a high-precision digital preview of your planned smile on screen before you begin treatment.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -158,15 +159,15 @@ export default function Home() {
                 <p className="text-xs text-slate-300">6,000 optical frames/sec for pinpoint digital precision.</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
-                <p className="font-bold text-amber-300 text-sm mb-1">🎯 Instant Smile Simulation</p>
-                <p className="text-xs text-slate-300">See your simulated final smile outcome chairside instantly.</p>
+                <p className="font-bold text-amber-300 text-sm mb-1">🎯 Digital Smile Preview</p>
+                <p className="text-xs text-slate-300">See a digital preview of your planned smile chairside.</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
-                <p className="font-bold text-amber-300 text-sm mb-1">✨ 100% Removable &amp; Clear</p>
+                <p className="font-bold text-amber-300 text-sm mb-1">✨ Removable &amp; Clear</p>
                 <p className="text-xs text-slate-300">Virtually invisible SmartTrack clear aligners for easy brushing.</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15">
-                <p className="font-bold text-amber-300 text-sm mb-1">💳 Flexible 0% EMI</p>
+                <p className="font-bold text-amber-300 text-sm mb-1">💳 Flexible Payment Options</p>
                 <p className="text-xs text-slate-300">Customized treatment plans with convenient monthly payment options.</p>
               </div>
             </div>
@@ -192,11 +193,12 @@ export default function Home() {
           <div className="relative">
             <div className="relative w-full aspect-4/3 rounded-2xl overflow-hidden shadow-2xl border border-white/20">
               <Image
-                src="/website-images/itero-invisalign-banner.jpg"
+                src="/website-images/itero-invisalign-banner.webp"
                 alt="Invisalign with Advanced 3D iTero Scanning at Kumar's Microscopic Dental Care Yelahanka"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 600px"
+                loading="lazy"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white text-slate-900 p-4 rounded-xl shadow-2xl border border-gray-100 hidden sm:flex items-center gap-3 max-w-xs">
@@ -205,7 +207,7 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-xs font-bold text-gray-900">iTero® Optical Technology</p>
-                <p className="text-[11px] text-gray-500">Live chairside outcome simulation</p>
+                <p className="text-[11px] text-gray-500">Digital preview of your planned smile</p>
               </div>
             </div>
           </div>
@@ -225,7 +227,14 @@ export default function Home() {
             {doctors.map((d) => (
               <div key={d.slug} className="border border-gray-200 rounded-lg overflow-hidden">
                 <div className="relative w-full h-72 bg-gray-50">
-                  <Image src={d.image} alt={d.name} fill className="object-contain" sizes="400px" />
+                  <Image
+                    src={d.image}
+                    alt={d.name}
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 768px) 100vw, 400px"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-red-700 mb-1">{d.name}</h3>

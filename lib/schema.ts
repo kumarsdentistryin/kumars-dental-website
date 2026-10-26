@@ -124,7 +124,7 @@ export function organizationSchema() {
       "Invisalign and Clear Aligners Bangalore",
       "Zirconia Dental Crowns Bangalore",
       "Kids Dentist Yelahanka New Town",
-      "Best Kids Dentist in Singanayakanahalli Bangalore",
+      "Pediatric Dentist Singanayakanahalli Bangalore",
       "Pediatric Dental Clinic Godrej Avenues",
       "Kids Dentist Doddaballapur Road",
       "Laser Teeth Whitening Bangalore",

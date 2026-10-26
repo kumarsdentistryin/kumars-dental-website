@@ -33,7 +33,7 @@ const reviews: Review[] = [
     location: 'Jakkur',
     treatment: 'Invisalign & 3D Scan',
     rating: 5,
-    comment: 'The iTero 3D scanner took 5 minutes to simulate my complete smile transformation on screen. Absolutely zero impression paste or gagging. Highly recommend Dr. Roshini!',
+    comment: 'The iTero 3D scanner took 5 minutes to create a digital preview of my planned smile on screen. Comfortable, impression-free scanning without messy paste. Highly recommend Dr. Roshini!',
     date: '3 weeks ago',
   },
   {

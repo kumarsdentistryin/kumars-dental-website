@@ -11,7 +11,7 @@ export const patientReviews: ReviewItem[] = [
     author: "Anoop R.",
     rating: 5,
     date: "2026-05-15",
-    body: "Dr. Prem was incredible with my 5-year-old. My son was so anxious about his first cleaning, but Dr. Prem's gentle explanation of every tool made him feel completely safe. Best kids dentist in Yelahanka!",
+    body: "Dr. Prem was incredible with my 5-year-old. My son was so anxious about his first cleaning, but Dr. Prem's gentle explanation of every tool made him feel completely safe. Wonderful kids dentist in Yelahanka!",
     category: "pediatric",
   },
   {
@@ -46,7 +46,7 @@ export const patientReviews: ReviewItem[] = [
     author: "Meera J.",
     rating: 5,
     date: "2026-07-10",
-    body: "Best children's dentist in Attur Layout. Dr. Prem Kumar makes dental visits fun for kids. The staff is polite and booking via WhatsApp was seamless.",
+    body: "Wonderful children's dentist in Attur Layout. Dr. Prem Kumar makes dental visits fun for kids. The staff is polite and booking via WhatsApp was seamless.",
     category: "pediatric",
   },
 ];

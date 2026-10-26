@@ -4,7 +4,6 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import StickyCtas from "@/components/StickyCtas";
 import { treatments } from "@/lib/treatments";
 import { blogPosts } from "@/lib/blog/posts";
 import { locations } from "@/lib/locations";
@@ -103,7 +102,6 @@ export default function SearchPage() {
         </ul>
       </main>
       <Footer />
-      <StickyCtas />
     </div>
   );
 }

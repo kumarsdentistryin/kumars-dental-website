@@ -1,10 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import StickyCtas from "@/components/StickyCtas";
 
 export default function SiteShell({
   children,
-  hideSticky = false,
 }: {
   children: React.ReactNode;
   hideSticky?: boolean;
@@ -14,7 +12,6 @@ export default function SiteShell({
       <Header />
       <main id="main-content">{children}</main>
       <Footer />
-      {!hideSticky && <StickyCtas />}
     </div>
   );
 }

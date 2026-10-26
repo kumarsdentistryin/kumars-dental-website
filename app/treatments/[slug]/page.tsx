@@ -116,7 +116,7 @@ export default async function TreatmentPage({ params }: Props) {
               alt={treatment.name}
               fill
               className="object-cover object-center"
-              sizes="(max-width: 1024px) 100vw, 750px"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 750px"
               priority
             />
           </div>
@@ -239,7 +239,8 @@ export default async function TreatmentPage({ params }: Props) {
                 alt={doctor.name}
                 fill
                 className="object-contain"
-                sizes="280px"
+                sizes="(max-width: 1024px) 100vw, 280px"
+                loading="lazy"
               />
             </div>
             <h3 className="font-bold text-lg text-red-700">{doctor.name}</h3>

@@ -167,7 +167,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "dr-prem-kumar-pediatric-dentist-bangalore",
-    title: "Dr. Prem Kumar R: Pediatric Dentistry Authority in Bangalore",
+    title: "Dr. Prem Kumar R: MDS Pediatric & Preventive Dentistry in Bangalore",
     excerpt:
       "Credentials, clinical focus, and how families across Yelahanka and North Bangalore access specialist kids’ dental care.",
     category: "Children Dentistry",
@@ -185,7 +185,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Who is Dr. Prem Kumar R?",
         paragraphs: [
-          "Dr. Prem Kumar R is an MDS Pediatric & Preventive Dentist at Kumar's Microscopic Dental Care, No.12, 1st Floor, Attur Main Road, Yelahanka New Town. He is the primary kids dentist for Attur Layout and Yelahanka New Town, with corridor reach across North Bangalore and Bangalore-wide pediatric + microscopic RCT authority.",
+          "Dr. Prem Kumar R is an MDS Pediatric & Preventive Dentist at Kumar's Microscopic Dental Care, No.12, 1st Floor, Attur Main Road, Yelahanka New Town. He is the primary kids dentist for Attur Layout and Yelahanka New Town, with corridor reach across North Bangalore and Bangalore-wide pediatric and microscopic RCT specialist care.",
           "He served as Associate Professor at Ramaiah. Qualifications include BDS (RGUHS), MDS Pediatric & Preventive Dentistry (Ramaiah Dental College), plus certifications in advanced endodontics and microscopic dentistry.",
         ],
       },
@@ -228,7 +228,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Prosthodontics-led crown care",
         paragraphs: [
           "Dental crowns fail early when bite, margins, and material choice are rushed. Dr. RV Roshini, MDS Prosthodontist & Implant Specialist, leads crowns, bridges, dentures, implants, and smile design for patients who want prosthetic planning—not guesswork.",
-          "She is our Bangalore authority entity for crowns and related prosthetic dentistry at the Yelahanka clinic.",
+          "She leads crowns and related prosthetic dentistry at the Yelahanka clinic.",
         ],
       },
       {

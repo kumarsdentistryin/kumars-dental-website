@@ -4,6 +4,7 @@ import { getAllTreatmentSlugs } from "@/lib/treatments";
 import { getAllLocationSlugs } from "@/lib/locations";
 import { getAllPostSlugs } from "@/lib/blog/posts";
 import { doctors } from "@/lib/doctors";
+import { getAllGuideSlugs } from "@/lib/guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL;
@@ -17,13 +18,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog",
     "/contact",
     "/appointments",
-    "/privacy",
-    "/terms",
     "/faqs",
     "/testimonials",
     "/patient-resources",
     "/locations",
-    "/search",
+    "/guides",
   ].map((path) => ({
     url: `${base}${path || "/"}`,
     lastModified: now,
@@ -59,5 +58,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...staticRoutes, ...treatments, ...locations, ...doctorRoutes, ...posts];
+  const guides = getAllGuideSlugs().map((slug) => ({
+    url: `${base}/guides/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
+
+  return [...staticRoutes, ...treatments, ...locations, ...doctorRoutes, ...posts, ...guides];
 }

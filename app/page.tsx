@@ -17,12 +17,12 @@ export const metadata: Metadata = {
 };
 
 const previewSlugs = [
-  "invisible-aligners",
-  "children-dentistry",
-  "root-canal-treatment",
-  "crowns",
-  "dental-implants",
   "microscopic-dentistry",
+  "children-dentistry",
+  "invisible-aligners",
+  "itero-3d-scanner",
+  "dental-implants",
+  "crowns",
 ];
 
 export default function Home() {
@@ -66,9 +66,7 @@ export default function Home() {
               .
             </p>
             <p className="text-lg mb-2 opacity-90">{SITE.address.full}</p>
-            <p className="text-sm mb-8 opacity-80">
-              Rated {SITE.rating.display} · {SITE.rating.count}+ reviews · {SITE.hours.weekdays}
-            </p>
+            <p className="text-sm mb-8 opacity-90">MDS Specialists &middot; KSDC Reg. 47094 A &middot; {SITE.hours.weekdays} &middot; {SITE.hours.sunday}</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/appointments"

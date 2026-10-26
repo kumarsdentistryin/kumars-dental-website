@@ -2,6 +2,7 @@ import { SITE_URL } from "@/lib/site";
 import { getAllTreatmentSlugs } from "@/lib/treatments";
 import { getAllLocationSlugs } from "@/lib/locations";
 import { getAllPostSlugs } from "@/lib/blog/posts";
+import { getAllGuideSlugs } from "@/lib/guides";
 import { doctors } from "@/lib/doctors";
 
 export async function GET() {
@@ -9,6 +10,7 @@ export async function GET() {
     "/",
     "/about",
     "/services",
+    "/guides",
     "/team",
     "/doctors/dr-prem-kumar",
     "/doctors/dr-rv-roshini",
@@ -21,6 +23,7 @@ export async function GET() {
     "/llms-full.txt",
     "/ai-directives.txt",
     "/discovery.json",
+    ...getAllGuideSlugs().map((s) => `/guides/${s}`),
     ...getAllTreatmentSlugs().map((s) => `/treatments/${s}`),
     ...getAllLocationSlugs().map((s) => `/locations/${s}`),
     ...getAllPostSlugs().map((s) => `/blog/${s}`),

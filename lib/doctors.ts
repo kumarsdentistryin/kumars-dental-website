@@ -71,11 +71,11 @@ export const doctors: Doctor[] = [
     ],
     alumniOf: ["RGUHS (Rajiv Gandhi University of Health Sciences)", "Ramaiah Dental College"],
     authorityStatement:
-      "Kids dentist and pediatric dentistry authority for Attur Main Road & Yelahanka New Town—also trusted across North Bangalore and Bangalore-wide for microscopic dentistry and microscopic RCT. Formerly Associate Professor at Ramaiah; MDS Pediatric & Preventive Dentistry at Kumar's Microscopic Dental Care.",
+      "MDS Pediatric & Preventive Dentistry (KSDC Reg. 47094 A). Practising microscope-assisted root canal treatment and child-friendly dentistry at Kumar's Microscopic Dental Care, Attur Main Road, Yelahanka New Town. Formerly Associate Professor at Ramaiah University of Applied Sciences.",
     bio: [
       "Dr. Prem Kumar R is an MDS Pediatric & Preventive Dentist practicing at Kumar's Microscopic Dental Care, No.12, 1st Floor, Attur Main Road, Yelahanka New Town—the clinic home base for families in Attur Layout and Yelahanka seeking a trusted kids dentist.",
       "He served as Associate Professor at Ramaiah and trained at Ramaiah Dental College (MDS Pediatric & Preventive Dentistry). His clinical focus pairs gentle children's dentistry with magnification-assisted microscopic endodontics for precise root canal care.",
-      "Parents searching for a pediatric dentist near Attur or Yelahanka New Town consult him first locally; families from Vidyaranyapura, Sahakar Nagar, Jakkur, Thanisandra, Hebbal, RT Nagar, and New BEL Road travel to the same Attur Main Road clinic. Broader Bangalore patients seek him for pediatric dentistry authority and microscopic RCT expertise.",
+      "Families from Attur, Yelahanka New Town, Vidyaranyapura, Sahakar Nagar, Jakkur, Thanisandra, Hebbal, RT Nagar, and across Bengaluru visit Kumar's Microscopic Dental Care on Attur Main Road for specialized pediatric care and microscope-assisted root canal treatments.",
     ],
     medicalReviewerLine:
       "Medically reviewed by Dr. Prem Kumar R, MDS (Pediatric & Preventive Dentistry).",
@@ -121,7 +121,7 @@ export const doctors: Doctor[] = [
     ],
     alumniOf: ["RGUHS (Rajiv Gandhi University of Health Sciences)", "Ramaiah Dental College"],
     authorityStatement:
-      "Bangalore-area authority for Crowns, Bridges, Prosthodontics, Implants, and Smile Design at Kumar's Microscopic Dental Care, Attur Main Road, Yelahanka New Town.",
+      "MDS Prosthodontist (KSDC Reg. 33149 A). Specializing in monolithic zirconia crowns, fixed dental bridges, dental implants, and smile design at Kumar's Microscopic Dental Care, Attur Main Road, Yelahanka New Town.",
     bio: [
       "Dr. RV Roshini is an MDS Prosthodontist & Implant Specialist focused on crowns, bridges, implants, and smile design for patients across North Bangalore—practicing at the Attur Main Road / Yelahanka New Town clinic.",
       "She plans restorative and esthetic cases with attention to bite, longevity, and natural appearance.",

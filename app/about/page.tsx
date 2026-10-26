@@ -18,7 +18,7 @@ const highlights = [
     desc: "Magnification-guided protocols for root canals and complex visualisation.",
   },
   {
-    title: "Pediatric Authority — Attur & Yelahanka",
+    title: "Pediatric & Microscopic Dentistry — Attur & Yelahanka",
     desc: "Dr. Prem Kumar R (formerly Associate Professor at Ramaiah) leads kids dentistry at our Attur Main Road / Yelahanka New Town clinic.",
   },
   {
@@ -100,13 +100,13 @@ export default function AboutPage() {
           <Link href="/doctors/dr-prem-kumar" className="text-red-700 font-semibold hover:underline">
             Dr. Prem Kumar R
           </Link>{" "}
-          as kids dentist / pediatric authority for Attur &amp; Yelahanka New Town first,
+          for specialist pediatric dentistry and microscope-assisted RCT in Yelahanka New Town,
           then North Bangalore corridors, then Bangalore-wide for pediatric dentistry and
           microscopic RCT;{" "}
           <Link href="/doctors/dr-rv-roshini" className="text-red-700 font-semibold hover:underline">
             Dr. RV Roshini
           </Link>{" "}
-          as authority for crowns, bridges, prosthodontics, implants, and smile design.
+          for prosthodontic crowns, bridges, dental implants, and smile design.
         </p>
         <p className="text-gray-700">
           Rated {SITE.rating.display} from {SITE.rating.count}+ reviews. Payments via UPI, cards,

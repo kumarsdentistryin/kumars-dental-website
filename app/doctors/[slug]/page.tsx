@@ -73,6 +73,23 @@ export default async function DoctorPage({ params }: Props) {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Breadcrumbs items={crumbs} />
 
+        {slug === "dr-prem-kumar" && (
+          <div className="my-6 p-5 rounded-xl bg-blue-50 border border-blue-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <p className="font-bold text-slate-900 text-base">Personal Expert Profile</p>
+              <p className="text-sm text-slate-600">
+                Explore Dr. Prem Kumar R&apos;s academic background, clinical philosophy, and microscopic research.
+              </p>
+            </div>
+            <a
+              href="https://drpremkumar.in/"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-blue-600 text-white font-medium text-sm hover:bg-blue-700 transition-colors shrink-0 shadow-xs"
+            >
+              About the Doctor →
+            </a>
+          </div>
+        )}
+
         {doctor.bio.map((p) => (
           <p key={p.slice(0, 32)} className="text-lg text-gray-700 leading-relaxed mb-4">
             {p}
@@ -124,8 +141,7 @@ export default async function DoctorPage({ params }: Props) {
         </ul>
 
         <p className="text-gray-700 mb-6">
-          Experience: {doctor.experienceYears}+ years specialised practice. Clinic rating{" "}
-          {SITE.rating.display} ({SITE.rating.count}+ reviews).
+          Registration: {doctor.kdcRegistration} &middot; Council: {doctor.council || "Karnataka State Dental Council"}
         </p>
 
         <div className="flex flex-wrap gap-3">

@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Script from "next/script";
 import { GA_MEASUREMENT_ID } from "@/lib/gtag";
 
@@ -13,9 +14,33 @@ const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "";
 
 /**
  * Loads GA4 (gtag) and optional GTM / Clarity.
- * Uses next/script + official dataLayer.push(arguments) so Realtime receives hits.
+ * Adds sitewide delegated listeners for tel: (click_call) and wa.me (click_whatsapp).
  */
 export default function Analytics() {
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      const target = (e.target as HTMLElement)?.closest("a");
+      if (!target) return;
+      const href = target.getAttribute("href") || "";
+      if (href.startsWith("tel:")) {
+        const w = window as any;
+        w.dataLayer = w.dataLayer || [];
+        w.dataLayer.push({ event: "click_call" });
+      } else if (
+        href.includes("wa.me") ||
+        href.includes("whatsapp.com") ||
+        href.includes("api.whatsapp.com")
+      ) {
+        const w = window as any;
+        w.dataLayer = w.dataLayer || [];
+        w.dataLayer.push({ event: "click_whatsapp" });
+      }
+    };
+
+    document.addEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick);
+  }, []);
+
   return (
     <>
       {GA_MEASUREMENT_ID ? (

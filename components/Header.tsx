@@ -12,6 +12,7 @@ const nav = [
   { href: '/treatments/itero-3d-scanner', label: '3D Scanner' },
   { href: '/doctors/dr-prem-kumar', label: 'Pediatric Dentist' },
   { href: '/doctors/dr-rv-roshini', label: 'Crowns Specialist' },
+  { href: '/guides', label: 'Guides' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];

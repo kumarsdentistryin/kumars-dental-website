@@ -12,6 +12,8 @@ import {
   getAllTreatmentSlugs,
   getRelatedTreatments,
 } from "@/lib/treatments";
+import { getGuidesForTreatment } from "@/lib/guides";
+import { locations } from "@/lib/locations";
 import {
   breadcrumbSchema,
   faqSchema,
@@ -33,7 +35,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: treatment.metaTitle,
     description: treatment.metaDescription,
-    keywords: treatment.keywords,
     alternates: { canonical: url },
     openGraph: {
       title: treatment.metaTitle,
@@ -223,6 +224,49 @@ export default async function TreatmentPage({ params }: Props) {
             </Section>
           )}
 
+          {/* Related Clinical Patient Guides */}
+          {(() => {
+            const guides = getGuidesForTreatment(treatment.slug);
+            return guides.length > 0 ? (
+              <Section title="Related patient guides">
+                <div className="grid sm:grid-cols-2 gap-3">
+                  {guides.map((g) => (
+                    <Link
+                      key={g.slug}
+                      href={`/guides/${g.slug}`}
+                      className="border border-blue-100 bg-blue-50/50 hover:border-blue-500 rounded-xl p-4 transition block"
+                    >
+                      <span className="text-xs uppercase font-bold text-blue-700 block mb-1">
+                        Guide
+                      </span>
+                      <p className="font-semibold text-gray-900 text-sm mb-1.5">{g.title}</p>
+                      <span className="text-xs text-red-700 font-medium">Read guide →</span>
+                    </Link>
+                  ))}
+                </div>
+              </Section>
+            ) : null;
+          })()}
+
+          {/* Location Links */}
+          <Section title="Serving North Bengaluru areas">
+            <p className="text-sm text-gray-600 mb-3">
+              Patients visit our Attur Main Road clinic in Yelahanka New Town from across North Bengaluru:
+            </p>
+            <ul className="flex flex-wrap gap-2.5">
+              {locations.slice(0, 3).map((loc) => (
+                <li key={loc.slug}>
+                  <Link
+                    href={`/locations/${loc.slug}`}
+                    className="inline-block border border-gray-300 hover:border-red-600 bg-white text-gray-700 hover:text-red-700 px-3.5 py-1.5 rounded-lg text-xs font-medium"
+                  >
+                    Dentist near {loc.name} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </Section>
+
           <p className="text-xs text-gray-500 mt-8">
             {doctor.medicalReviewerLine} Last updated {treatment.lastUpdated}. Educational
             references include publicly available guidance from organisations such as the
@@ -279,9 +323,10 @@ export default async function TreatmentPage({ params }: Props) {
             </a>
           </div>
           <div className="text-sm text-gray-600">
-            <p className="font-semibold text-gray-900 mb-1">Clinic rating</p>
+            <p className="font-semibold text-gray-900 mb-1">Clinic hours</p>
             <p>
-              {SITE.rating.display} from {SITE.rating.count}+ patient reviews
+              Mon–Sat: 10:00 AM – 9:00 PM<br />
+              Sunday: 10:00 AM – 6:00 PM
             </p>
           </div>
         </aside>

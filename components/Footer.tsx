@@ -50,9 +50,7 @@ export default function Footer() {
               {SITE.phones.secondary}
             </a>
           </p>
-          <p className="text-gray-500 text-xs mt-4">
-            Google rating {SITE.rating.display} ({SITE.rating.count}+ reviews)
-          </p>
+          
           <p className="text-gray-500 text-xs mt-1">Payments: UPI, cards, cash</p>
         </div>
 
@@ -116,6 +114,7 @@ export default function Footer() {
             </li>
             <li><Link href="/faqs" className="hover:text-white">FAQs</Link></li>
             <li><Link href="/testimonials" className="hover:text-white">Testimonials</Link></li>
+            <li><Link href="/guides" className="hover:text-white font-medium text-amber-400">Patient Guides</Link></li>
             <li><Link href="/patient-resources" className="hover:text-white">Patient Resources</Link></li>
             <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
             <li><Link href="/search" className="hover:text-white">Search</Link></li>
@@ -139,15 +138,18 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-gray-700 pt-6 text-center text-gray-500 text-sm max-w-7xl mx-auto">
-        <p className="mb-2">
-          Authority focus:{" "}
-          <Link href="/doctors/dr-prem-kumar" className="text-gray-300 hover:text-white">
-            Dr. Prem Kumar R — Pediatric Dentistry & Microscopic RCT
+      <div className="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm max-w-7xl mx-auto">
+        <address className="not-italic text-sm text-gray-300 mb-4 leading-relaxed font-normal">
+          Kumar&apos;s Microscopic Dental Care, No.12, 1st Floor, Attur Main Road, Yelahanka New Town, Bengaluru, Karnataka 560064 &middot; +91 81972 80019 &middot; Front desk +91 80882 66714 &middot; Mon–Sat 10:00 AM–9:00 PM, Sun 10:00 AM–6:00 PM
+        </address>
+        <p className="mb-2 text-xs text-gray-400">
+          MDS Specialists:{" "}
+          <Link href="/doctors/dr-prem-kumar" className="text-gray-300 hover:text-white underline">
+            Dr. Prem Kumar R (MDS Pediatric &amp; Preventive Dentistry &middot; KSDC Reg. 47094 A)
           </Link>
-          {" · "}
-          <Link href="/doctors/dr-rv-roshini" className="text-gray-300 hover:text-white">
-            Dr. RV Roshini — Crowns, Bridges, Implants & Smile Design
+          {" &middot; "}
+          <Link href="/doctors/dr-rv-roshini" className="text-gray-300 hover:text-white underline">
+            Dr. RV Roshini (MDS Prosthodontics &middot; KSDC Reg. 33149 A)
           </Link>
         </p>
         <p>&copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>

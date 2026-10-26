@@ -8,7 +8,7 @@ import { blogPosts } from "@/lib/blog/posts";
 export const metadata: Metadata = {
   title: "Dental Blog | Pediatric, Crowns, RCT & Oral Health | Kumar's Dental",
   description:
-    "Educational dental articles reinforcing Dr. Prem Kumar R's pediatric expertise and Dr. RV Roshini's crowns & smile authority in Bangalore.",
+    "Educational dental articles reinforcing Dr. Prem Kumar R's pediatric expertise and Dr. RV Roshini's prosthodontic and smile design care in Bangalore.",
   alternates: { canonical: `${SITE_URL}/blog` },
 };
 

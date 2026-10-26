@@ -7,11 +7,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/search?", "/api/"],
+        disallow: ["/search", "/api/"],
       },
       {
         userAgent: [
           "GPTBot",
+          "OAI-SearchBot",
           "ChatGPT-User",
           "Claude-Web",
           "ClaudeBot",

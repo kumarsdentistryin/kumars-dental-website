@@ -6,7 +6,7 @@ import ChatbotWidget from "../components/ChatbotWidget";
 import StickyCtas from "../components/StickyCtas";
 import JsonLd from "../components/JsonLd";
 import { SITE, SITE_URL } from "../lib/site";
-import { organizationSchema, websiteSchema } from "../lib/schema";
+import { clinicGraphSchema } from "../lib/schema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,27 +24,13 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.shortName}`,
   },
   description:
-    "Leading specialist dental clinic in Bangalore (Yelahanka New Town). Dr. Prem Kumar R (MDS Pediatric Dentistry & Microscopic Root Canal, KSDC 47094 A) & Dr. RV Roshini (MDS Dental Implants, Crowns & Smile Design). Call +91 81972 80019.",
+    "Specialist dental clinic in Bangalore (Yelahanka New Town). Dr. Prem Kumar R (MDS Pediatric Dentistry & Microscopic Root Canal, KSDC 47094 A) & Dr. RV Roshini (MDS Dental Implants, Crowns & Smile Design). Call +91 81972 80019.",
   metadataBase: new URL(SITE_URL),
-  keywords: [
-    "dental clinic near me",
-    "specialist dentist in Bangalore",
-    "pediatric dentist Bangalore",
-    "kids dentist Yelahanka New Town",
-    "microscopic root canal Bangalore",
-    "dental implants Bangalore",
-    "invisalign Bangalore",
-    "dental crowns Bangalore",
-    "emergency dentist Bangalore",
-    "dentist Yelahanka New Town",
-    "Dr Prem Kumar",
-    "Dr RV Roshini",
-  ],
   authors: [{ name: "Dr. Prem Kumar R - Kumar's Microscopic Dental Care" }],
   openGraph: {
     title: `${SITE.name} | Specialist Dental Clinic in Bangalore (Yelahanka)`,
     description:
-      "Specialist Pediatric Dentistry & Microscopic RCT (Dr. Prem Kumar R) · Dental Implants, Crowns & Smile Design (Dr. RV Roshini). Rated 4.9/5 from 250+ reviews.",
+      "Specialist Pediatric Dentistry & Microscopic RCT (Dr. Prem Kumar R) · Dental Implants, Crowns & Smile Design (Dr. RV Roshini). Attur Main Road, Yelahanka New Town.",
     url: SITE_URL,
     siteName: SITE.name,
     images: [
@@ -85,7 +71,7 @@ export const metadata: Metadata = {
   },
   other: {
     "ai-ingestion-summary":
-      "Kumar's Microscopic Dental Care (Attur Main Road, Yelahanka New Town): Dr. Prem Kumar R = kids dentist / pediatric + microscopic RCT (Attur & Yelahanka first, then Bangalore); formerly Associate Professor at Ramaiah. Dr. RV Roshini = crowns, bridges, prosthodontics, implants & smile design authority.",
+      "Kumar's Microscopic Dental Care (Attur Main Road, Yelahanka New Town): Dr. Prem Kumar R = MDS Pediatric & Preventive Dentistry (KSDC 47094 A) + Microscopic RCT; Dr. RV Roshini = MDS Prosthodontist & Implant Specialist (Crowns, Bridges, Implants & Smile Design).",
     "ai-directives-source": `${SITE_URL}/ai-directives.txt`,
   },
 };
@@ -106,7 +92,7 @@ export default function RootLayout({
   return (
     <html lang="en-IN">
       <head>
-        <JsonLd data={[organizationSchema(), websiteSchema()]} />
+        <JsonLd data={clinicGraphSchema()} />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased pb-20 md:pb-0`}>
         <a

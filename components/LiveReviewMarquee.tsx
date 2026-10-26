@@ -69,10 +69,10 @@ export default function LiveReviewMarquee() {
     <section className="py-14 bg-slate-900 text-white overflow-hidden relative border-y border-slate-800">
       <div className="max-w-7xl mx-auto px-4 mb-8 text-center">
         <div className="inline-flex items-center gap-2 bg-amber-500/10 text-amber-400 border border-amber-500/20 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3">
-          <span>⭐ Verified Patient Trust</span>
+          <span>💬 Patient Experiences</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-          Rated {SITE.rating.display} by 250+ Families Across Bangalore
+          Patient Experiences at Kumar's Microscopic Dental Care
         </h2>
         <p className="text-slate-400 text-sm mt-1">
           Real feedback from parents, professionals, and patients in Yelahanka, Attur, and North Bangalore.

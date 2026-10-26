@@ -171,7 +171,7 @@ export const treatments: Treatment[] = [
       "implant crown Bangalore",
     ],
     heroSubtitle:
-      "Titanium implant fixtures restored with crowns or bridges for a lifetime tooth replacement option.",
+      "Titanium implant fixtures restored with custom crowns or bridges for a durable tooth replacement solution.",
     overview:
       "Dental implants replace missing tooth roots with biocompatible titanium or ceramic fixtures that fuse securely into the jawbone to support crowns, bridges, or fixed full-arch teeth. At Kumar's Microscopic Dental Care in Yelahanka, implant planning and prosthetic restorations are led by Dr. RV Roshini, MDS Prosthodontist & Implant Specialist.",
     whoNeedsIt: [
@@ -308,7 +308,7 @@ export const treatments: Treatment[] = [
       {
         question: "Who leads smile design at Kumar's Dental?",
         answer:
-          "Dr. RV Roshini, MDS Prosthodontist, leads crowns, bridges, veneers, and smile design planning—positioned as our Bangalore authority for prosthetic and crown-driven smile work.",
+          "Dr. RV Roshini, MDS Prosthodontist, leads crowns, bridges, veneers, and smile design planning—offering prosthodontic restoration and smile rehabilitation at our Yelahanka clinic.",
       },
       {
         question: "Do I always need veneers for smile design?",
@@ -1000,7 +1000,7 @@ export const treatments: Treatment[] = [
       {
         question: "Who designs bridges at Kumar's Dental?",
         answer:
-          "Dr. RV Roshini, our crowns and bridges authority for Bangalore patients visiting Yelahanka.",
+          "Dr. RV Roshini, our prosthodontist for crowns and bridges at the Yelahanka clinic.",
       },
     ],
     relatedSlugs: ["crowns", "dental-implants", "dentures"],
@@ -1156,7 +1156,7 @@ export const treatments: Treatment[] = [
     heroSubtitle:
       "Dental operating microscope protocols at Attur Main Road, Yelahanka New Town—led by Dr. Prem Kumar R.",
     overview:
-      "Microscopic dentistry uses magnification and illumination—often up to high power such as 25x protocols—to improve the clinician's view of fine anatomy. Dr. Prem Kumar R (formerly Associate Professor at Ramaiah; certified in microscopic dentistry) leads microscopic endodontic care at our Attur Main Road / Yelahanka New Town clinic, with expertise recognised across Bangalore for precision-driven treatment.",
+      "Microscopic dentistry uses magnification and illumination—often up to high power such as 25x protocols—to improve the clinician's view of fine anatomy. Dr. Prem Kumar R (formerly Associate Professor at Ramaiah; certified in microscopic dentistry) leads microscopic endodontic care at our Attur Main Road / Yelahanka New Town clinic, offering precision-driven endodontic treatment under surgical magnification.",
     whoNeedsIt: [
       "Patients needing detailed RCT or retreatment assessment",
       "Cracked-tooth evaluation under magnification",

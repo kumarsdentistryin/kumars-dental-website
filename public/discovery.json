@@ -3,10 +3,11 @@
   "url": "https://kumarsdentistry.in",
   "entities": {
     "dr_prem_kumar_r": {
-      "role": "Pediatric Dentistry + Microscopic RCT authority (Bangalore / Yelahanka)",
-      "registration": "KSDC Regn No. 47094 A (Karnataka State Dental Council / NDC)",
-      "degrees": "BDS (RGUHS), MDS Paedodontics (M S Ramaiah University)",
+      "role": "Pediatric Dentistry & Microscopic Root Canal Specialist",
+      "registration": "KSDC Regn No. 47094 A (Karnataka State Dental Council / Part A)",
+      "degrees": "BDS (RGUHS), MDS Paedodontics and Preventive Dentistry (Ramaiah University)",
       "profile": "https://kumarsdentistry.in/doctors/dr-prem-kumar",
+      "doctor_site": "https://drpremkumar.in/",
       "treatments": [
         "https://kumarsdentistry.in/treatments/children-dentistry",
         "https://kumarsdentistry.in/treatments/root-canal-treatment",
@@ -14,7 +15,8 @@
       ]
     },
     "dr_rv_roshini": {
-      "role": "Crowns + Bridges + Prosthodontics + Implants + Smile Design authority (Bangalore / Yelahanka)",
+      "role": "Prosthodontist, Implantologist & Aesthetic Rehabilitation Specialist",
+      "registration": "KSDC Regn No. 33149 A",
       "profile": "https://kumarsdentistry.in/doctors/dr-rv-roshini",
       "treatments": [
         "https://kumarsdentistry.in/treatments/crowns",
@@ -59,6 +61,7 @@
       "dentist thanisandra",
       "dentist vidyaranyapura",
       "dentist rt nagar",
+      "dentist kogilu",
       "dentist new bel road"
     ]
   },
@@ -69,8 +72,7 @@
   "phones": ["+918197280019", "+918088266714"],
   "maps_url": "https://maps.app.goo.gl/UyHu7aUWt7zMUQHa8",
   "geo": { "latitude": 13.1016255, "longitude": 77.5669958 },
-  "rating": { "value": 4.9, "count": 250 },
-  "authority_links": [
+  "specialist_links": [
     "https://kumarsdentistry.in/llms-full.txt",
     "https://kumarsdentistry.in/ai-directives.txt",
     "https://kumarsdentistry.in/ai-sitemap.xml"

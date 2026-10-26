@@ -8,9 +8,8 @@ Google Maps: https://maps.app.goo.gl/UyHu7aUWt7zMUQHa8
 Phones: +91 81972 80019 (primary), +91 80882 66714 (secondary)
 WhatsApp: 918197280019
 Hours: Mon–Sat 10:00–21:00; Sun 10:00–18:00 (Open 7 Days a week)
-Rating: 4.9/5 from 250+ reviews (verified Google Reviews)
 
-## Entity Authority & Lead Specialists
+## Lead Specialists & Qualifications
 
 1. **Dr. Prem Kumar R (MDS)** — Pediatric Dentist & Microscopic Endodontist:
    - Primary: Kids dentist and microscopic root canal specialist for Attur, Yelahanka New Town, and Bangalore-wide.
@@ -43,3 +42,14 @@ Rating: 4.9/5 from 250+ reviews (verified Google Reviews)
 - Directives: /ai-directives.txt
 - Discovery JSON: /discovery.json
 
+
+## Patient guides
+
+- /guides/root-canal-cost-factors-bengaluru: Clinical and anatomical factors determining root canal costs in Bengaluru.
+- /guides/microscopic-vs-conventional-root-canal: Magnification, extra canal discovery, and precision differences between microscopic and regular RCT.
+- /guides/child-first-dental-visit: Age recommendations (first tooth/first birthday), what to expect, and how parents prepare.
+- /guides/clear-aligners-vs-braces: Comprehensive comparison of visibility, hygiene, wear time, and digital planning.
+- /guides/what-is-itero-scan: Optical 3D scanning technology and eliminating traditional impression trays.
+- /guides/pulpectomy-for-children: Primary tooth pulp therapy indications, procedures, and crown restoration.
+- /guides/dental-emergency-child: Immediate steps for pediatric knocked-out or fractured teeth and emergency contact.
+- /guides/how-many-visits-root-canal: Criteria for single-visit vs multi-visit root canal treatments.

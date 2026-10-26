@@ -56,7 +56,7 @@ export default function PatientResourcesPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold mb-3">Authority care paths</h2>
+          <h2 className="text-2xl font-bold mb-3">Specialist care paths</h2>
           <ul className="space-y-2">
             <li>
               <Link

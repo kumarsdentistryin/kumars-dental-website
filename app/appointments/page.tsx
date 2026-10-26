@@ -39,12 +39,13 @@ export default function AppointmentsPage() {
     trackFormSubmission('appointment_whatsapp');
     trackWhatsAppClick();
 
-    // Push appointment_submit event to dataLayer before opening WhatsApp
+    // Push appointment_submit event to dataLayer
     if (typeof window !== 'undefined') {
       (window as any).dataLayer = (window as any).dataLayer || [];
       (window as any).dataLayer.push({
         event: 'appointment_submit',
-        service: formData.service,
+        site: 'kumarsdentistry.in',
+        treatment: formData.service,
       });
     }
 

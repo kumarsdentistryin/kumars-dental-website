@@ -33,7 +33,7 @@ export default function TeamPage() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">Our Dental Experts</h1>
           <p className="text-xl opacity-95">
-            Practising at Attur Main Road, Yelahanka New Town—clear authority roles for
+            Practising at Attur Main Road, Yelahanka New Town—specialized roles for
             pediatric/microscopic care and crowns/prosthetics.
           </p>
         </div>
